@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<StageInfo Name="stage00">
+	<Landscape Type="Basic"/>
+	<TerrainObjects>
+		<Terrain ObjectFile="homePlanetObj" Position="0 0 0" Direction="1 0 0" upVector="0 1 0"/>
+	</TerrainObjects>
+	<CameraPoints>
+	</CameraPoints>
+	<GravityPoints>
+	</GravityPoints>
+	<SpawnInfo>
+		<Spawn CharacterKey="0" Position="0 0 0" Direction="1 0 0" UpVector="0 1 0" IsTerrain="false"/>
+	</SpawnInfo>
+</StageInfo>

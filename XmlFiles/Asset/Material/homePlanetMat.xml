@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<MaterialInfo>
+	<Material Name="stone" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="water" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="broof" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="groof" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="gdoor" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="pflower" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="wflower" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="yflower" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="brass" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="leaf" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="pebbles" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="stump" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="grass" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="rock" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="dirt" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="tree" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="wood" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+</MaterialInfo>

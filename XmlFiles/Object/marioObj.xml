@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ObjectInfo IsSkinned="true">
+	<Skeleton FileName="marioSkeleton"/>
+	<Animation FileName="marioAnim"/>
+	<Mesh FileName="marioMesh">
+		<SubMesh Name="Body" MaterialFile="marioMat" MaterialName="Body1_v"/>
+		<SubMesh Name="Cap" MaterialFile="marioMat" MaterialName="Cap_v"/>
+		<SubMesh Name="Hair" MaterialFile="marioMat" MaterialName="Hair_v"/>
+		<SubMesh Name="EyeLid" MaterialFile="marioMat" MaterialName="EyeLid_v"/>
+		<SubMesh Name="EyeballL" MaterialFile="marioMat" MaterialName="EyeballL_v"/>
+		<SubMesh Name="EyeballR" MaterialFile="marioMat" MaterialName="EyeballR_v"/>
+		<SubMesh Name="Face" MaterialFile="marioMat" MaterialName="Face_v"/>
+		<SubMesh Name="HandL" MaterialFile="marioMat" MaterialName="Hand_v"/>
+		<SubMesh Name="HandR" MaterialFile="marioMat" MaterialName="Hand_v(2)"/>
+	</Mesh>
+</ObjectInfo>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<ActionStates>
+	<IDLE Animation="IDLE" BlendTick="300">
+		<Branch State="SPIN_ATTACK" Condition="Key_Down_XY"/>
+		<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
+		<Branch State="DUCK" Condition="Key_Press_ZL"/>
+		<!-- <Branch State="RUN" Condition="LStickMove"/> -->
+		<Branch State="IDLE" Condition="End"/>
+	</IDLE>
+	<SPIN_ATTACK Animation="SPIN_ATTACK" BlendTick="300">
+		<Branch State="IDLE" Condition="End"/>
+	</SPIN_ATTACK>
+	<JUMP_FIRST Animation="JUMP_FIRST" BlendTick="300">
+		<Branch State="LANDING" Condition="OnGround"/>
+		<Branch State="JUMP_SECOND" Condition="Tick_500_550 Key_Down_AB"/>
+		<Branch State="RUN" Condition="OnGround LStickMove"/>
+		<Branch State="HANGING_EDGE" Condition="GroundEdge"/>
+	</JUMP_FIRST>
+	<DUCK Animation="DUCK" BlendTick="300">
+		<Branch State="IDLE" Condition="!Key_Press_ZL"/>
+		<Branch State="DUCK_WALK" Condition="LStickMove"/>
+		<Branch State="DUCK" Condition="End"/>
+	</DUCK>
+	<DUCK_WALK Animation="DUCK_WALK" BlendTick="300">
+		<Branch State="IDLE" Condition="!Key_Press_ZL"/>
+		<Branch State="DUCK" Condition="!LStickMove"/>
+		<Branch State="BACK_TUMBLING" Condition="Key_Down_AB"/>
+		<Branch State="DUCK_WALK" Condition="End"/>
+	</DUCK_WALK>
+	<RUN Animation="RUN" BlendTick="300">
+		<Branch State="IDLE" Condition="!LStickMove"/>
+		<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
+		<Branch State="DRIFT" Condition="!LStickMove End"/>
+		<Branch State="RUN" Condition="End"/>
+	</RUN>
+	<JUMP_SECOND Animation="JUMP_SECOND" BlendTick="300">
+		<Branch State="JUMP_SECOND_FALL" Condition="End"/>
+		<Branch State="HANGING_EDGE" Condition="End"/>
+	</JUMP_SECOND>
+	<JUMP_SECOND_FALL Animation="JUMP_SECOND_FALL" BlendTick="300">
+		<Branch State="LANDING" Condition="End"/>
+		<Branch State="JUMP_FIRST" Condition="End"/>
+		<Branch State="JUMP_THIRD" Condition="End"/>
+		<Branch State="HANGING_EDGE" Condition="End"/>
+		<Branch State="RUN" Condition="End"/>
+	</JUMP_SECOND_FALL>
+	<JUMP_THIRD Animation="JUMP_SECOND" BlendTick="300">
+		<Branch State="JUMP_THIRD_FALL" Condition="End"/>
+		<Branch State="HANGING_EDGE" Condition="End"/>
+	</JUMP_THIRD>
+	<JUMP_THIRD_FALL Animation="JUMP_THIRD_FALL" BlendTick="300">
+		<Branch State="LANDING" Condition="End"/>
+		<Branch State="JUMP_FIRST" Condition="End"/>
+		<Branch State="HANGING_EDGE" Condition="End"/>
+		<Branch State="RUN" Condition="End"/>
+	</JUMP_THIRD_FALL>
+	<LANDING Animation="LANDING" BlendTick="300">
+		<Branch State="IDLE" Condition="End"/>
+		<Branch State="JUMP_FIRST" Condition="End"/>
+	</LANDING>
+</ActionStates>
