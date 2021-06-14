@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <ObjectInfo IsSkinned="false">
-	<Mesh FileName="marioMesh">
+	<Mesh FileName="homePlanetMesh">
 		<SubMesh Name="stone" MaterialFile="homePlanetMat" MaterialName="stone"/>
 		<SubMesh Name="water" MaterialFile="homePlanetMat" MaterialName="water"/>
 		<SubMesh Name="broof" MaterialFile="homePlanetMat" MaterialName="broof"/>
 		<SubMesh Name="groof" MaterialFile="homePlanetMat" MaterialName="groof"/>
 		<SubMesh Name="gdoor" MaterialFile="homePlanetMat" MaterialName="gdoor"/>
-		<SubMesh Name="pflower" MaterialFile="homePlanetMat" MaterialName="pflower"/>
-		<SubMesh Name="wflower" MaterialFile="homePlanetMat" MaterialName="wflower"/>
-		<SubMesh Name="yflower" MaterialFile="homePlanetMat" MaterialName="yflower"/>
+		<!-- <SubMesh Name="pflower" MaterialFile="homePlanetMat" MaterialName="pflower"/> -->
+		<!-- <SubMesh Name="wflower" MaterialFile="homePlanetMat" MaterialName="wflower"/> -->
+		<!-- <SubMesh Name="yflower" MaterialFile="homePlanetMat" MaterialName="yflower"/> -->
 		<SubMesh Name="brass" MaterialFile="homePlanetMat" MaterialName="brass"/>
-		<SubMesh Name="leaf" MaterialFile="homePlanetMat" MaterialName="leaf"/>
+		<!-- <SubMesh Name="leaf" MaterialFile="homePlanetMat" MaterialName="leaf"/> -->
 		<SubMesh Name="pebbles" MaterialFile="homePlanetMat" MaterialName="pebbles"/>
 		<SubMesh Name="stump" MaterialFile="homePlanetMat" MaterialName="stump"/>
 		<SubMesh Name="grass" MaterialFile="homePlanetMat" MaterialName="grass"/>

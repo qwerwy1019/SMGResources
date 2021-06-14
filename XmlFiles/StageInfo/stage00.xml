@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
-<StageInfo Name="stage00">
+<StageInfo Name="stage00" SectorSize="500 500 500" SectorUnitNumber="20 20 20">
 	<Landscape Type="Basic"/>
 	<TerrainObjects>
-		<Terrain ObjectFile="homePlanetObj" Position="0 0 0" Direction="1 0 0" upVector="0 1 0"/>
+		<Terrain ObjectFile="homePlanetObj" Position="0 0 -1000" Direction="0 0 1" UpVector="0 1 0" Size="0.3"/>
+		<Terrain ObjectFile="orbitSkyObj" Position="0 0 0" Direction="0 0 1" UpVector="0 1 0" Size="0.03"/>
 	</TerrainObjects>
 	<CameraPoints>
 	</CameraPoints>
 	<GravityPoints>
 	</GravityPoints>
 	<SpawnInfo>
-		<Spawn CharacterKey="0" Position="0 0 0" Direction="1 0 0" UpVector="0 1 0" IsTerrain="false"/>
+		<Spawn CharacterKey="0" Position="0 0 0" Direction="0 0 -1" UpVector="0 1 0" IsTerrain="false"/>
 	</SpawnInfo>
 </StageInfo>

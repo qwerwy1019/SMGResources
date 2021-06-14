@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<MaterialInfo>
+	<Material Name="city" DiffuseTexture="orbitSky/city" DiffuseAlbedo="0.800000 0.800000 1.000000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 		Roughness="1" RenderLayer="Transparent"/>
+	<Material Name="land" DiffuseTexture="orbitSky/land" DiffuseAlbedo="0.800000 0.800000 1.000000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 		Roughness="1" RenderLayer="Transparent"/>
+	<Material Name="horizon" DiffuseTexture="orbitSky/horizon" DiffuseAlbedo="0.800000 0.800000 1.000000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 	Roughness="1" RenderLayer="Transparent"/>
+	<Material Name="stars" DiffuseTexture="orbitSky/stars" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 		Roughness="1" RenderLayer="Transparent"/>
+	<Material Name="sun" DiffuseTexture="orbitSky/sun" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 			Roughness="1" RenderLayer="Transparent"/>
+</MaterialInfo>

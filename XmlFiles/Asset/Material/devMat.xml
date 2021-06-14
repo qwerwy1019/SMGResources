@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<MaterialInfo>
+	<Material Name="green" DiffuseTexture="green" DiffuseAlbedo="1.000000 1.000000 1.000000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="Opaque"/>
+	<Material Name="blueToRed" DiffuseTexture="blueToRed" DiffuseAlbedo="1.000000 1.000000 1.000000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="GameObjectDev"/>
+</MaterialInfo>

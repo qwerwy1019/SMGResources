@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <CharacterInfo>
-	<Character Key="0" Name="mario" ObjectFile="marioObj" ActionChart="marioAction" CollisionType="Character" CollisionShape="Box" Radius="2" BoxSize="1 1 1"/>
+	<Character Key="0" Name="mario" CharacterType="Player" ObjectFile="marioObj" ActionChart="marioAction" CollisionType="Character" CollisionShape="Sphere" Radius="100" BoxSize="40 70 40"/>
 </CharacterInfo>

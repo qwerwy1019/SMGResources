@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <MaterialInfo>
-	<Material Name="stone" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
-	<Material Name="water" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
-	<Material Name="broof" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
-	<Material Name="groof" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
-	<Material Name="gdoor" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
-	<Material Name="pflower" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
-	<Material Name="wflower" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
-	<Material Name="yflower" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
-	<Material Name="brass" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
-	<Material Name="leaf" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
-	<Material Name="pebbles" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
-	<Material Name="stump" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
-	<Material Name="grass" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
-	<Material Name="rock" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
-	<Material Name="dirt" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
-	<Material Name="tree" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
-	<Material Name="wood" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24"/>
+	<Material Name="stone" DiffuseTexture="homePlanet/stone" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 		Roughness="0.99" RenderLayer="Opaque"/>
+	<Material Name="water" DiffuseTexture="homePlanet/water" DiffuseAlbedo="0.800000 0.800000 1.000000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 		Roughness="0.2" RenderLayer="Transparent"/>
+	<Material Name="broof" DiffuseTexture="homePlanet/broof" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 		Roughness="0.99" RenderLayer="Opaque"/>
+	<Material Name="groof" DiffuseTexture="homePlanet/groof" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 		Roughness="0.99" RenderLayer="Opaque"/>
+	<Material Name="gdoor" DiffuseTexture="homePlanet/gdoor" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 		Roughness="0.99" RenderLayer="Opaque"/>
+	<Material Name="pflower" DiffuseTexture="homePlanet/pflower" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 	Roughness="0.99" RenderLayer="AlphaTested"/>
+	<Material Name="wflower" DiffuseTexture="homePlanet/wflower" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 	Roughness="0.99" RenderLayer="AlphaTested"/>
+	<Material Name="yflower" DiffuseTexture="homePlanet/yflower" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 	Roughness="0.99" RenderLayer="AlphaTested"/>
+	<Material Name="brass" DiffuseTexture="homePlanet/brass" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 		Roughness="0.99" RenderLayer="Opaque"/>
+	<Material Name="leaf" DiffuseTexture="homePlanet/leaf" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 			Roughness="0.99" RenderLayer="AlphaTested"/>
+	<Material Name="pebbles" DiffuseTexture="homePlanet/pebbles" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 	Roughness="0.99" RenderLayer="Opaque"/>
+	<Material Name="stump" DiffuseTexture="homePlanet/stump" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 		Roughness="0.99" RenderLayer="Opaque"/>
+	<Material Name="grass" DiffuseTexture="homePlanet/grass" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 		Roughness="0.99" RenderLayer="Opaque"/>
+	<Material Name="rock" DiffuseTexture="homePlanet/rock" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 			Roughness="0.99" RenderLayer="Opaque"/>
+	<Material Name="dirt" DiffuseTexture="homePlanet/dirt" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 			Roughness="0.99" RenderLayer="Opaque"/>
+	<Material Name="tree" DiffuseTexture="homePlanet/tree" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 			Roughness="0.99" RenderLayer="Opaque"/>
+	<Material Name="wood" DiffuseTexture="homePlanet/wood" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" 			Roughness="0.99" RenderLayer="Opaque"/>
 </MaterialInfo>

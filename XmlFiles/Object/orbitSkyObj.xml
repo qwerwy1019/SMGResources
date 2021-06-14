@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjectInfo IsSkinned="false">
+	<Mesh FileName="orbitSkyMesh">
+		<SubMesh Name="city" MaterialFile="orbitSkyMat" MaterialName="city"/>
+		<SubMesh Name="land" MaterialFile="orbitSkyMat" MaterialName="land"/>
+		<SubMesh Name="horizon" MaterialFile="orbitSkyMat" MaterialName="horizon"/>
+		<SubMesh Name="stars" MaterialFile="orbitSkyMat" MaterialName="stars"/>
+		<SubMesh Name="sun" MaterialFile="orbitSkyMat" MaterialName="sun"/>
+	</Mesh>
+</ObjectInfo>

@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <MaterialInfo>
-	<Material Name="Body1_v" DiffuseTexture="mario/MarioBody.0" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="Opaque"/>
-	<Material Name="Cap_v" DiffuseTexture="mario/MarioCap.0" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="Opaque"/>
-	<Material Name="Hair_v" DiffuseTexture="mario/MarioHair" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="Opaque"/>
-	<Material Name="EyeLid_v" DiffuseTexture="mario/mario_eyeLid.0" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="Opaque"/>
-	<Material Name="EyeballL_v" DiffuseTexture="mario/MarioEyeBall" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="Opaque"/>
-	<Material Name="EyeballR_v" DiffuseTexture="mario/MarioEyeBall" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="Opaque"/>
-	<Material Name="Face_v" DiffuseTexture="mario/MarioFace" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="Opaque"/>
-	<Material Name="Hand_v" DiffuseTexture="mario/MarioHand" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="Opaque"/>
-	<Material Name="Hand_v(2)" DiffuseTexture="mario/MarioHand" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="Opaque"/>
+	<Material Name="Body1_v" DiffuseTexture="mario/MarioBody.0" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="OpaqueSkinned"/>
+	<Material Name="Cap_v" DiffuseTexture="mario/MarioCap.0" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="OpaqueSkinned"/>
+	<Material Name="Hair_v" DiffuseTexture="mario/MarioHair" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="OpaqueSkinned"/>
+	<Material Name="EyeLid_v" DiffuseTexture="mario/mario_eyeLid.0" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="OpaqueSkinned"/>
+	<Material Name="EyeballL_v" DiffuseTexture="mario/MarioEyeBall" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="OpaqueSkinned"/>
+	<Material Name="EyeballR_v" DiffuseTexture="mario/MarioEyeBall" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="OpaqueSkinned"/>
+	<Material Name="Face_v" DiffuseTexture="mario/MarioFace" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="OpaqueSkinned"/>
+	<Material Name="Hand_v" DiffuseTexture="mario/MarioHand" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="OpaqueSkinned"/>
+	<Material Name="Hand_v(2)" DiffuseTexture="mario/MarioHand" DiffuseAlbedo="0.588000 0.588000 0.588000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="-1" RenderLayer="OpaqueSkinned"/>
 </MaterialInfo>
