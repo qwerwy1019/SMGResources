@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ObjectInfo IsSkinned="false">
+	<Mesh FileName="homePlanetMesh">
+		<SubMesh Name="stump" MaterialFile="homePlanetMat" MaterialName="stump"/>
+		<SubMesh Name="grass" MaterialFile="homePlanetMat" MaterialName="grass"/>
+		<SubMesh Name="dirt" MaterialFile="homePlanetMat" MaterialName="dirt"/>
+		<SubMesh Name="wood" MaterialFile="homePlanetMat" MaterialName="wood"/>
+	</Mesh>
+</ObjectInfo>
