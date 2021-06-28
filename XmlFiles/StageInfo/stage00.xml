@@ -2,10 +2,10 @@
 <StageInfo Name="stage00" SectorSize="500 500 500" SectorUnitNumber="20 20 20">
 	<Landscape Type="Basic"/>
 	<TerrainObjects>
-		<Terrain Key="homePlanet" ObjectFile="homePlanetGroundObj"	Position="0 0 -1000" Direction="0 0 1" UpVector="0 1 0" Size="0.7" Type="Ground"/>
-		<Terrain Key="homePlanet" ObjectFile="homePlanetWallObj"	Position="0 0 -1000" Direction="0 0 1" UpVector="0 1 0" Size="0.7" Type="Wall"/>
-		<Terrain Key="homePlanet" ObjectFile="homePlanetDecoObj"	Position="0 0 -1000" Direction="0 0 1" UpVector="0 1 0" Size="0.7" Type="None"/>
-		<Terrain Key="orbitSky" ObjectFile="orbitSkyObj" Position="0 0 0" Direction="0 0 1" UpVector="0 1 0" Size="0.03" Type="None"/>
+		<Terrain Key="homePlanet" ObjectFile="homePlanetGroundObj"	Position="0 0 -1000" Direction="0 0 1" UpVector="0 1 0" Size="0.7" IsGround="true" IsWall="false"/>
+		<Terrain Key="homePlanet" ObjectFile="homePlanetWallObj"	Position="0 0 -1000" Direction="0 0 1" UpVector="0 1 0" Size="0.7" IsGround="false" IsWall="true"/>
+		<Terrain Key="homePlanet" ObjectFile="homePlanetDecoObj"	Position="0 0 -1000" Direction="0 0 1" UpVector="0 1 0" Size="0.7" IsGround="false" IsWall="false"/>
+		<Terrain Key="orbitSky" ObjectFile="orbitSkyObj" Position="0 0 0" Direction="0 0 1" UpVector="0 1 0" Size="0.03" IsGround="false" IsWall="false"/>
 	</TerrainObjects>
 	<CameraPoints>
 	</CameraPoints>
