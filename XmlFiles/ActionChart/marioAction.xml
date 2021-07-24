@@ -15,7 +15,8 @@
 		<Branch State="LANDING" Condition="OnGround"/>
 		<Branch State="JUMP_SECOND" Condition="Tick_500_550 Key_Down_AB"/>
 		<Branch State="RUN" Condition="OnGround Stick_L_Move"/>
-		<Branch State="HANGING_EDGE" Condition="GroundEdge"/>
+		<!-- <Branch State="HANGING_EDGE" Condition="GroundEdge"/> -->
+		<FrameEvent Tick="0" Type="Jump" Speed="-5" TargetFallSpeed="20" Condition=""/>
 	</JUMP_FIRST>
 	<DUCK Animation="DUCK_IDLE" BlendTick="70">
 		<Branch State="IDLE" Condition="!Key_Press_ZL"/>
@@ -68,8 +69,8 @@
 		<Branch State="HANGING_EDGE" Condition="End"/>
 		<Branch State="RUN" Condition="End"/>
 	</JUMP_THIRD_FALL>
-	<LANDING Animation="LANDING" BlendTick="30">
+	<LANDING Animation="JUMP_SECOND" BlendTick="30">
 		<Branch State="IDLE" Condition="End"/>
-		<Branch State="JUMP_FIRST" Condition="End"/>
+		<!-- <Branch State="JUMP_FIRST" Condition="End"/> -->
 	</LANDING>
 </ActionStates>

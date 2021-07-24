@@ -1386,4 +1386,1385 @@
 			<KeyFrame Frame="60" Translation="0.000000 0.000000 0.000000" Scaling="0.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
 		</BoneAnimation>
 	</Animation>
+	<Animation Name="JUMP_FIRST" Start="0" End="17">
+		<BoneAnimation BoneIndex="0">
+			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 1.000000 0.000000 -0.000000"/>
+			<KeyFrame Frame="17" Translation="0.000000 -0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 1.000000 0.000000 -0.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="1">
+			<KeyFrame Frame="0" Translation="0.000000 59.500000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="17" Translation="0.000000 59.500000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="2">
+			<KeyFrame Frame="0" Translation="0.000000 -1.500000 -4.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="17" Translation="0.000000 -1.500000 -4.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="3">
+			<KeyFrame Frame="0" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.540968 0.455310 0.540968 0.455413"/>
+			<KeyFrame Frame="1" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.539765 0.456734 0.539765 0.456838"/>
+			<KeyFrame Frame="6" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.510293 0.489441 0.510293 0.489539"/>
+			<KeyFrame Frame="10" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.485611 0.513940 0.485611 0.514033"/>
+			<KeyFrame Frame="11" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.483587 0.515845 0.483587 0.515937"/>
+			<KeyFrame Frame="12" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.483538 0.515891 0.483538 0.515984"/>
+			<KeyFrame Frame="16" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.494190 0.505696 0.494190 0.505790"/>
+			<KeyFrame Frame="17" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.498464 0.501484 0.498464 0.501579"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="4">
+			<KeyFrame Frame="0" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.197253 0.980353"/>
+			<KeyFrame Frame="1" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.195184 0.980767"/>
+			<KeyFrame Frame="8" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.122982 0.992409"/>
+			<KeyFrame Frame="10" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.107935 0.994158"/>
+			<KeyFrame Frame="11" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.105409 0.994429"/>
+			<KeyFrame Frame="12" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.106219 0.994343"/>
+			<KeyFrame Frame="16" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.128118 0.991759"/>
+			<KeyFrame Frame="17" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.136386 0.990656"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="5">
+			<KeyFrame Frame="0" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.785625 0.618702"/>
+			<KeyFrame Frame="1" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.806876 0.590721"/>
+			<KeyFrame Frame="3" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.836574 0.547854"/>
+			<KeyFrame Frame="4" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.843234 0.537547"/>
+			<KeyFrame Frame="6" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.839607 0.543194"/>
+			<KeyFrame Frame="9" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.806423 0.591340"/>
+			<KeyFrame Frame="12" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.764364 0.644785"/>
+			<KeyFrame Frame="13" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.754384 0.656434"/>
+			<KeyFrame Frame="14" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.748914 0.662667"/>
+			<KeyFrame Frame="15" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.747769 0.663959"/>
+			<KeyFrame Frame="16" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.749327 0.662200"/>
+			<KeyFrame Frame="17" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.753092 0.657915"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="6">
+			<KeyFrame Frame="0" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706835 -0.000290 0.707379 -0.000254"/>
+			<KeyFrame Frame="17" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706835 -0.000290 0.707379 -0.000254"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="7">
+			<KeyFrame Frame="0" Translation="0.000008 0.041924 -0.045128" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="17" Translation="0.000008 0.041924 -0.045128" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="8">
+			<KeyFrame Frame="0" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706835 -0.000290 0.707379 -0.000254"/>
+			<KeyFrame Frame="17" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706835 -0.000290 0.707379 -0.000254"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="9">
+			<KeyFrame Frame="0" Translation="0.001062 -95.999725 4.006519" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="17" Translation="0.001062 -95.999725 4.006519" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="10">
+			<KeyFrame Frame="0" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706835 -0.000290 0.707379 -0.000254"/>
+			<KeyFrame Frame="17" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706835 -0.000290 0.707379 -0.000254"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="11">
+			<KeyFrame Frame="0" Translation="0.000001 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="17" Translation="0.000001 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="12">
+			<KeyFrame Frame="0" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.515569 -0.470111 0.571835 0.431496"/>
+			<KeyFrame Frame="17" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.515569 -0.470111 0.571835 0.431496"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="13">
+			<KeyFrame Frame="0" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.027296 0.207605 0.354940 0.911138"/>
+			<KeyFrame Frame="1" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.026937 0.206739 0.355059 0.911300"/>
+			<KeyFrame Frame="16" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.025688 0.078606 0.368859 0.925799"/>
+			<KeyFrame Frame="17" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.029715 0.068688 0.369621 0.926164"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="14">
+			<KeyFrame Frame="0" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.910302 0.000020 -0.413944 0.000044"/>
+			<KeyFrame Frame="1" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.910679 0.000020 -0.413115 0.000044"/>
+			<KeyFrame Frame="16" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.957274 0.000014 -0.289184 0.000046"/>
+			<KeyFrame Frame="17" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.960176 0.000013 -0.279394 0.000046"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="15">
+			<KeyFrame Frame="0" Translation="17.999996 -0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.707073 0.000000 0.707141"/>
+			<KeyFrame Frame="17" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.707073 -0.000000 0.707141"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="16">
+			<KeyFrame Frame="0" Translation="-0.001823 0.006950 -0.001653" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000001 -0.000033 -0.000165 1.000000"/>
+			<KeyFrame Frame="17" Translation="-0.001823 0.006950 -0.001653" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000001 -0.000033 -0.000165 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="17">
+			<KeyFrame Frame="0" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.465168 0.514830 0.607128 0.387252"/>
+			<KeyFrame Frame="17" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.465168 0.514830 0.607128 0.387252"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="18">
+			<KeyFrame Frame="0" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.131357 0.175070 0.260518 0.940333"/>
+			<KeyFrame Frame="1" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.131139 0.174160 0.260489 0.940540"/>
+			<KeyFrame Frame="16" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.098145 0.039940 0.253680 0.961467"/>
+			<KeyFrame Frame="17" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.095527 0.029585 0.252950 0.962297"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="19">
+			<KeyFrame Frame="0" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.493190 0.000000 0.869922"/>
+			<KeyFrame Frame="1" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.491730 0.000000 0.870748"/>
+			<KeyFrame Frame="16" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.261905 0.000000 0.965094"/>
+			<KeyFrame Frame="17" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.243352 0.000000 0.969938"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="20">
+			<KeyFrame Frame="0" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.707073 0.000000 0.707141"/>
+			<KeyFrame Frame="17" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.707073 -0.000000 0.707141"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="21">
+			<KeyFrame Frame="0" Translation="-0.001816 -0.006897 -0.001651" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000193 0.000023 -0.000003 1.000000"/>
+			<KeyFrame Frame="17" Translation="-0.001816 -0.006897 -0.001651" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000193 0.000023 -0.000003 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="22">
+			<KeyFrame Frame="0" Translation="0.000000 -1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.500000 -0.499952 -0.500000 0.500048"/>
+			<KeyFrame Frame="17" Translation="-0.000000 -1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.500000 -0.499952 -0.500000 0.500048"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="23">
+			<KeyFrame Frame="0" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.021237 0.145488 0.194711 0.969778"/>
+			<KeyFrame Frame="1" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.016679 0.138289 0.173635 0.974910"/>
+			<KeyFrame Frame="3" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.009482 0.129155 0.130103 0.983007"/>
+			<KeyFrame Frame="4" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.005774 0.125305 0.109897 0.985996"/>
+			<KeyFrame Frame="5" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.003292 0.121952 0.090816 0.988367"/>
+			<KeyFrame Frame="6" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.001233 0.120099 0.075517 0.989885"/>
+			<KeyFrame Frame="7" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.007463 0.126135 0.120309 0.984662"/>
+			<KeyFrame Frame="8" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.014028 0.133868 0.161403 0.977666"/>
+			<KeyFrame Frame="9" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.020959 0.142190 0.193210 0.970573"/>
+			<KeyFrame Frame="10" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.026398 0.150042 0.220905 0.963323"/>
+			<KeyFrame Frame="11" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.030547 0.155110 0.237962 0.958322"/>
+			<KeyFrame Frame="12" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.032726 0.156300 0.248081 0.955487"/>
+			<KeyFrame Frame="13" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.033700 0.156255 0.253259 0.954101"/>
+			<KeyFrame Frame="14" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.033396 0.154784 0.257283 0.953274"/>
+			<KeyFrame Frame="15" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.033543 0.153049 0.258923 0.953105"/>
+			<KeyFrame Frame="16" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.033602 0.152252 0.260522 0.952795"/>
+			<KeyFrame Frame="17" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.028976 0.145110 0.244553 0.958278"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="24">
+			<KeyFrame Frame="0" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 -0.000000 -0.639604 0.768705"/>
+			<KeyFrame Frame="1" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.584826 0.811159"/>
+			<KeyFrame Frame="3" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.475703 0.879606"/>
+			<KeyFrame Frame="4" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.424476 0.905439"/>
+			<KeyFrame Frame="5" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.378472 0.925613"/>
+			<KeyFrame Frame="6" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.341039 0.940049"/>
+			<KeyFrame Frame="7" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.449097 0.893483"/>
+			<KeyFrame Frame="8" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.545164 0.838329"/>
+			<KeyFrame Frame="10" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.675138 0.737691"/>
+			<KeyFrame Frame="11" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.705206 0.709002"/>
+			<KeyFrame Frame="12" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.715831 0.698273"/>
+			<KeyFrame Frame="14" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.710893 0.703300"/>
+			<KeyFrame Frame="15" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.704356 0.709847"/>
+			<KeyFrame Frame="16" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.701389 0.712778"/>
+			<KeyFrame Frame="17" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.659934 0.751323"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="25">
+			<KeyFrame Frame="0" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.022235 -0.158151 0.912864 0.375729"/>
+			<KeyFrame Frame="1" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.027660 -0.148629 0.894550 0.420624"/>
+			<KeyFrame Frame="2" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.031771 -0.140945 0.874898 0.462255"/>
+			<KeyFrame Frame="3" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.034689 -0.133686 0.854258 0.501166"/>
+			<KeyFrame Frame="5" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.037725 -0.119928 0.813290 0.568113"/>
+			<KeyFrame Frame="6" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.037634 -0.114134 0.794822 0.594823"/>
+			<KeyFrame Frame="7" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.023665 -0.110173 0.819733 0.561551"/>
+			<KeyFrame Frame="8" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.006447 -0.093647 0.826367 0.555253"/>
+			<KeyFrame Frame="9" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.005915 -0.071948 0.821797 0.565189"/>
+			<KeyFrame Frame="10" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.011850 -0.054132 0.816301 0.574963"/>
+			<KeyFrame Frame="11" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.013760 -0.048753 0.816610 0.574962"/>
+			<KeyFrame Frame="12" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.013777 -0.059585 0.828660 0.556402"/>
+			<KeyFrame Frame="13" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.012600 -0.079291 0.849405 0.521599"/>
+			<KeyFrame Frame="14" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.006780 -0.104498 0.869692 0.482358"/>
+			<KeyFrame Frame="15" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.002270 -0.128937 0.888633 0.440116"/>
+			<KeyFrame Frame="16" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.011156 -0.147641 0.902402 0.404658"/>
+			<KeyFrame Frame="17" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.019574 -0.146790 0.893295 0.424374"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="26">
+			<KeyFrame Frame="0" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.011002 -0.165886 0.636262 0.753347"/>
+			<KeyFrame Frame="1" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.016350 -0.158362 0.608349 0.777538"/>
+			<KeyFrame Frame="4" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.022459 -0.143639 0.529532 0.835739"/>
+			<KeyFrame Frame="5" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.021411 -0.141638 0.502011 0.852915"/>
+			<KeyFrame Frame="7" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.017897 -0.139344 0.448585 0.882630"/>
+			<KeyFrame Frame="9" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.013026 -0.138664 0.406413 0.903012"/>
+			<KeyFrame Frame="10" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.009352 -0.139129 0.389696 0.910325"/>
+			<KeyFrame Frame="13" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.007973 -0.143609 0.352551 0.924673"/>
+			<KeyFrame Frame="15" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.018131 -0.149999 0.342347 0.927346"/>
+			<KeyFrame Frame="16" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.025901 -0.155738 0.340581 0.926865"/>
+			<KeyFrame Frame="17" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.027816 -0.154634 0.321148 0.933905"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="27">
+			<KeyFrame Frame="0" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 -0.000000 -0.750278 0.661122"/>
+			<KeyFrame Frame="1" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.720767 0.693177"/>
+			<KeyFrame Frame="5" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.622161 0.782889"/>
+			<KeyFrame Frame="7" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.592731 0.805401"/>
+			<KeyFrame Frame="9" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.582218 0.813033"/>
+			<KeyFrame Frame="12" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.604939 0.796272"/>
+			<KeyFrame Frame="15" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.678174 0.734901"/>
+			<KeyFrame Frame="16" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.712240 0.701936"/>
+			<KeyFrame Frame="17" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.708495 0.705716"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="28">
+			<KeyFrame Frame="0" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.090572 0.070405 0.804340 0.582990"/>
+			<KeyFrame Frame="1" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.090775 0.065171 0.797367 0.593058"/>
+			<KeyFrame Frame="3" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.080947 0.057831 0.779129 0.618919"/>
+			<KeyFrame Frame="4" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.076587 0.055622 0.770236 0.630696"/>
+			<KeyFrame Frame="7" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.057477 0.058347 0.742879 0.664397"/>
+			<KeyFrame Frame="8" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.050597 0.062282 0.739346 0.668527"/>
+			<KeyFrame Frame="10" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.037640 0.072901 0.740536 0.666990"/>
+			<KeyFrame Frame="11" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.031292 0.079898 0.744289 0.662323"/>
+			<KeyFrame Frame="13" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.019643 0.098246 0.770421 0.629614"/>
+			<KeyFrame Frame="14" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.015514 0.108601 0.791868 0.600758"/>
+			<KeyFrame Frame="15" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.013313 0.118950 0.818265 0.562242"/>
+			<KeyFrame Frame="16" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.010589 0.132149 0.847382 0.514167"/>
+			<KeyFrame Frame="17" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.004896 0.137642 0.860176 0.491047"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="29">
+			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="0.000000 1.000000 1.000000" RotationQuat="-nan(ind) -nan(ind) nan -nan(ind)"/>
+			<KeyFrame Frame="17" Translation="0.000000 0.000000 0.000000" Scaling="0.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+	</Animation>
+	<Animation Name="JUMP_SECOND" Start="0" End="60">
+		<BoneAnimation BoneIndex="0">
+			<KeyFrame Frame="0" Translation="0.000000 -30.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 1.000000 0.000000 -0.000000"/>
+			<KeyFrame Frame="60" Translation="0.000000 -10.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 1.000000 0.000000 -0.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="1">
+			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="60" Translation="0.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="2">
+			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.0000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="33" Translation="0.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="60" Translation="0.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="3">
+			<KeyFrame Frame="0" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.578899 0.406160 0.579444 0.405160"/>
+			<KeyFrame Frame="60" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.553334 0.440783 0.552319 0.440995"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="4">
+			<KeyFrame Frame="0" Translation="13.000000 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.016551 -0.002359 0.107414 0.994074"/>
+			<KeyFrame Frame="15" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.016815 -0.002295 0.161281 0.986763"/>
+			<KeyFrame Frame="29" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.017030 -0.002188 0.200788 0.979484"/>
+			<KeyFrame Frame="41" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.016979 -0.003055 0.161267 0.986760"/>
+			<KeyFrame Frame="54" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.016655 -0.003059 0.093313 0.995493"/>
+			<KeyFrame Frame="60" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.016605 -0.001912 0.081540 0.996530"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="5">
+			<KeyFrame Frame="0" Translation="24.000010 -0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.006679 0.032419 0.636875 0.770256"/>
+			<KeyFrame Frame="2" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.006162 0.032773 0.620255 0.783691"/>
+			<KeyFrame Frame="20" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.012839 0.033180 0.724178 0.688695"/>
+			<KeyFrame Frame="45" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.009938 0.036568 0.604449 0.795742"/>
+			<KeyFrame Frame="57" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.009298 0.037095 0.572556 0.818973"/>
+			<KeyFrame Frame="60" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.009366 0.037052 0.571147 0.819958"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="6">
+			<KeyFrame Frame="0" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+			<KeyFrame Frame="60" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="7">
+			<KeyFrame Frame="0" Translation="0.000008 0.041924 -0.045128" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="60" Translation="0.000008 0.041924 -0.045128" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="8">
+			<KeyFrame Frame="0" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+			<KeyFrame Frame="60" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="9">
+			<KeyFrame Frame="0" Translation="0.001062 -95.999725 4.006519" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="60" Translation="0.001062 -95.999725 4.006519" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="10">
+			<KeyFrame Frame="0" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+			<KeyFrame Frame="60" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="11">
+			<KeyFrame Frame="0" Translation="0.000001 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="60" Translation="0.000001 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="12">
+			<KeyFrame Frame="0" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.560624 -0.521552 0.519274 0.379524"/>
+			<KeyFrame Frame="60" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.560624 -0.521552 0.519274 0.379524"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="13">
+			<KeyFrame Frame="0" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.545320 -0.012305 0.148798 0.824823"/>
+			<KeyFrame Frame="2" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.543162 -0.009625 0.160618 0.824065"/>
+			<KeyFrame Frame="3" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.540865 -0.009109 0.170344 0.823629"/>
+			<KeyFrame Frame="7" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.537487 -0.001251 0.255140 0.803747"/>
+			<KeyFrame Frame="20" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.579416 -0.005442 0.520210 0.627398"/>
+			<KeyFrame Frame="24" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.578574 -0.007675 0.517991 0.629983"/>
+			<KeyFrame Frame="25" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.578197 -0.008488 0.516781 0.631311"/>
+			<KeyFrame Frame="59" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.539390 -0.081314 0.252954 0.799038"/>
+			<KeyFrame Frame="60" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.539344 -0.081448 0.252327 0.799253"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="14">
+			<KeyFrame Frame="0" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.985064 0.000017 -0.172190 0.000094"/>
+			<KeyFrame Frame="60" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.985064 0.000017 -0.172190 0.000094"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="15">
+			<KeyFrame Frame="0" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.093482 0.625112 0.316531 0.707322"/>
+			<KeyFrame Frame="60" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.093482 0.625112 0.316531 0.707322"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="16">
+			<KeyFrame Frame="0" Translation="-0.001823 0.006950 -0.001653" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000001 -0.000033 -0.000165 1.000000"/>
+			<KeyFrame Frame="60" Translation="-0.001823 0.006950 -0.001653" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000001 -0.000033 -0.000165 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="17">
+			<KeyFrame Frame="0" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.488946 0.492297 0.588197 0.415451"/>
+			<KeyFrame Frame="60" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.488946 0.492297 0.588197 0.415451"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="18">
+			<KeyFrame Frame="0" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.309070 0.320686 -0.093483 0.890448"/>
+			<KeyFrame Frame="2" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.304646 0.314742 -0.081054 0.895298"/>
+			<KeyFrame Frame="9" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.262141 0.218983 0.095032 0.935039"/>
+			<KeyFrame Frame="20" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.244870 0.040310 0.366088 0.896880"/>
+			<KeyFrame Frame="21" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.244246 0.039901 0.367082 0.896662"/>
+			<KeyFrame Frame="23" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.245670 0.040337 0.367938 0.895902"/>
+			<KeyFrame Frame="59" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.336587 0.291072 0.206919 0.871304"/>
+			<KeyFrame Frame="60" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.336785 0.291505 0.206491 0.871184"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="19">
+			<KeyFrame Frame="0" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.268560 0.000000 0.963263"/>
+			<KeyFrame Frame="60" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.268560 0.000000 0.963263"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="20">
+			<KeyFrame Frame="0" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.220964 0.561524 -0.056795 0.795387"/>
+			<KeyFrame Frame="60" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.220964 0.561524 -0.056795 0.795387"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="21">
+			<KeyFrame Frame="0" Translation="-0.001816 -0.006897 -0.001651" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000193 0.000023 -0.000003 1.000000"/>
+			<KeyFrame Frame="60" Translation="-0.001816 -0.006897 -0.001651" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000193 0.000023 -0.000003 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="22">
+			<KeyFrame Frame="0" Translation="0.000000 -1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.494603 -0.494601 -0.505436 0.505244"/>
+			<KeyFrame Frame="60" Translation="-0.000000 -1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.494603 -0.494601 -0.505436 0.505244"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="23">
+			<KeyFrame Frame="0" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.162387 0.058112 0.513608 0.840512"/>
+			<KeyFrame Frame="8" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.156824 0.059358 0.480348 0.860900"/>
+			<KeyFrame Frame="30" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.120934 0.045556 0.289878 0.948299"/>
+			<KeyFrame Frame="32" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.118129 0.042738 0.279846 0.951791"/>
+			<KeyFrame Frame="36" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.113044 0.036694 0.270294 0.955414"/>
+			<KeyFrame Frame="38" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.110407 0.034666 0.262165 0.958059"/>
+			<KeyFrame Frame="56" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.085209 0.022185 0.188665 0.978086"/>
+			<KeyFrame Frame="60" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.079945 0.022254 0.183866 0.979442"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="24">
+			<KeyFrame Frame="0" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 -0.000000 -0.843466 0.537183"/>
+			<KeyFrame Frame="14" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.807922 0.589289"/>
+			<KeyFrame Frame="31" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.714256 0.699884"/>
+			<KeyFrame Frame="42" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.650191 0.759771"/>
+			<KeyFrame Frame="59" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.536293 0.844032"/>
+			<KeyFrame Frame="60" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.535645 0.844443"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="25">
+			<KeyFrame Frame="0" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.019380 0.060250 0.861089 0.504500"/>
+			<KeyFrame Frame="18" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000833 0.039328 0.874327 0.483741"/>
+			<KeyFrame Frame="25" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.011718 0.031122 0.872490 0.487499"/>
+			<KeyFrame Frame="31" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.023939 0.030581 0.865222 0.499883"/>
+			<KeyFrame Frame="43" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.050422 0.038554 0.833583 0.548735"/>
+			<KeyFrame Frame="44" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.052005 0.039099 0.830534 0.553155"/>
+			<KeyFrame Frame="50" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.060144 0.041624 0.813334 0.577181"/>
+			<KeyFrame Frame="60" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.066248 0.044050 0.793501 0.603347"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="26">
+			<KeyFrame Frame="0" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.295512 -0.086457 0.192743 0.931691"/>
+			<KeyFrame Frame="15" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.257103 -0.091130 0.120793 0.954464"/>
+			<KeyFrame Frame="19" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.240034 -0.089473 0.096721 0.961781"/>
+			<KeyFrame Frame="31" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.190483 -0.066841 0.023280 0.979136"/>
+			<KeyFrame Frame="32" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.187288 -0.064570 0.018990 0.979997"/>
+			<KeyFrame Frame="33" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.184298 -0.062465 0.015165 0.980766"/>
+			<KeyFrame Frame="46" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.154104 -0.029044 -0.018439 0.987455"/>
+			<KeyFrame Frame="59" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.111738 -0.010615 -0.055639 0.992122"/>
+			<KeyFrame Frame="60" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.106855 -0.010282 -0.056042 0.992641"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="27">
+			<KeyFrame Frame="0" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 -0.000000 -0.856593 0.515993"/>
+			<KeyFrame Frame="8" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.835338 0.549737"/>
+			<KeyFrame Frame="24" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.704322 0.709881"/>
+			<KeyFrame Frame="31" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.655420 0.755264"/>
+			<KeyFrame Frame="40" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.597008 0.802236"/>
+			<KeyFrame Frame="54" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.463345 0.886178"/>
+			<KeyFrame Frame="60" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.438272 0.898843"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="28">
+			<KeyFrame Frame="0" Translation="14.461231 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.015980 -0.009772 0.988673 0.148915"/>
+			<KeyFrame Frame="14" Translation="14.461231 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.047409 0.017108 0.976514 0.209476"/>
+			<KeyFrame Frame="20" Translation="14.461231 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.066227 0.026983 0.966184 0.247738"/>
+			<KeyFrame Frame="21" Translation="14.461231 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.070442 0.027032 0.964084 0.254656"/>
+			<KeyFrame Frame="31" Translation="14.461231 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.119312 0.015156 0.938873 0.322572"/>
+			<KeyFrame Frame="46" Translation="14.461231 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.189408 -0.025875 0.892788 0.407904"/>
+			<KeyFrame Frame="48" Translation="14.461231 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.196212 -0.032063 0.885882 0.419148"/>
+			<KeyFrame Frame="59" Translation="14.461231 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.211031 -0.054948 0.854934 0.470675"/>
+			<KeyFrame Frame="60" Translation="14.461231 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.211060 -0.055186 0.854641 0.471164"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="29">
+			<KeyFrame Frame="0" Translation="0.000000 20.000000 20.000000" Scaling="0.000000 1.000000 1.000000" RotationQuat="-nan(ind) -nan(ind) nan -nan(ind)"/>
+			<KeyFrame Frame="60" Translation="0.000000 20.000000 20.000000" Scaling="0.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+	</Animation>
+	<Animation Name="JUMP_SECOND_FALL" Start="0" End="29">
+		<BoneAnimation BoneIndex="0">
+			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="1.000000 0.000000 0.000000 -0.000000"/>
+			<KeyFrame Frame="29" Translation="0.000000 -0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="1.000000 -0.000000 0.000000 -0.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="1">
+			<KeyFrame Frame="0" Translation="0.000000 59.500000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="29" Translation="0.000000 59.500000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="2">
+			<KeyFrame Frame="0" Translation="0.000000 -1.500000 -4.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="29" Translation="0.000000 -1.500000 -4.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="3">
+			<KeyFrame Frame="0" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.523883 0.445803 0.548785 0.475017"/>
+			<KeyFrame Frame="29" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.510851 0.430805 0.560636 0.489006"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="4">
+			<KeyFrame Frame="0" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.026955 -0.002051 0.075831 0.996754"/>
+			<KeyFrame Frame="29" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.053891 -0.004100 0.075748 0.995661"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="5">
+			<KeyFrame Frame="0" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.023560 -0.020676 0.751239 0.659286"/>
+			<KeyFrame Frame="29" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.062993 -0.046420 0.802563 0.591413"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="6">
+			<KeyFrame Frame="0" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+			<KeyFrame Frame="29" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="7">
+			<KeyFrame Frame="0" Translation="0.000008 0.041924 -0.045128" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 -0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="29" Translation="0.000008 0.041924 -0.045128" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="8">
+			<KeyFrame Frame="0" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+			<KeyFrame Frame="29" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="9">
+			<KeyFrame Frame="0" Translation="0.001062 -95.999725 4.006519" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 -0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="29" Translation="0.001062 -95.999725 4.006519" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="10">
+			<KeyFrame Frame="0" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+			<KeyFrame Frame="29" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="11">
+			<KeyFrame Frame="0" Translation="0.000001 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 -0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="29" Translation="0.000001 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="12">
+			<KeyFrame Frame="0" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.523066 -0.475818 0.475717 0.523157"/>
+			<KeyFrame Frame="29" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.523066 -0.475818 0.475717 0.523157"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="13">
+			<KeyFrame Frame="0" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.016507 -0.001615 -0.097336 0.995113"/>
+			<KeyFrame Frame="29" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.024138 -0.006942 -0.276314 0.960739"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="14">
+			<KeyFrame Frame="0" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.973535 0.000022 -0.228539 0.000093"/>
+			<KeyFrame Frame="27" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.925739 0.064987 -0.322451 0.186575"/>
+			<KeyFrame Frame="28" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.924082 0.066386 -0.325952 0.188206"/>
+			<KeyFrame Frame="29" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.923949 0.066615 -0.325905 0.188855"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="15">
+			<KeyFrame Frame="0" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.254737 0.659628 -0.131294 0.694811"/>
+			<KeyFrame Frame="29" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.254737 0.659628 -0.131294 0.694811"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="16">
+			<KeyFrame Frame="0" Translation="-0.001823 0.006950 -0.001653" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000001 -0.000033 -0.000165 1.000000"/>
+			<KeyFrame Frame="29" Translation="-0.001823 0.006950 -0.001653" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000001 -0.000033 -0.000165 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="17">
+			<KeyFrame Frame="0" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.534504 0.462947 0.463036 0.534401"/>
+			<KeyFrame Frame="29" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.534504 0.462947 0.463036 0.534401"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="18">
+			<KeyFrame Frame="0" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.016479 0.001877 -0.113160 0.993438"/>
+			<KeyFrame Frame="29" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.095317 0.033324 -0.328334 0.939149"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="19">
+			<KeyFrame Frame="0" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.321409 0.000000 0.946940"/>
+			<KeyFrame Frame="29" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.090859 0.000000 0.995864"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="20">
+			<KeyFrame Frame="0" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.206297 0.676320 0.040786 0.705953"/>
+			<KeyFrame Frame="29" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.206297 0.676320 0.040786 0.705953"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="21">
+			<KeyFrame Frame="0" Translation="-0.001816 -0.006897 -0.001651" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000193 0.000023 -0.000003 1.000000"/>
+			<KeyFrame Frame="29" Translation="-0.001816 -0.006897 -0.001651" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000193 0.000023 -0.000003 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="22">
+			<KeyFrame Frame="0" Translation="0.000000 -1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.499952 -0.499952 -0.500048 0.500048"/>
+			<KeyFrame Frame="29" Translation="-0.000000 -1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.499952 -0.499952 -0.500048 0.500048"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="23">
+			<KeyFrame Frame="0" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.229846 0.041011 0.151104 0.960550"/>
+			<KeyFrame Frame="29" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.227952 0.050338 0.189210 0.953784"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="24">
+			<KeyFrame Frame="0" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 -0.000000 -0.360879 0.932613"/>
+			<KeyFrame Frame="29" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.449868 0.893095"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="25">
+			<KeyFrame Frame="0" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.219399 -0.088771 0.573260 0.784447"/>
+			<KeyFrame Frame="28" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.245002 -0.059199 0.364154 0.896583"/>
+			<KeyFrame Frame="29" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.243740 -0.059726 0.352722 0.901449"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="26">
+			<KeyFrame Frame="0" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.210741 -0.088921 0.547154 0.805173"/>
+			<KeyFrame Frame="28" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.203240 -0.109734 0.698045 0.677779"/>
+			<KeyFrame Frame="29" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.201013 -0.111403 0.702964 0.673071"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="27">
+			<KeyFrame Frame="0" Translation="19.728777 -0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 -0.000000 -0.643685 0.765291"/>
+			<KeyFrame Frame="6" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.690928 0.722924"/>
+			<KeyFrame Frame="25" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.801434 0.598084"/>
+			<KeyFrame Frame="29" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.818742 0.574161"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="28">
+			<KeyFrame Frame="0" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.139328 0.068040 0.694837 0.702253"/>
+			<KeyFrame Frame="8" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.143328 0.061176 0.740121 0.654168"/>
+			<KeyFrame Frame="28" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.142991 0.059494 0.816300 0.556479"/>
+			<KeyFrame Frame="29" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.142847 0.059920 0.818859 0.552697"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="29">
+			<KeyFrame Frame="0" Translation="0.000000 20.000000 20.000000" Scaling="0.000000 1.000000 1.000000" RotationQuat="-nan(ind) -nan(ind) nan -nan(ind)"/>
+			<KeyFrame Frame="29" Translation="0.000000 20.000000 20.000000" Scaling="0.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+	</Animation>
+	<Animation Name="JUMP_THIRD_LANDING" Start="0" End="52">
+		<BoneAnimation BoneIndex="0">
+			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="1.000000 0.000000 0.000000 -0.000000"/>
+			<KeyFrame Frame="52" Translation="0.000000 -0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="1.000000 -0.000000 0.000000 -0.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="1">
+			<KeyFrame Frame="0" Translation="-0.001534 40.358395 -14.467610" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.001726 -0.000000 0.000000 0.999999"/>
+			<KeyFrame Frame="1" Translation="-0.002196 40.667248 -14.127628" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.003643 0.000000 0.000000 0.999993"/>
+			<KeyFrame Frame="19" Translation="-0.023045 59.892113 15.185248" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.069357 0.000000 0.000000 0.997592"/>
+			<KeyFrame Frame="22" Translation="-0.028676 58.338795 15.800072" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.069739 0.000000 0.000000 0.997565"/>
+			<KeyFrame Frame="32" Translation="-0.053387 58.057217 15.848963" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.069739 0.000000 0.000000 0.997565"/>
+			<KeyFrame Frame="33" Translation="-0.056419 57.601784 15.851125" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.069739 0.000000 0.000000 0.997565"/>
+			<KeyFrame Frame="34" Translation="-0.059560 57.220158 15.852699" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.067444 0.000000 0.000000 0.997723"/>
+			<KeyFrame Frame="38" Translation="-0.131400 57.489094 15.519341" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.029142 0.000000 0.000000 0.999575"/>
+			<KeyFrame Frame="41" Translation="-0.362834 59.088097 12.645071" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.002493 0.000000 0.000000 0.999997"/>
+			<KeyFrame Frame="42" Translation="-0.448368 58.319710 11.285452" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="43" Translation="-0.526753 57.396011 9.932242" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="52" Translation="0.000000 55.120003 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="2">
+			<KeyFrame Frame="0" Translation="0.000000 -1.500000 -4.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 -0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="52" Translation="0.000000 -1.500000 -4.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="3">
+			<KeyFrame Frame="0" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.630136 0.318891 0.631362 0.320343"/>
+			<KeyFrame Frame="1" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.635597 0.308182 0.636625 0.309433"/>
+			<KeyFrame Frame="3" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.648860 0.280513 0.649140 0.280910"/>
+			<KeyFrame Frame="4" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.654890 0.266431 0.654969 0.266738"/>
+			<KeyFrame Frame="5" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.663728 0.243599 0.663749 0.244052"/>
+			<KeyFrame Frame="6" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.674068 0.213358 0.674068 0.213875"/>
+			<KeyFrame Frame="7" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.679653 0.194859 0.679653 0.195380"/>
+			<KeyFrame Frame="8" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.679051 0.196943 0.679051 0.197464"/>
+			<KeyFrame Frame="9" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.673307 0.215747 0.673307 0.216263"/>
+			<KeyFrame Frame="11" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.653281 0.270348 0.653281 0.270849"/>
+			<KeyFrame Frame="13" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.622908 0.334404 0.622908 0.334881"/>
+			<KeyFrame Frame="15" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.587108 0.393862 0.587108 0.394312"/>
+			<KeyFrame Frame="17" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.555605 0.437169 0.555605 0.437595"/>
+			<KeyFrame Frame="18" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.545395 0.449840 0.545395 0.450259"/>
+			<KeyFrame Frame="19" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.540968 0.455154 0.540968 0.455569"/>
+			<KeyFrame Frame="20" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.539480 0.456915 0.539480 0.457329"/>
+			<KeyFrame Frame="37" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.545912 0.449212 0.545912 0.449631"/>
+			<KeyFrame Frame="38" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.544790 0.450472 0.545046 0.450781"/>
+			<KeyFrame Frame="39" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.542034 0.453545 0.543534 0.452843"/>
+			<KeyFrame Frame="40" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.538532 0.457414 0.543048 0.453712"/>
+			<KeyFrame Frame="42" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.533667 0.462261 0.543333 0.454207"/>
+			<KeyFrame Frame="43" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.533322 0.462455 0.543140 0.454645"/>
+			<KeyFrame Frame="44" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.533343 0.462501 0.542957 0.454793"/>
+			<KeyFrame Frame="45" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.533448 0.462564 0.542554 0.455085"/>
+			<KeyFrame Frame="51" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.537107 0.459703 0.537459 0.459703"/>
+			<KeyFrame Frame="52" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.537283 0.459497 0.537283 0.459909"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="4">
+			<KeyFrame Frame="0" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 -0.000000 -0.000000 1.000000"/>
+			<KeyFrame Frame="52" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="5">
+			<KeyFrame Frame="0" Translation="24.000010 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.511469 0.859302"/>
+			<KeyFrame Frame="1" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.548696 0.836022"/>
+			<KeyFrame Frame="3" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.670137 0.742237"/>
+			<KeyFrame Frame="5" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.791989 0.610535"/>
+			<KeyFrame Frame="6" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.836232 0.548375"/>
+			<KeyFrame Frame="7" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.865129 0.501549"/>
+			<KeyFrame Frame="8" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.882012 0.471228"/>
+			<KeyFrame Frame="11" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.887463 0.460879"/>
+			<KeyFrame Frame="12" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.875793 0.482688"/>
+			<KeyFrame Frame="13" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.854259 0.519847"/>
+			<KeyFrame Frame="15" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.780977 0.624560"/>
+			<KeyFrame Frame="17" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.687872 0.725832"/>
+			<KeyFrame Frame="19" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.618552 0.785744"/>
+			<KeyFrame Frame="20" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.609471 0.792808"/>
+			<KeyFrame Frame="21" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.609623 0.792691"/>
+			<KeyFrame Frame="37" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.623211 0.782053"/>
+			<KeyFrame Frame="39" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.624111 0.781336"/>
+			<KeyFrame Frame="51" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.672411 0.740178"/>
+			<KeyFrame Frame="52" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.672978 0.739662"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="6">
+			<KeyFrame Frame="0" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706810 -0.000518 0.707403 -0.000075"/>
+			<KeyFrame Frame="52" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706810 -0.000518 0.707403 -0.000075"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="7">
+			<KeyFrame Frame="0" Translation="0.000008 0.041924 -0.045128" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="52" Translation="0.000008 0.041924 -0.045128" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="8">
+			<KeyFrame Frame="0" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706810 -0.000518 0.707403 -0.000075"/>
+			<KeyFrame Frame="52" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706810 -0.000518 0.707403 -0.000075"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="9">
+			<KeyFrame Frame="0" Translation="0.001062 -95.999725 4.006519" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="52" Translation="0.001062 -95.999725 4.006519" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="10">
+			<KeyFrame Frame="0" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706810 -0.000518 0.707403 -0.000075"/>
+			<KeyFrame Frame="52" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706810 -0.000518 0.707403 -0.000075"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="11">
+			<KeyFrame Frame="0" Translation="0.000001 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="52" Translation="0.000001 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="12">
+			<KeyFrame Frame="0" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.540209 -0.447512 0.514734 0.492906"/>
+			<KeyFrame Frame="1" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.539865 -0.448412 0.512688 0.494594"/>
+			<KeyFrame Frame="5" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.536651 -0.455164 0.503037 0.501782"/>
+			<KeyFrame Frame="9" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.532653 -0.462364 0.491094 0.511202"/>
+			<KeyFrame Frame="18" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.526282 -0.472236 0.472458 0.526122"/>
+			<KeyFrame Frame="20" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.526174 -0.472376 0.472159 0.526372"/>
+			<KeyFrame Frame="21" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.526198 -0.472352 0.472150 0.526379"/>
+			<KeyFrame Frame="22" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.526202 -0.472347 0.472145 0.526383"/>
+			<KeyFrame Frame="52" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.526202 -0.472347 0.472145 0.526383"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="13">
+			<KeyFrame Frame="0" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.398846 -0.056903 -0.051193 0.913818"/>
+			<KeyFrame Frame="1" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.430587 0.088243 -0.078425 0.894795"/>
+			<KeyFrame Frame="2" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.462130 0.209675 -0.092532 0.856685"/>
+			<KeyFrame Frame="3" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.473211 0.263173 -0.093840 0.835467"/>
+			<KeyFrame Frame="4" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.468871 0.275938 -0.090046 0.834212"/>
+			<KeyFrame Frame="6" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.448578 0.278484 -0.080144 0.845459"/>
+			<KeyFrame Frame="7" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.433010 0.271384 -0.071358 0.856598"/>
+			<KeyFrame Frame="9" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.398082 0.245700 -0.054596 0.882146"/>
+			<KeyFrame Frame="10" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.378653 0.230403 -0.046415 0.895199"/>
+			<KeyFrame Frame="11" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.359112 0.213273 -0.036948 0.907848"/>
+			<KeyFrame Frame="13" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.325289 0.178845 -0.015436 0.928420"/>
+			<KeyFrame Frame="16" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.295268 0.146268 0.005811 0.944134"/>
+			<KeyFrame Frame="17" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.293056 0.144280 0.006115 0.945127"/>
+			<KeyFrame Frame="18" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.293317 0.143665 0.006198 0.945139"/>
+			<KeyFrame Frame="25" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.291592 0.143011 -0.024626 0.945471"/>
+			<KeyFrame Frame="27" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.291237 0.140851 -0.029812 0.945755"/>
+			<KeyFrame Frame="31" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.292746 0.132011 -0.019353 0.946836"/>
+			<KeyFrame Frame="33" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.293141 0.128020 -0.009470 0.947412"/>
+			<KeyFrame Frame="34" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.293512 0.129026 0.004505 0.947197"/>
+			<KeyFrame Frame="35" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.293722 0.127775 0.023779 0.947014"/>
+			<KeyFrame Frame="39" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.293091 0.091610 0.145902 0.940435"/>
+			<KeyFrame Frame="40" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.292779 0.079674 0.181428 0.935423"/>
+			<KeyFrame Frame="42" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.291096 0.050472 0.251305 0.921717"/>
+			<KeyFrame Frame="43" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.289433 0.036858 0.278820 0.914948"/>
+			<KeyFrame Frame="45" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.286169 0.012571 0.327560 0.900363"/>
+			<KeyFrame Frame="46" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.284711 0.002777 0.349955 0.892448"/>
+			<KeyFrame Frame="47" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.283338 -0.001911 0.360878 0.888528"/>
+			<KeyFrame Frame="48" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.281983 -0.002955 0.364182 0.887608"/>
+			<KeyFrame Frame="49" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.281957 -0.003031 0.364164 0.887623"/>
+			<KeyFrame Frame="52" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.281957 -0.003031 0.364164 0.887623"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="14">
+			<KeyFrame Frame="0" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.975577 0.182304 -0.037149 -0.116771"/>
+			<KeyFrame Frame="1" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.970965 0.216247 -0.026171 -0.098888"/>
+			<KeyFrame Frame="2" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.967104 0.240310 -0.012948 -0.082426"/>
+			<KeyFrame Frame="3" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.967483 0.242123 -0.002020 -0.073132"/>
+			<KeyFrame Frame="4" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.970796 0.230003 0.009463 -0.067560"/>
+			<KeyFrame Frame="8" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.986549 0.143809 0.065598 -0.041673"/>
+			<KeyFrame Frame="10" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.990225 0.097354 0.095010 -0.030818"/>
+			<KeyFrame Frame="11" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.990938 0.072335 0.109752 -0.027630"/>
+			<KeyFrame Frame="14" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.988240 -0.001428 0.151469 -0.020880"/>
+			<KeyFrame Frame="15" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.986135 -0.020106 0.163509 -0.019961"/>
+			<KeyFrame Frame="18" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.981296 -0.057309 0.182709 -0.019799"/>
+			<KeyFrame Frame="19" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.980946 -0.059433 0.183909 -0.019741"/>
+			<KeyFrame Frame="20" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.980783 -0.059753 0.184676 -0.019736"/>
+			<KeyFrame Frame="29" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.979906 -0.060925 0.188884 -0.019895"/>
+			<KeyFrame Frame="30" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.981096 -0.059292 0.183149 -0.019763"/>
+			<KeyFrame Frame="31" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.983302 -0.053919 0.172732 -0.019329"/>
+			<KeyFrame Frame="34" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.993499 -0.009970 0.111599 -0.020142"/>
+			<KeyFrame Frame="36" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.997637 0.035336 0.052803 -0.026130"/>
+			<KeyFrame Frame="37" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.997434 0.060630 0.020832 -0.031849"/>
+			<KeyFrame Frame="38" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.995373 0.086641 -0.012087 -0.039736"/>
+			<KeyFrame Frame="40" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.985514 0.137746 -0.078278 -0.060506"/>
+			<KeyFrame Frame="42" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.969624 0.183403 -0.136988 -0.086183"/>
+			<KeyFrame Frame="43" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.961136 0.202475 -0.160255 -0.097672"/>
+			<KeyFrame Frame="45" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.945069 0.229027 -0.199748 -0.120385"/>
+			<KeyFrame Frame="46" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.937818 0.239768 -0.213836 -0.131466"/>
+			<KeyFrame Frame="47" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.933883 0.245419 -0.220884 -0.137271"/>
+			<KeyFrame Frame="48" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.932808 0.246943 -0.222740 -0.138833"/>
+			<KeyFrame Frame="49" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.932742 0.246836 -0.222859 -0.139281"/>
+			<KeyFrame Frame="52" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.932742 0.246836 -0.222859 -0.139281"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="15">
+			<KeyFrame Frame="0" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.023615 0.630776 0.005783 0.775584"/>
+			<KeyFrame Frame="1" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.040238 0.573382 -0.001534 0.818298"/>
+			<KeyFrame Frame="2" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.059546 0.499081 -0.013776 0.864397"/>
+			<KeyFrame Frame="3" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.077021 0.420612 -0.029693 0.903478"/>
+			<KeyFrame Frame="4" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.093400 0.344158 -0.046110 0.933116"/>
+			<KeyFrame Frame="5" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.106785 0.272399 -0.062412 0.954202"/>
+			<KeyFrame Frame="6" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.116356 0.225298 -0.072301 0.964611"/>
+			<KeyFrame Frame="7" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.123655 0.209834 -0.072391 0.967181"/>
+			<KeyFrame Frame="8" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.130364 0.221531 -0.062984 0.964346"/>
+			<KeyFrame Frame="10" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.141232 0.293466 -0.024271 0.945168"/>
+			<KeyFrame Frame="11" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.142952 0.346000 0.001960 0.927278"/>
+			<KeyFrame Frame="12" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.141003 0.403763 0.030411 0.903421"/>
+			<KeyFrame Frame="13" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.135436 0.462133 0.059415 0.874391"/>
+			<KeyFrame Frame="14" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.126041 0.519448 0.086922 0.840673"/>
+			<KeyFrame Frame="15" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.114518 0.570356 0.111495 0.805698"/>
+			<KeyFrame Frame="16" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.102225 0.612955 0.131586 0.772348"/>
+			<KeyFrame Frame="17" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.091230 0.644845 0.146563 0.744561"/>
+			<KeyFrame Frame="18" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.083686 0.664641 0.155683 0.725956"/>
+			<KeyFrame Frame="19" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.081227 0.670479 0.158439 0.720248"/>
+			<KeyFrame Frame="20" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.081352 0.670286 0.158315 0.720440"/>
+			<KeyFrame Frame="25" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.081421 0.664871 0.157119 0.725694"/>
+			<KeyFrame Frame="28" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.081340 0.660528 0.155469 0.730011"/>
+			<KeyFrame Frame="29" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.081843 0.659180 0.155295 0.731209"/>
+			<KeyFrame Frame="32" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.081897 0.656022 0.154432 0.734220"/>
+			<KeyFrame Frame="33" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.081859 0.655398 0.154421 0.734783"/>
+			<KeyFrame Frame="34" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.081703 0.655250 0.154307 0.734957"/>
+			<KeyFrame Frame="35" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.078274 0.656949 0.154266 0.733821"/>
+			<KeyFrame Frame="36" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.069726 0.660968 0.153990 0.731127"/>
+			<KeyFrame Frame="37" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.056426 0.666893 0.153325 0.727022"/>
+			<KeyFrame Frame="38" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.041037 0.673577 0.152863 0.721971"/>
+			<KeyFrame Frame="39" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.022401 0.681126 0.151545 0.715960"/>
+			<KeyFrame Frame="40" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.001908 0.688698 0.150411 0.709273"/>
+			<KeyFrame Frame="41" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.019360 0.696109 0.148419 0.702160"/>
+			<KeyFrame Frame="43" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.055755 0.708379 0.144873 0.688551"/>
+			<KeyFrame Frame="44" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.075732 0.713944 0.138267 0.682225"/>
+			<KeyFrame Frame="45" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.091467 0.717836 0.135343 0.676777"/>
+			<KeyFrame Frame="46" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.102762 0.720589 0.134118 0.672461"/>
+			<KeyFrame Frame="47" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.109968 0.722179 0.132126 0.670005"/>
+			<KeyFrame Frame="48" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.112062 0.722631 0.131380 0.669317"/>
+			<KeyFrame Frame="49" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.112127 0.722650 0.131611 0.669241"/>
+			<KeyFrame Frame="52" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.112127 0.722650 0.131611 0.669241"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="16">
+			<KeyFrame Frame="0" Translation="-0.001823 0.006950 -0.001653" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000001 -0.000033 -0.000165 1.000000"/>
+			<KeyFrame Frame="52" Translation="-0.001823 0.006950 -0.001653" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000001 -0.000033 -0.000165 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="17">
+			<KeyFrame Frame="0" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.500506 0.511288 0.413451 0.563149"/>
+			<KeyFrame Frame="1" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.503227 0.508407 0.416966 0.560736"/>
+			<KeyFrame Frame="6" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.510368 0.497373 0.434582 0.550712"/>
+			<KeyFrame Frame="7" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.511913 0.495001 0.438203 0.548541"/>
+			<KeyFrame Frame="11" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.519411 0.483816 0.455301 0.537434"/>
+			<KeyFrame Frame="12" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.520738 0.481661 0.458889 0.535029"/>
+			<KeyFrame Frame="18" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.525790 0.472892 0.472609 0.525889"/>
+			<KeyFrame Frame="20" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.525940 0.472659 0.472841 0.525738"/>
+			<KeyFrame Frame="22" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.525940 0.472659 0.472841 0.525738"/>
+			<KeyFrame Frame="35" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.525940 0.472659 0.472841 0.525738"/>
+			<KeyFrame Frame="48" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.525850 0.472760 0.472942 0.525648"/>
+			<KeyFrame Frame="52" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.525850 0.472760 0.472942 0.525648"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="18">
+			<KeyFrame Frame="0" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.473753 0.077212 -0.075748 0.873990"/>
+			<KeyFrame Frame="1" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.589995 0.013141 -0.023609 0.806955"/>
+			<KeyFrame Frame="2" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.675634 -0.034146 0.027715 0.735924"/>
+			<KeyFrame Frame="3" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.707850 -0.052364 0.050867 0.702580"/>
+			<KeyFrame Frame="4" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.711301 -0.054373 0.053997 0.698698"/>
+			<KeyFrame Frame="7" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.689193 -0.037232 0.039891 0.722520"/>
+			<KeyFrame Frame="10" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.633649 -0.006603 0.014330 0.773460"/>
+			<KeyFrame Frame="13" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.568633 0.027403 -0.009890 0.822075"/>
+			<KeyFrame Frame="14" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.550110 0.039788 -0.017312 0.833964"/>
+			<KeyFrame Frame="15" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.534195 0.051307 -0.023939 0.843463"/>
+			<KeyFrame Frame="16" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.525961 0.056546 -0.026989 0.848198"/>
+			<KeyFrame Frame="18" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.523966 0.057934 -0.028353 0.849293"/>
+			<KeyFrame Frame="27" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.553277 0.062708 -0.039188 0.829708"/>
+			<KeyFrame Frame="33" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.529247 0.068896 -0.042276 0.844609"/>
+			<KeyFrame Frame="34" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.520885 0.075319 -0.037282 0.849480"/>
+			<KeyFrame Frame="35" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.507055 0.086231 -0.028780 0.857106"/>
+			<KeyFrame Frame="37" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.462855 0.125968 0.003991 0.877429"/>
+			<KeyFrame Frame="39" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.412844 0.165577 0.044480 0.894520"/>
+			<KeyFrame Frame="40" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.386727 0.185518 0.070037 0.900622"/>
+			<KeyFrame Frame="42" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.336020 0.223625 0.124340 0.906434"/>
+			<KeyFrame Frame="43" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.314625 0.237767 0.147755 0.906998"/>
+			<KeyFrame Frame="46" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.270623 0.268447 0.210287 0.900266"/>
+			<KeyFrame Frame="47" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.266696 0.272726 0.219985 0.897831"/>
+			<KeyFrame Frame="48" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.268406 0.274212 0.222051 0.896359"/>
+			<KeyFrame Frame="49" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.268227 0.274388 0.222638 0.896213"/>
+			<KeyFrame Frame="52" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.268227 0.274388 0.222638 0.896213"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="19">
+			<KeyFrame Frame="0" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.041522 -0.200257 0.213389 0.955321"/>
+			<KeyFrame Frame="1" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.133096 -0.156842 0.288652 0.935075"/>
+			<KeyFrame Frame="2" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.197650 -0.136143 0.352043 0.904691"/>
+			<KeyFrame Frame="3" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.227122 -0.133710 0.370075 0.890832"/>
+			<KeyFrame Frame="4" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.239690 -0.133820 0.359606 0.891809"/>
+			<KeyFrame Frame="8" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.253201 -0.102616 0.268728 0.923658"/>
+			<KeyFrame Frame="9" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.256108 -0.093365 0.237381 0.932385"/>
+			<KeyFrame Frame="12" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.242226 -0.061926 0.132988 0.959065"/>
+			<KeyFrame Frame="14" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.221128 -0.045504 0.071657 0.971544"/>
+			<KeyFrame Frame="15" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.212239 -0.039327 0.043094 0.975475"/>
+			<KeyFrame Frame="16" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.204893 -0.034553 0.017018 0.978026"/>
+			<KeyFrame Frame="18" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.195174 -0.030054 -0.012036 0.980234"/>
+			<KeyFrame Frame="19" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.194162 -0.029560 -0.015222 0.980406"/>
+			<KeyFrame Frame="20" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.193950 -0.029653 -0.015038 0.980448"/>
+			<KeyFrame Frame="21" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.193906 -0.029709 -0.014811 0.980458"/>
+			<KeyFrame Frame="29" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.193704 -0.030037 -0.013155 0.980512"/>
+			<KeyFrame Frame="30" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.194100 -0.029364 -0.015572 0.980418"/>
+			<KeyFrame Frame="31" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.195451 -0.028888 -0.014936 0.980174"/>
+			<KeyFrame Frame="37" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.223675 -0.028330 0.079213 0.971026"/>
+			<KeyFrame Frame="38" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.229092 -0.028963 0.098767 0.967948"/>
+			<KeyFrame Frame="40" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.240442 -0.033559 0.139569 0.959991"/>
+			<KeyFrame Frame="42" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.250425 -0.043426 0.183517 0.949591"/>
+			<KeyFrame Frame="46" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.264743 -0.064537 0.249689 0.929194"/>
+			<KeyFrame Frame="47" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.267264 -0.069478 0.255231 0.926607"/>
+			<KeyFrame Frame="48" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.269414 -0.073491 0.256005 0.925460"/>
+			<KeyFrame Frame="49" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.269414 -0.073491 0.256005 0.925460"/>
+			<KeyFrame Frame="52" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.269414 -0.073491 0.256005 0.925460"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="20">
+			<KeyFrame Frame="0" Translation="17.999992 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.268500 0.688755 -0.202081 0.642407"/>
+			<KeyFrame Frame="1" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.275875 0.660179 -0.170232 0.677553"/>
+			<KeyFrame Frame="2" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.287391 0.624292 -0.133339 0.714064"/>
+			<KeyFrame Frame="3" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.302306 0.585005 -0.096191 0.746410"/>
+			<KeyFrame Frame="4" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.317940 0.547792 -0.062115 0.771349"/>
+			<KeyFrame Frame="5" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.332074 0.516411 -0.036685 0.788480"/>
+			<KeyFrame Frame="6" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.340847 0.497761 -0.019065 0.797304"/>
+			<KeyFrame Frame="7" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.328667 0.499169 -0.025337 0.801353"/>
+			<KeyFrame Frame="8" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.317462 0.508543 -0.023612 0.800028"/>
+			<KeyFrame Frame="9" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.292614 0.530965 -0.039025 0.794311"/>
+			<KeyFrame Frame="10" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.261420 0.560850 -0.061530 0.783148"/>
+			<KeyFrame Frame="11" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.227533 0.594413 -0.091451 0.765858"/>
+			<KeyFrame Frame="12" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.191593 0.630610 -0.124971 0.741624"/>
+			<KeyFrame Frame="13" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.157878 0.665023 -0.162893 0.711537"/>
+			<KeyFrame Frame="14" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.127797 0.696025 -0.201595 0.677183"/>
+			<KeyFrame Frame="15" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.102197 0.721976 -0.239098 0.641201"/>
+			<KeyFrame Frame="16" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.082289 0.742025 -0.272114 0.607109"/>
+			<KeyFrame Frame="17" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.068120 0.755965 -0.298623 0.578533"/>
+			<KeyFrame Frame="18" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.059708 0.764002 -0.315367 0.559713"/>
+			<KeyFrame Frame="19" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.057384 0.766346 -0.320504 0.553804"/>
+			<KeyFrame Frame="20" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.057237 0.766357 -0.320610 0.553742"/>
+			<KeyFrame Frame="33" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.047275 0.766381 -0.330222 0.548980"/>
+			<KeyFrame Frame="34" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.047285 0.766408 -0.330090 0.549020"/>
+			<KeyFrame Frame="35" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.049995 0.766356 -0.327678 0.550297"/>
+			<KeyFrame Frame="40" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.109581 0.763353 -0.267133 0.577862"/>
+			<KeyFrame Frame="41" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.124385 0.761599 -0.251717 0.584067"/>
+			<KeyFrame Frame="42" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.140957 0.759187 -0.235207 0.590292"/>
+			<KeyFrame Frame="44" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.171484 0.753694 -0.203278 0.601013"/>
+			<KeyFrame Frame="46" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.191651 0.748951 -0.180504 0.608080"/>
+			<KeyFrame Frame="47" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.197496 0.747393 -0.174393 0.609907"/>
+			<KeyFrame Frame="48" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.199231 0.746977 -0.172613 0.610358"/>
+			<KeyFrame Frame="49" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.199235 0.746993 -0.172455 0.610381"/>
+			<KeyFrame Frame="50" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.199235 0.746997 -0.172423 0.610387"/>
+			<KeyFrame Frame="52" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.199235 0.746997 -0.172423 0.610387"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="21">
+			<KeyFrame Frame="0" Translation="-0.001816 -0.006897 -0.001651" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000193 0.000023 -0.000003 1.000000"/>
+			<KeyFrame Frame="52" Translation="-0.001816 -0.006897 -0.001651" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000193 0.000023 -0.000003 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="22">
+			<KeyFrame Frame="0" Translation="0.000000 -1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.519079 0.479965 0.519447 -0.479965"/>
+			<KeyFrame Frame="52" Translation="-0.000000 -1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.519079 0.479965 0.519447 -0.479965"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="23">
+			<KeyFrame Frame="0" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.196687 -0.009962 0.698742 0.687731"/>
+			<KeyFrame Frame="1" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.192681 -0.003170 0.700534 0.687107"/>
+			<KeyFrame Frame="2" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.184892 -0.001990 0.691725 0.698088"/>
+			<KeyFrame Frame="3" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.175028 -0.004605 0.671540 0.719985"/>
+			<KeyFrame Frame="6" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.141704 -0.011324 0.565192 0.812619"/>
+			<KeyFrame Frame="8" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.115304 -0.011756 0.459992 0.880326"/>
+			<KeyFrame Frame="9" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.099784 -0.010796 0.400074 0.910971"/>
+			<KeyFrame Frame="11" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.068162 -0.007372 0.269243 0.960629"/>
+			<KeyFrame Frame="12" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.052205 -0.002598 0.202925 0.977798"/>
+			<KeyFrame Frame="15" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.003184 0.007622 0.015170 0.999851"/>
+			<KeyFrame Frame="18" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.032274 0.012946 -0.119609 0.992212"/>
+			<KeyFrame Frame="19" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.042633 0.014118 -0.149535 0.987736"/>
+			<KeyFrame Frame="20" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.047482 0.014692 -0.163418 0.985304"/>
+			<KeyFrame Frame="22" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.048371 0.015004 -0.166097 0.984808"/>
+			<KeyFrame Frame="26" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.046566 0.015990 -0.144308 0.988307"/>
+			<KeyFrame Frame="29" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.045241 0.015885 -0.145034 0.988264"/>
+			<KeyFrame Frame="30" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.045266 0.015445 -0.154500 0.986835"/>
+			<KeyFrame Frame="31" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.049552 0.014500 -0.170452 0.984012"/>
+			<KeyFrame Frame="32" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.053016 0.013756 -0.182768 0.981629"/>
+			<KeyFrame Frame="36" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.044520 0.008234 -0.153083 0.987176"/>
+			<KeyFrame Frame="39" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.026886 0.007506 -0.078373 0.996533"/>
+			<KeyFrame Frame="40" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.021014 0.009283 -0.051123 0.998428"/>
+			<KeyFrame Frame="43" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.005934 0.018034 0.032469 0.999292"/>
+			<KeyFrame Frame="44" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.001725 0.023903 0.053959 0.998255"/>
+			<KeyFrame Frame="45" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.002713 0.032479 0.077354 0.996471"/>
+			<KeyFrame Frame="47" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.016067 0.059160 0.139719 0.988292"/>
+			<KeyFrame Frame="48" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.022782 0.071469 0.172589 0.982134"/>
+			<KeyFrame Frame="49" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.029529 0.083151 0.202483 0.975302"/>
+			<KeyFrame Frame="50" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.035434 0.093879 0.225623 0.969033"/>
+			<KeyFrame Frame="51" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.039214 0.100279 0.241530 0.964401"/>
+			<KeyFrame Frame="52" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.040067 0.101579 0.245399 0.963252"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="24">
+			<KeyFrame Frame="0" Translation="20.135180 1.766149 -0.167190" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.004244 -0.003311 -0.742613 0.669699"/>
+			<KeyFrame Frame="2" Translation="20.114580 1.710398 -0.167928" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.004805 -0.003515 -0.741069 0.671402"/>
+			<KeyFrame Frame="3" Translation="20.091097 1.646101 -0.168273" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.004964 -0.003613 -0.732904 0.680304"/>
+			<KeyFrame Frame="4" Translation="20.060835 1.562310 -0.168602" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.005241 -0.003966 -0.714675 0.699426"/>
+			<KeyFrame Frame="8" Translation="19.902147 1.103921 -0.169790" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.008798 -0.009475 -0.608216 0.793666"/>
+			<KeyFrame Frame="11" Translation="19.785767 0.731057 -0.170568" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.011374 -0.017487 -0.482055 0.875893"/>
+			<KeyFrame Frame="13" Translation="19.732021 0.522374 -0.171049" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.012008 -0.023631 -0.391253 0.919901"/>
+			<KeyFrame Frame="18" Translation="19.726046 0.252601 -0.172167" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.009996 -0.036025 -0.200307 0.979020"/>
+			<KeyFrame Frame="20" Translation="19.748856 0.193237 -0.172601" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.009160 -0.037727 -0.165462 0.985452"/>
+			<KeyFrame Frame="22" Translation="19.778538 0.150597 -0.173039" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.009176 -0.037902 -0.163008 0.985854"/>
+			<KeyFrame Frame="23" Translation="19.795000 0.134683 -0.173262" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.009210 -0.037918 -0.163804 0.985721"/>
+			<KeyFrame Frame="29" Translation="19.892450 0.093092 -0.174711" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.009731 -0.037788 -0.177357 0.983373"/>
+			<KeyFrame Frame="30" Translation="19.904903 0.091918 -0.174980" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.009477 -0.037852 -0.170753 0.984541"/>
+			<KeyFrame Frame="31" Translation="19.915257 0.091467 -0.175259" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.009047 -0.037806 -0.160172 0.986323"/>
+			<KeyFrame Frame="32" Translation="19.923124 0.091393 -0.175549" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.008670 -0.037457 -0.152036 0.987627"/>
+			<KeyFrame Frame="37" Translation="19.892586 0.180907 -0.177203" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.007811 -0.026665 -0.196021 0.980206"/>
+			<KeyFrame Frame="42" Translation="19.719982 0.377781 -0.179278" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.006975 -0.017120 -0.289715 0.956934"/>
+			<KeyFrame Frame="43" Translation="19.678217 0.420590 -0.179754" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.007173 -0.017162 -0.303809 0.952551"/>
+			<KeyFrame Frame="44" Translation="19.636454 0.462540 -0.180253" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.007506 -0.017504 -0.317655 0.948015"/>
+			<KeyFrame Frame="45" Translation="19.595722 0.502773 -0.180775" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.008226 -0.018812 -0.331045 0.943392"/>
+			<KeyFrame Frame="50" Translation="19.443823 0.648125 -0.183770" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.016888 -0.033120 -0.390460 0.919869"/>
+			<KeyFrame Frame="51" Translation="19.431046 0.660014 -0.193013" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.017741 -0.034319 -0.393445 0.918536"/>
+			<KeyFrame Frame="52" Translation="19.426556 0.664169 -0.201921" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.017914 -0.034666 -0.392209 0.919048"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="25">
+			<KeyFrame Frame="0" Translation="14.719466 -0.082176 -1.706236" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.109233 -0.064924 0.604368 0.786506"/>
+			<KeyFrame Frame="1" Translation="14.711291 -0.292305 -1.660531" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.112609 -0.060269 0.607036 0.784343"/>
+			<KeyFrame Frame="2" Translation="14.689387 -0.561060 -1.540115" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.115672 -0.055504 0.616359 0.776944"/>
+			<KeyFrame Frame="3" Translation="14.657681 -0.859306 -1.369982" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.114834 -0.045162 0.633899 0.763509"/>
+			<KeyFrame Frame="5" Translation="14.580552 -1.427823 -0.980381" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.102682 -0.002229 0.680015 0.725969"/>
+			<KeyFrame Frame="6" Translation="14.542967 -1.699123 -0.742902" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.095743 0.022935 0.702184 0.705156"/>
+			<KeyFrame Frame="7" Translation="14.511261 -1.998410 -0.446039" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.090237 0.048558 0.722025 0.684236"/>
+			<KeyFrame Frame="8" Translation="14.489357 -2.291211 -0.154216" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.089360 0.070081 0.736145 0.667228"/>
+			<KeyFrame Frame="9" Translation="14.481182 -2.543067 0.068167" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.092482 0.082792 0.744272 0.656241"/>
+			<KeyFrame Frame="10" Translation="14.481395 -2.719507 0.156644" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.099156 0.088129 0.747287 0.651124"/>
+			<KeyFrame Frame="11" Translation="14.482031 -2.786005 0.121095" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.105695 0.089346 0.745859 0.651568"/>
+			<KeyFrame Frame="13" Translation="14.484552 -2.744983 -0.121942" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.121676 0.078883 0.739316 0.657559"/>
+			<KeyFrame Frame="16" Translation="14.491395 -2.577744 -0.709901" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.153316 0.052728 0.724443 0.669997"/>
+			<KeyFrame Frame="17" Translation="14.494473 -2.509191 -0.910470" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.163000 0.044208 0.719860 0.673259"/>
+			<KeyFrame Frame="18" Translation="14.497942 -2.440638 -1.090421" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.172600 0.035390 0.714930 0.676632"/>
+			<KeyFrame Frame="20" Translation="14.506041 -2.318899 -1.333459" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.183597 0.023799 0.705927 0.683661"/>
+			<KeyFrame Frame="22" Translation="14.515651 -2.243275 -1.368405" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.184865 0.022609 0.704406 0.684928"/>
+			<KeyFrame Frame="23" Translation="14.521013 -2.232377 -1.366618" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.184914 0.022553 0.704348 0.684976"/>
+			<KeyFrame Frame="30" Translation="14.568530 -2.405654 -1.323767" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.185110 0.022400 0.704152 0.685130"/>
+			<KeyFrame Frame="31" Translation="14.576693 -2.440313 -1.313708" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.184873 0.022458 0.704931 0.684390"/>
+			<KeyFrame Frame="32" Translation="14.585185 -2.472281 -1.302765" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.183862 0.022623 0.708041 0.681440"/>
+			<KeyFrame Frame="35" Translation="14.612601 -2.535718 -1.264957" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.177944 0.023265 0.726435 0.663390"/>
+			<KeyFrame Frame="36" Translation="14.622372 -2.544642 -1.250805" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.176336 0.023548 0.730954 0.658830"/>
+			<KeyFrame Frame="37" Translation="14.632450 -2.549598 -1.235932" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.175687 0.023721 0.732113 0.657710"/>
+			<KeyFrame Frame="38" Translation="14.642835 -2.552162 -1.220372" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.173865 0.022596 0.732395 0.657919"/>
+			<KeyFrame Frame="41" Translation="14.738796 -2.561238 -1.169900" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.159479 0.016124 0.729500 0.664933"/>
+			<KeyFrame Frame="42" Translation="14.782522 -2.569975 -1.151921" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.155607 0.014713 0.728431 0.667052"/>
+			<KeyFrame Frame="43" Translation="14.821583 -2.710309 -1.113479" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.154401 0.014374 0.728323 0.667457"/>
+			<KeyFrame Frame="44" Translation="14.849663 -3.012734 -1.048210" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.153992 0.018704 0.750739 0.642127"/>
+			<KeyFrame Frame="45" Translation="14.860430 -3.546190 -0.976435" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.153590 0.024232 0.782826 0.602500"/>
+			<KeyFrame Frame="46" Translation="14.841019 -3.911950 -0.918461" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.154382 0.025965 0.793616 0.587933"/>
+			<KeyFrame Frame="47" Translation="14.792211 -3.756276 -0.894613" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.159059 0.025577 0.782226 0.601804"/>
+			<KeyFrame Frame="49" Translation="14.662823 -2.877300 -1.098224" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.175999 0.024221 0.737018 0.652105"/>
+			<KeyFrame Frame="51" Translation="14.585061 -2.054496 -1.412850" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.189374 0.022479 0.693665 0.694594"/>
+			<KeyFrame Frame="52" Translation="14.580911 -1.937239 -1.473021" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.190268 0.021849 0.687178 0.700790"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="26">
+			<KeyFrame Frame="0" Translation="6.499695 1.710763 11.497268" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.210493 -0.190963 0.606064 0.742908"/>
+			<KeyFrame Frame="1" Translation="6.502413 1.713876 11.497283" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.204017 -0.191987 0.612058 0.739529"/>
+			<KeyFrame Frame="2" Translation="6.510270 1.722673 11.497328" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.192105 -0.189856 0.595387 0.756680"/>
+			<KeyFrame Frame="3" Translation="6.522816 1.736340 11.497401" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.175600 -0.183647 0.562663 0.786669"/>
+			<KeyFrame Frame="6" Translation="6.584122 1.798439 11.497779" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.115835 -0.148693 0.439353 0.878317"/>
+			<KeyFrame Frame="7" Translation="6.610957 1.823465 11.497953" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.097480 -0.134705 0.392502 0.904596"/>
+			<KeyFrame Frame="10" Translation="6.704404 1.900165 11.498609" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.045550 -0.089309 0.232149 0.967500"/>
+			<KeyFrame Frame="12" Translation="6.773025 1.944539 11.499141" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.022483 -0.062336 0.119403 0.990632"/>
+			<KeyFrame Frame="13" Translation="6.807892 1.962263 11.499433" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.015697 -0.051965 0.067035 0.996273"/>
+			<KeyFrame Frame="15" Translation="6.876512 1.984728 11.500061" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.008886 -0.037874 -0.028154 0.998846"/>
+			<KeyFrame Frame="17" Translation="6.940670 1.987638 11.500742" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.008955 -0.028093 -0.108330 0.993678"/>
+			<KeyFrame Frame="18" Translation="6.969959 1.987043 11.501100" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.010485 -0.023916 -0.137736 0.990125"/>
+			<KeyFrame Frame="20" Translation="7.020727 1.984773 11.501840" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.012642 -0.021271 -0.171178 0.984929"/>
+			<KeyFrame Frame="21" Translation="7.041311 1.983143 11.502221" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.012846 -0.021205 -0.174763 0.984298"/>
+			<KeyFrame Frame="22" Translation="7.058101 1.981215 11.502609" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.012955 -0.021192 -0.174761 0.984298"/>
+			<KeyFrame Frame="23" Translation="7.070647 1.979010 11.503001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.012975 -0.021196 -0.174761 0.984297"/>
+			<KeyFrame Frame="30" Translation="7.007229 1.957786 11.505780" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.012975 -0.021196 -0.174761 0.984297"/>
+			<KeyFrame Frame="31" Translation="6.982121 1.954203 11.506167" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.012975 -0.021196 -0.174761 0.984297"/>
+			<KeyFrame Frame="32" Translation="6.956469 1.950550 11.506549" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.013007 -0.021513 -0.170222 0.985085"/>
+			<KeyFrame Frame="33" Translation="6.931512 1.946852 11.506925" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.012973 -0.021029 -0.176463 0.983997"/>
+			<KeyFrame Frame="34" Translation="6.908491 1.943130 11.507290" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.012935 -0.024036 -0.159201 0.986869"/>
+			<KeyFrame Frame="36" Translation="6.873216 1.935710 11.507993" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.015749 -0.042764 -0.035465 0.998331"/>
+			<KeyFrame Frame="37" Translation="6.863446 1.932058 11.508327" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.018964 -0.053407 0.024881 0.998083"/>
+			<KeyFrame Frame="38" Translation="6.858160 1.928474 11.508649" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.021195 -0.061668 0.052576 0.996486"/>
+			<KeyFrame Frame="39" Translation="6.854971 1.924983 11.508956" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.020925 -0.069536 0.040284 0.996546"/>
+			<KeyFrame Frame="41" Translation="6.852574 1.918367 11.509523" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.015140 -0.084611 -0.037978 0.995575"/>
+			<KeyFrame Frame="42" Translation="6.852213 1.915289 11.509781" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.012345 -0.089744 -0.068748 0.993513"/>
+			<KeyFrame Frame="43" Translation="6.851643 1.912395 11.510019" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.012252 -0.091128 -0.071359 0.993204"/>
+			<KeyFrame Frame="44" Translation="6.850286 1.909708 11.510238" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.014556 -0.091622 -0.049771 0.994443"/>
+			<KeyFrame Frame="46" Translation="6.842906 1.905046 11.510611" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.022593 -0.094733 0.026363 0.994897"/>
+			<KeyFrame Frame="48" Translation="6.787910 1.901488 11.510887" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.032794 -0.098438 0.118583 0.987508"/>
+			<KeyFrame Frame="49" Translation="6.742466 1.900180 11.510988" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.037341 -0.099765 0.158763 0.981553"/>
+			<KeyFrame Frame="50" Translation="6.697992 1.899218 11.511061" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.041143 -0.100336 0.194088 0.974972"/>
+			<KeyFrame Frame="51" Translation="6.664187 1.898623 11.511106" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.043142 -0.100218 0.215867 0.970308"/>
+			<KeyFrame Frame="52" Translation="6.650758 1.898420 11.511121" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.042721 -0.099598 0.221909 0.969026"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="27">
+			<KeyFrame Frame="0" Translation="20.812355 1.234599 0.227030" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.088596 0.064226 -0.772512 0.625501"/>
+			<KeyFrame Frame="1" Translation="20.802820 1.228586 0.226610" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.088793 0.063951 -0.774546 0.622981"/>
+			<KeyFrame Frame="2" Translation="20.775684 1.211447 0.225378" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.087832 0.064733 -0.767954 0.631143"/>
+			<KeyFrame Frame="3" Translation="20.733143 1.184527 0.223380" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.085696 0.066489 -0.752650 0.649425"/>
+			<KeyFrame Frame="6" Translation="20.535063 1.058527 0.213242" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.070522 0.069763 -0.671899 0.733970"/>
+			<KeyFrame Frame="8" Translation="20.366240 0.950259 0.203481" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.055888 0.066311 -0.605940 0.790770"/>
+			<KeyFrame Frame="13" Translation="19.943396 0.672928 0.171198" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.018655 0.042240 -0.382321 0.922875"/>
+			<KeyFrame Frame="18" Translation="19.738743 0.504696 0.132163" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.001523 0.014193 -0.194301 0.980838"/>
+			<KeyFrame Frame="20" Translation="19.737284 0.461839 0.115919" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000089 0.010088 -0.160728 0.986947"/>
+			<KeyFrame Frame="21" Translation="19.736670 0.443322 0.107842" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000010 0.009707 -0.156943 0.987560"/>
+			<KeyFrame Frame="22" Translation="19.736128 0.426678 0.099855" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000040 0.009520 -0.156943 0.987562"/>
+			<KeyFrame Frame="28" Translation="19.734161 0.363342 0.056344" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000040 0.009520 -0.156943 0.987562"/>
+			<KeyFrame Frame="30" Translation="19.733889 0.354940 0.044601" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000040 0.009520 -0.156943 0.987562"/>
+			<KeyFrame Frame="31" Translation="19.733807 0.352898 0.039450" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000040 0.009520 -0.156943 0.987562"/>
+			<KeyFrame Frame="32" Translation="19.733751 0.352228 0.034840" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000004 0.009520 -0.160729 0.986953"/>
+			<KeyFrame Frame="33" Translation="19.733721 0.384761 0.030815" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000051 0.009520 -0.155807 0.987742"/>
+			<KeyFrame Frame="34" Translation="19.733713 0.468641 0.027420" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000270 0.009516 -0.189046 0.981922"/>
+			<KeyFrame Frame="36" Translation="19.776253 0.708249 0.022704" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.002027 0.009302 -0.367545 0.929957"/>
+			<KeyFrame Frame="37" Translation="19.816689 0.822922 0.021472" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.002788 0.009102 -0.443058 0.896442"/>
+			<KeyFrame Frame="38" Translation="19.858589 0.906802 0.021051" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.003055 0.009016 -0.469332 0.882970"/>
+			<KeyFrame Frame="39" Translation="19.893480 0.939335 0.021051" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.002809 0.009096 -0.445120 0.895421"/>
+			<KeyFrame Frame="41" Translation="19.921074 0.798714 0.021051" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.001541 0.009394 -0.318747 0.947792"/>
+			<KeyFrame Frame="43" Translation="19.934114 0.537621 0.021051" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000290 0.009515 -0.191117 0.981521"/>
+			<KeyFrame Frame="44" Translation="19.939117 0.437186 0.021051" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000065 0.009401 -0.169996 0.985400"/>
+			<KeyFrame Frame="45" Translation="19.943218 0.397000 0.021051" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000124 0.009141 -0.181133 0.983416"/>
+			<KeyFrame Frame="47" Translation="19.949055 0.494829 0.021051" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000707 0.008735 -0.253916 0.967187"/>
+			<KeyFrame Frame="49" Translation="19.952290 0.696187 0.021051" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.001567 0.008623 -0.348213 0.937374"/>
+			<KeyFrame Frame="51" Translation="19.953588 0.863043 0.021051" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.002160 0.008494 -0.412213 0.911045"/>
+			<KeyFrame Frame="52" Translation="19.953720 0.890383 0.021051" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.002541 0.009175 -0.418662 0.908092"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="28">
+			<KeyFrame Frame="0" Translation="14.448584 -2.145987 0.651081" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.155611 -0.067438 0.706724 0.686861"/>
+			<KeyFrame Frame="1" Translation="14.469247 -2.384093 0.751865" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.155589 -0.067416 0.706726 0.686866"/>
+			<KeyFrame Frame="2" Translation="14.523707 -2.532259 0.852642" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.155491 -0.067274 0.706869 0.686755"/>
+			<KeyFrame Frame="3" Translation="14.600691 -2.633514 0.952841" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.156686 -0.064767 0.712622 0.680753"/>
+			<KeyFrame Frame="5" Translation="14.777171 -2.867253 1.149225" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.162508 -0.049723 0.741744 0.648795"/>
+			<KeyFrame Frame="7" Translation="14.908616 -3.335407 1.336453" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.167884 -0.029247 0.773932 0.609909"/>
+			<KeyFrame Frame="8" Translation="14.929278 -3.585096 1.425208" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.169777 -0.020326 0.784636 0.595910"/>
+			<KeyFrame Frame="9" Translation="14.926936 -3.774075 1.509964" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.171288 -0.013330 0.788517 0.590528"/>
+			<KeyFrame Frame="10" Translation="14.920429 -3.848953 1.590150" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.172791 -0.007424 0.786909 0.592337"/>
+			<KeyFrame Frame="11" Translation="14.910542 -3.813261 1.665195" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.174741 -0.001926 0.781922 0.598382"/>
+			<KeyFrame Frame="15" Translation="14.852808 -3.182787 1.902552" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.185370 0.020656 0.746685 0.638493"/>
+			<KeyFrame Frame="20" Translation="14.798275 -2.313197 2.019898" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.195994 0.034170 0.704429 0.681322"/>
+			<KeyFrame Frame="22" Translation="14.792930 -2.249959 2.033914" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.196464 0.034458 0.703088 0.682555"/>
+			<KeyFrame Frame="23" Translation="14.790835 -2.238247 2.040020" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.196452 0.034474 0.703105 0.682541"/>
+			<KeyFrame Frame="30" Translation="14.784100 -2.202022 2.068403" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.196433 0.034582 0.703480 0.682154"/>
+			<KeyFrame Frame="31" Translation="14.783904 -2.201238 2.070721" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.196466 0.034394 0.702826 0.682828"/>
+			<KeyFrame Frame="32" Translation="14.783810 -2.201017 2.072684" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.196622 0.033490 0.699676 0.686055"/>
+			<KeyFrame Frame="33" Translation="14.783785 -2.247755 2.074317" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.196711 0.032962 0.697832 0.687931"/>
+			<KeyFrame Frame="34" Translation="14.898469 -2.491316 2.075648" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.195821 0.037892 0.714890 0.670187"/>
+			<KeyFrame Frame="36" Translation="15.402932 -3.724281 2.077506" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.190486 0.059135 0.784066 0.587758"/>
+			<KeyFrame Frame="37" Translation="15.517616 -4.313563 2.078086" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.187577 0.067800 0.810169 0.551221"/>
+			<KeyFrame Frame="38" Translation="15.444452 -4.563601 2.078467" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.186609 0.070419 0.817805 0.539827"/>
+			<KeyFrame Frame="39" Translation="15.270032 -4.288529 2.078677" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.190509 0.064751 0.802979 0.561016"/>
+			<KeyFrame Frame="41" Translation="14.887459 -2.850203 2.078489" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.207305 0.038651 0.733083 0.646622"/>
+			<KeyFrame Frame="42" Translation="14.814294 -2.194456 2.077768" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.211576 0.026603 0.697904 0.683709"/>
+			<KeyFrame Frame="43" Translation="14.815045 -1.919384 2.076637" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.212151 0.021015 0.679569 0.701952"/>
+			<KeyFrame Frame="44" Translation="14.817084 -1.939316 2.075149" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.212006 0.019681 0.674835 0.706586"/>
+			<KeyFrame Frame="45" Translation="14.820088 -1.992776 2.073361" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.211272 0.020395 0.676508 0.705184"/>
+			<KeyFrame Frame="47" Translation="14.827707 -2.162330 2.069111" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.206967 0.025071 0.686276 0.696822"/>
+			<KeyFrame Frame="50" Translation="14.838328 -2.431127 2.061884" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.197851 0.035673 0.709631 0.675282"/>
+			<KeyFrame Frame="51" Translation="14.840368 -2.486678 2.059471" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.196235 0.037649 0.714510 0.670485"/>
+			<KeyFrame Frame="52" Translation="14.841120 -2.514133 2.057149" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.195748 0.038267 0.716174 0.668815"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="29">
+			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="0.000000 1.000000 1.000000" RotationQuat="-nan(ind) -nan(ind) nan -nan(ind)"/>
+			<KeyFrame Frame="52" Translation="0.000000 0.000000 0.000000" Scaling="0.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+	</Animation>
+	<Animation Name="JUMP_THIRD_FALL" Start="0" End="50">
+		<BoneAnimation BoneIndex="0">
+			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="1.000000 0.000000 0.000000 -0.000000"/>
+			<KeyFrame Frame="50" Translation="0.000000 -0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="1.000000 -0.000000 0.000000 -0.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="1">
+			<KeyFrame Frame="0" Translation="0.000000 59.500000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="3" Translation="0.000000 66.001434 3.697303" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.248649 0.000092 0.002029 0.968591"/>
+			<KeyFrame Frame="5" Translation="0.000000 73.544701 9.275372" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.406092 0.000473 0.003147 0.913827"/>
+			<KeyFrame Frame="7" Translation="0.000000 79.162956 15.722733" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.564065 0.000470 0.002557 0.825726"/>
+			<KeyFrame Frame="10" Translation="0.000000 78.399933 29.026182" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.777962 0.001375 -0.000329 0.628309"/>
+			<KeyFrame Frame="12" Translation="0.000000 74.070419 37.557735" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.889201 0.001533 -0.001799 0.457510"/>
+			<KeyFrame Frame="22" Translation="0.000000 39.009914 31.080433" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.851664 0.001232 0.001493 0.524084"/>
+			<KeyFrame Frame="24" Translation="0.000000 37.286907 22.689205" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.739709 0.001364 0.001072 0.672924"/>
+			<KeyFrame Frame="39" Translation="0.000000 57.571712 0.003046" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.044758 0.000000 -0.000000 0.998998"/>
+			<KeyFrame Frame="42" Translation="0.000000 57.730709 -0.007582" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.040927 0.000000 0.000000 0.999162"/>
+			<KeyFrame Frame="50" Translation="0.000000 57.735725 -0.007582" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.040927 0.000000 0.000000 0.999162"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="2">
+			<KeyFrame Frame="0" Translation="0.000000 -1.500000 -4.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="50" Translation="0.000000 -1.500000 -4.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="3">
+			<KeyFrame Frame="0" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.500000 0.499904 0.500000 0.500096"/>
+			<KeyFrame Frame="2" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.535870 0.461247 0.535870 0.461452"/>
+			<KeyFrame Frame="14" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.687165 0.166613 0.687165 0.166876"/>
+			<KeyFrame Frame="17" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.686586 0.168984 0.686586 0.169247"/>
+			<KeyFrame Frame="39" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.541229 0.454946 0.541229 0.455154"/>
+			<KeyFrame Frame="42" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.540225 0.456139 0.540225 0.456346"/>
+			<KeyFrame Frame="50" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.540225 0.456139 0.540225 0.456346"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="4">
+			<KeyFrame Frame="0" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 -0.000000 1.000000"/>
+			<KeyFrame Frame="50" Translation="13.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="5">
+			<KeyFrame Frame="0" Translation="24.000010 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.342481 0.939525"/>
+			<KeyFrame Frame="1" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.353177 0.935556"/>
+			<KeyFrame Frame="5" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.529397 0.848374"/>
+			<KeyFrame Frame="7" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.642363 0.766400"/>
+			<KeyFrame Frame="11" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.872112 0.489307"/>
+			<KeyFrame Frame="12" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.890012 0.455937"/>
+			<KeyFrame Frame="13" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.896392 0.443263"/>
+			<KeyFrame Frame="29" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.852360 0.522956"/>
+			<KeyFrame Frame="32" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.835127 0.550058"/>
+			<KeyFrame Frame="39" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.772889 0.634542"/>
+			<KeyFrame Frame="42" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.770999 0.636836"/>
+			<KeyFrame Frame="50" Translation="24.000010 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.770999 0.636836"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="6">
+			<KeyFrame Frame="0" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+			<KeyFrame Frame="50" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="7">
+			<KeyFrame Frame="0" Translation="0.000008 0.041924 -0.045128" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="50" Translation="0.000008 0.041924 -0.045128" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="8">
+			<KeyFrame Frame="0" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+			<KeyFrame Frame="50" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="9">
+			<KeyFrame Frame="0" Translation="0.001062 -95.999725 4.006519" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="50" Translation="0.001062 -95.999725 4.006519" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="10">
+			<KeyFrame Frame="0" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+			<KeyFrame Frame="50" Translation="-0.000000 -0.000015 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.706811 -0.000382 0.707403 -0.000210"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="11">
+			<KeyFrame Frame="0" Translation="0.000001 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="50" Translation="0.000001 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="12">
+			<KeyFrame Frame="0" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.586313 -0.395268 0.395156 0.586389"/>
+			<KeyFrame Frame="1" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.594509 -0.386783 0.403538 0.578026"/>
+			<KeyFrame Frame="4" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.598421 -0.386125 0.405033 0.573365"/>
+			<KeyFrame Frame="8" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.586101 -0.398673 0.397395 0.582771"/>
+			<KeyFrame Frame="9" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.582400 -0.401011 0.397103 0.585072"/>
+			<KeyFrame Frame="10" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.580684 -0.400186 0.400451 0.585061"/>
+			<KeyFrame Frame="11" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.580425 -0.396765 0.410230 0.580858"/>
+			<KeyFrame Frame="13" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.574102 -0.395293 0.440385 0.565873"/>
+			<KeyFrame Frame="16" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.543499 -0.416343 0.477494 0.550696"/>
+			<KeyFrame Frame="18" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.524857 -0.423260 0.503353 0.540381"/>
+			<KeyFrame Frame="19" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.515274 -0.424607 0.513459 0.539038"/>
+			<KeyFrame Frame="20" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.506347 -0.424153 0.523105 0.538580"/>
+			<KeyFrame Frame="21" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.493389 -0.425838 0.529169 0.543332"/>
+			<KeyFrame Frame="22" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.480645 -0.421130 0.536497 0.551182"/>
+			<KeyFrame Frame="25" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.449977 -0.404080 0.548213 0.577669"/>
+			<KeyFrame Frame="26" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.445150 -0.409781 0.541923 0.583301"/>
+			<KeyFrame Frame="28" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.452776 -0.410712 0.527723 0.589761"/>
+			<KeyFrame Frame="30" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.472241 -0.406627 0.511490 0.591626"/>
+			<KeyFrame Frame="31" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.486706 -0.401990 0.505648 0.588083"/>
+			<KeyFrame Frame="35" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.536846 -0.413815 0.456945 0.575982"/>
+			<KeyFrame Frame="39" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.565744 -0.421831 0.423953 0.567676"/>
+			<KeyFrame Frame="40" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.567314 -0.421692 0.421952 0.567704"/>
+			<KeyFrame Frame="41" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.567469 -0.421876 0.421767 0.567549"/>
+			<KeyFrame Frame="50" Translation="8.000011 1.000000 3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.567469 -0.421876 0.421767 0.567549"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="13">
+			<KeyFrame Frame="0" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 -0.000000 -0.344911 0.938635"/>
+			<KeyFrame Frame="1" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.024510 0.009754 -0.364828 0.930701"/>
+			<KeyFrame Frame="8" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000433 -0.001292 -0.354700 0.934979"/>
+			<KeyFrame Frame="11" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.009831 0.007695 -0.321869 0.946702"/>
+			<KeyFrame Frame="12" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.015064 0.013692 -0.305584 0.951947"/>
+			<KeyFrame Frame="19" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.049750 0.068163 -0.171835 0.981505"/>
+			<KeyFrame Frame="21" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.046280 0.091869 -0.133364 0.985714"/>
+			<KeyFrame Frame="22" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.036701 0.103422 -0.109095 0.987955"/>
+			<KeyFrame Frame="25" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.001128 0.131065 -0.048784 0.990172"/>
+			<KeyFrame Frame="27" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.001249 0.138512 -0.047962 0.989198"/>
+			<KeyFrame Frame="28" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.001667 0.133247 -0.047997 0.989919"/>
+			<KeyFrame Frame="39" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.021613 -0.141488 -0.142918 0.979331"/>
+			<KeyFrame Frame="42" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.021451 -0.145729 -0.144039 0.978548"/>
+			<KeyFrame Frame="43" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.021460 -0.145728 -0.144098 0.978539"/>
+			<KeyFrame Frame="50" Translation="13.999973 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.021460 -0.145728 -0.144098 0.978539"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="14">
+			<KeyFrame Frame="0" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="1.000000 -0.000000 0.000000 0.000096"/>
+			<KeyFrame Frame="1" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.999667 0.000002 -0.025787 0.000096"/>
+			<KeyFrame Frame="8" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="1.000000 0.000000 -0.000671 0.000096"/>
+			<KeyFrame Frame="11" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.999965 0.000001 -0.008341 0.000096"/>
+			<KeyFrame Frame="27" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.996435 0.000008 -0.084364 0.000096"/>
+			<KeyFrame Frame="40" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.999437 0.000003 -0.033550 0.000096"/>
+			<KeyFrame Frame="50" Translation="15.599997 0.000008 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.999437 0.000003 -0.033550 0.000096"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="15">
+			<KeyFrame Frame="0" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.325891 0.435675 -0.556944 0.627531"/>
+			<KeyFrame Frame="1" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.304501 0.437286 -0.545140 0.647212"/>
+			<KeyFrame Frame="2" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.311297 0.432649 -0.538137 0.652931"/>
+			<KeyFrame Frame="8" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.332684 0.425363 -0.561751 0.626756"/>
+			<KeyFrame Frame="11" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.292106 0.470030 -0.537157 0.636560"/>
+			<KeyFrame Frame="12" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.264847 0.491806 -0.525873 0.641436"/>
+			<KeyFrame Frame="17" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.071933 0.582457 -0.456238 0.668892"/>
+			<KeyFrame Frame="21" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.061249 0.617018 -0.379234 0.686818"/>
+			<KeyFrame Frame="22" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.087494 0.619147 -0.366372 0.689037"/>
+			<KeyFrame Frame="24" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.118351 0.616289 -0.344211 0.698355"/>
+			<KeyFrame Frame="25" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.118059 0.616279 -0.330300 0.705099"/>
+			<KeyFrame Frame="27" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.093481 0.622726 -0.290965 0.720287"/>
+			<KeyFrame Frame="28" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.063581 0.626838 -0.255253 0.733401"/>
+			<KeyFrame Frame="39" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.259190 0.574272 0.146753 0.762558"/>
+			<KeyFrame Frame="41" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.263368 0.572369 0.152305 0.761469"/>
+			<KeyFrame Frame="50" Translation="17.999996 -0.000008 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.263368 0.572369 0.152305 0.761469"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="16">
+			<KeyFrame Frame="0" Translation="-0.001823 0.006950 -0.001653" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000001 -0.000033 -0.000165 1.000000"/>
+			<KeyFrame Frame="50" Translation="-0.001823 0.006950 -0.001653" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000001 -0.000033 -0.000165 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="17">
+			<KeyFrame Frame="0" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.586370 0.395230 0.395306 0.586257"/>
+			<KeyFrame Frame="1" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.590408 0.389381 0.401157 0.582128"/>
+			<KeyFrame Frame="8" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.589895 0.394650 0.403323 0.577586"/>
+			<KeyFrame Frame="9" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.585148 0.398801 0.402015 0.580469"/>
+			<KeyFrame Frame="11" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.567854 0.404474 0.404176 0.592101"/>
+			<KeyFrame Frame="14" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.525388 0.420910 0.423698 0.606038"/>
+			<KeyFrame Frame="15" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.512092 0.427955 0.432780 0.606068"/>
+			<KeyFrame Frame="17" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.482587 0.443354 0.445513 0.609971"/>
+			<KeyFrame Frame="19" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.467812 0.449869 0.455267 0.609510"/>
+			<KeyFrame Frame="22" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.466673 0.452745 0.457131 0.606852"/>
+			<KeyFrame Frame="24" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.471820 0.451574 0.455815 0.604731"/>
+			<KeyFrame Frame="31" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.524581 0.433896 0.438560 0.586698"/>
+			<KeyFrame Frame="34" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.543991 0.428652 0.431537 0.578020"/>
+			<KeyFrame Frame="39" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.566279 0.422762 0.422934 0.567210"/>
+			<KeyFrame Frame="41" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.567594 0.421682 0.421961 0.567424"/>
+			<KeyFrame Frame="42" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.567588 0.421748 0.421896 0.567430"/>
+			<KeyFrame Frame="43" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.567564 0.421781 0.421862 0.567454"/>
+			<KeyFrame Frame="50" Translation="7.999996 1.000000 -3.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.567564 0.421781 0.421862 0.567454"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="18">
+			<KeyFrame Frame="0" Translation="13.999975 -0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.344911 0.938635"/>
+			<KeyFrame Frame="1" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.024027 -0.011370 -0.365545 0.930414"/>
+			<KeyFrame Frame="8" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.004487 0.002225 -0.356487 0.934287"/>
+			<KeyFrame Frame="11" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.005915 -0.016148 -0.310585 0.950390"/>
+			<KeyFrame Frame="12" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.011034 -0.024134 -0.287388 0.957447"/>
+			<KeyFrame Frame="19" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.059005 -0.076593 -0.109782 0.989242"/>
+			<KeyFrame Frame="20" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.060994 -0.079501 -0.096550 0.990271"/>
+			<KeyFrame Frame="21" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.060743 -0.080390 -0.090916 0.990748"/>
+			<KeyFrame Frame="22" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.059423 -0.078264 -0.089974 0.991084"/>
+			<KeyFrame Frame="34" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.028217 0.099410 -0.133437 0.985655"/>
+			<KeyFrame Frame="39" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.022731 0.143912 -0.143920 0.978805"/>
+			<KeyFrame Frame="40" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.021740 0.144770 -0.144179 0.978663"/>
+			<KeyFrame Frame="41" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.021401 0.145329 -0.144107 0.978598"/>
+			<KeyFrame Frame="43" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.021460 0.145728 -0.144098 0.978539"/>
+			<KeyFrame Frame="50" Translation="13.999975 0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.021460 0.145728 -0.144098 0.978539"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="19">
+			<KeyFrame Frame="0" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="1" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.024637 0.000000 0.999696"/>
+			<KeyFrame Frame="8" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.008916 0.000000 0.999960"/>
+			<KeyFrame Frame="12" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.070600 0.000000 0.997505"/>
+			<KeyFrame Frame="22" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.344461 0.000000 0.938800"/>
+			<KeyFrame Frame="33" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.151850 0.000000 0.988404"/>
+			<KeyFrame Frame="39" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.036807 0.000000 0.999322"/>
+			<KeyFrame Frame="42" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.033550 0.000000 0.999437"/>
+			<KeyFrame Frame="50" Translation="15.600000 -0.000022 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.033550 0.000000 0.999437"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="20">
+			<KeyFrame Frame="0" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.358546 0.354614 0.611680 0.609541"/>
+			<KeyFrame Frame="1" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.339673 0.360883 0.594551 0.633163"/>
+			<KeyFrame Frame="2" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.334487 0.353183 0.599644 0.635458"/>
+			<KeyFrame Frame="8" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.365470 0.337999 0.620476 0.605969"/>
+			<KeyFrame Frame="10" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.342703 0.386329 0.593671 0.617138"/>
+			<KeyFrame Frame="11" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.306013 0.426766 0.568867 0.632943"/>
+			<KeyFrame Frame="14" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.142404 0.540170 0.489519 0.669559"/>
+			<KeyFrame Frame="16" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.039604 0.593121 0.412638 0.690195"/>
+			<KeyFrame Frame="17" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.025973 0.606358 0.384896 0.695350"/>
+			<KeyFrame Frame="18" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.078038 0.616467 0.345716 0.703106"/>
+			<KeyFrame Frame="19" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.100555 0.619643 0.317778 0.710597"/>
+			<KeyFrame Frame="20" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.099895 0.621011 0.300273 0.717079"/>
+			<KeyFrame Frame="21" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.090230 0.623560 0.286268 0.721860"/>
+			<KeyFrame Frame="39" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.247799 0.579279 -0.131665 0.765308"/>
+			<KeyFrame Frame="42" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.249796 0.578420 -0.134305 0.764849"/>
+			<KeyFrame Frame="50" Translation="17.999992 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.249796 0.578420 -0.134305 0.764849"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="21">
+			<KeyFrame Frame="0" Translation="-0.001816 -0.006897 -0.001651" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000193 0.000023 -0.000003 1.000000"/>
+			<KeyFrame Frame="50" Translation="-0.001816 -0.006897 -0.001651" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000193 0.000023 -0.000003 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="22">
+			<KeyFrame Frame="0" Translation="0.000000 -1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.499952 -0.499952 -0.500048 0.500048"/>
+			<KeyFrame Frame="50" Translation="-0.000000 -1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.499952 -0.499952 -0.500048 0.500048"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="23">
+			<KeyFrame Frame="0" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000281 0.012844 -0.021856 0.999679"/>
+			<KeyFrame Frame="1" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000122 0.012846 0.009491 0.999872"/>
+			<KeyFrame Frame="3" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.002275 0.012644 0.177084 0.984112"/>
+			<KeyFrame Frame="4" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.003309 0.012413 0.257532 0.966184"/>
+			<KeyFrame Frame="5" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.003857 0.012254 0.300244 0.953776"/>
+			<KeyFrame Frame="6" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.004039 0.012195 0.314384 0.949209"/>
+			<KeyFrame Frame="19" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.003983 0.012214 0.310012 0.950646"/>
+			<KeyFrame Frame="23" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.010185 0.010435 0.276825 0.960810"/>
+			<KeyFrame Frame="32" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.041948 0.006971 0.141877 0.988971"/>
+			<KeyFrame Frame="39" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.057765 0.008310 0.079226 0.995147"/>
+			<KeyFrame Frame="41" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.059073 0.008265 0.078217 0.995150"/>
+			<KeyFrame Frame="43" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.059070 0.008284 0.077902 0.995175"/>
+			<KeyFrame Frame="50" Translation="7.000005 2.276733 -11.499998" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.059070 0.008284 0.077902 0.995175"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="24">
+			<KeyFrame Frame="0" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 -0.000000 -0.196407 0.980523"/>
+			<KeyFrame Frame="2" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.187280 0.982307"/>
+			<KeyFrame Frame="10" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.075190 0.997169"/>
+			<KeyFrame Frame="14" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.049259 0.998786"/>
+			<KeyFrame Frame="17" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.055482 0.998460"/>
+			<KeyFrame Frame="18" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.066105 0.997813"/>
+			<KeyFrame Frame="19" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.102310 0.994753"/>
+			<KeyFrame Frame="23" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.475956 0.879469"/>
+			<KeyFrame Frame="25" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.615156 0.788405"/>
+			<KeyFrame Frame="26" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.639272 0.768981"/>
+			<KeyFrame Frame="27" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.638682 0.769471"/>
+			<KeyFrame Frame="39" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.227139 0.973862"/>
+			<KeyFrame Frame="41" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.220037 0.975492"/>
+			<KeyFrame Frame="50" Translation="19.728771 0.000000 -0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.220037 0.975492"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="25">
+			<KeyFrame Frame="0" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.283120 0.959084"/>
+			<KeyFrame Frame="10" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.338244 0.941059"/>
+			<KeyFrame Frame="12" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.377540 0.925993"/>
+			<KeyFrame Frame="19" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.607188 0.794558"/>
+			<KeyFrame Frame="20" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.629278 0.777180"/>
+			<KeyFrame Frame="22" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000826 -0.000959 0.652664 0.757646"/>
+			<KeyFrame Frame="28" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.011520 -0.012973 0.663894 0.747625"/>
+			<KeyFrame Frame="30" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.016113 -0.019882 0.629432 0.776634"/>
+			<KeyFrame Frame="39" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.017945 -0.065332 0.264256 0.962070"/>
+			<KeyFrame Frame="41" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.019504 -0.073541 0.255606 0.963783"/>
+			<KeyFrame Frame="49" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.024148 -0.091052 0.255209 0.962286"/>
+			<KeyFrame Frame="50" Translation="14.461226 0.003265 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.024221 -0.091329 0.255202 0.962260"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="26">
+			<KeyFrame Frame="0" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000282 -0.012940 0.021760 0.999679"/>
+			<KeyFrame Frame="1" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000823 -0.012916 0.063612 0.997891"/>
+			<KeyFrame Frame="3" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.003663 -0.012413 0.283005 0.959031"/>
+			<KeyFrame Frame="4" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.004964 -0.011953 0.383537 0.923435"/>
+			<KeyFrame Frame="5" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.005598 -0.011670 0.432453 0.901564"/>
+			<KeyFrame Frame="6" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.005719 -0.011610 0.441850 0.896995"/>
+			<KeyFrame Frame="19" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.003932 -0.012331 0.303808 0.952645"/>
+			<KeyFrame Frame="25" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.016452 -0.022204 0.400064 0.916071"/>
+			<KeyFrame Frame="32" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.048062 -0.031203 0.586402 0.807990"/>
+			<KeyFrame Frame="39" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.069281 -0.030160 0.694197 0.715808"/>
+			<KeyFrame Frame="41" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.070326 -0.030882 0.695985 0.713937"/>
+			<KeyFrame Frame="42" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.070352 -0.030843 0.696219 0.713708"/>
+			<KeyFrame Frame="50" Translation="7.000005 2.276733 11.499999" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.070422 -0.030775 0.696222 0.713701"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="27">
+			<KeyFrame Frame="0" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 -0.000000 -0.196407 0.980523"/>
+			<KeyFrame Frame="2" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.187280 0.982307"/>
+			<KeyFrame Frame="10" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.075190 0.997169"/>
+			<KeyFrame Frame="14" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.049259 0.998786"/>
+			<KeyFrame Frame="17" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.055482 0.998460"/>
+			<KeyFrame Frame="19" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.097254 0.995260"/>
+			<KeyFrame Frame="25" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.573768 0.819018"/>
+			<KeyFrame Frame="27" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 -0.653826 0.756645"/>
+			<KeyFrame Frame="39" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.859106 0.511798"/>
+			<KeyFrame Frame="42" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.860330 0.509738"/>
+			<KeyFrame Frame="50" Translation="19.728777 0.000000 -0.000002" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.860330 0.509738"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="28">
+			<KeyFrame Frame="0" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.445410 0.895327"/>
+			<KeyFrame Frame="4" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000007 0.000014 0.460624 0.887595"/>
+			<KeyFrame Frame="13" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000020 0.000032 0.517963 0.855403"/>
+			<KeyFrame Frame="19" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000040 0.000063 0.539041 0.842279"/>
+			<KeyFrame Frame="21" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000055 0.000079 0.573061 0.819512"/>
+			<KeyFrame Frame="29" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.006823 0.005770 0.763530 0.645711"/>
+			<KeyFrame Frame="37" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.011727 0.024722 0.428434 0.903159"/>
+			<KeyFrame Frame="39" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.011674 0.029879 0.363730 0.930952"/>
+			<KeyFrame Frame="40" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.012286 0.032052 0.357715 0.933200"/>
+			<KeyFrame Frame="42" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.013775 0.035936 0.357661 0.933058"/>
+			<KeyFrame Frame="50" Translation="14.461230 0.003265 0.000001" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.016911 0.044118 0.357527 0.932707"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="29">
+			<KeyFrame Frame="0" Translation="0.000000 10.000000 10.000000" Scaling="0.000000 1.000000 1.000000" RotationQuat="-nan(ind) -nan(ind) nan -nan(ind)"/>
+			<KeyFrame Frame="50" Translation="0.000000 10.000000 10.000000" Scaling="0.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+	</Animation>
 </AnimationInfo>

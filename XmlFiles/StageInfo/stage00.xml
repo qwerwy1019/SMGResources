@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<StageInfo Name="stage00" SectorSize="500 500 500" SectorUnitNumber="20 20 20">
+<StageInfo Name="stage00" SectorSize="2000 2000 2000" SectorUnitNumber="20 20 20">
 	<Landscape Type="Basic"/>
 	<TerrainObjects>
 		<Terrain Key="homePlanet" ObjectFile="homePlanetGroundObj"	Position="0 0 0" Direction="0 0 -1" UpVector="0 1 0" Size="1.0" IsGround="true" IsWall="false"/>
@@ -10,9 +10,9 @@
 	<CameraPoints>
 	</CameraPoints>
 	<GravityPoints>
-		<GravityPoint Key="0" Type="Point" Gravity="5.0" Radius="4000" Position="0 0 0"/>
+		<GravityPoint Key="0" Type="Point" Gravity="5.0" Radius="5000" Position="0 0 0"/>
 	</GravityPoints>
 	<SpawnInfo>
-		<Spawn CharacterKey="0" Position="0 0 3000" Direction="0 0 -1" UpVector="0 1 0" Size="3" IsTerrain="false"/>
+		<Spawn CharacterKey="0" Position="0 0 3000" Direction="0 0 -1" UpVector="0 1 0" Size="1.5" IsTerrain="false"/>
 	</SpawnInfo>
 </StageInfo>
