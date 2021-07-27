@@ -10,7 +10,7 @@
 	<CameraPoints>
 	</CameraPoints>
 	<GravityPoints>
-		<GravityPoint Key="0" Type="Point" Gravity="5.0" Radius="5000" Position="0 0 0"/>
+		<GravityPoint Key="0" Type="Point" Gravity="50.0" Radius="5000" Position="0 0 0"/>
 	</GravityPoints>
 	<SpawnInfo>
 		<Spawn CharacterKey="0" Position="0 0 3000" Direction="0 0 -1" UpVector="0 1 0" Size="1.5" IsTerrain="false"/>
