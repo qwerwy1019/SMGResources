@@ -14,5 +14,6 @@
 	</GravityPoints>
 	<SpawnInfo>
 		<Spawn CharacterKey="0" Position="0 0 3000" Direction="0 0 -1" UpVector="0 1 0" Size="1.5" IsTerrain="false"/>
+		<Spawn CharacterKey="1" Position="200 0 3000" Direction="0 0 -1" UpVector="0 1 0" Size="0.7" IsTerrain="false"/>
 	</SpawnInfo>
 </StageInfo>
