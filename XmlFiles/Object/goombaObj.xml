@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ObjectInfo IsSkinned="true">
+	<Skeleton FileName="goombaSkeleton"/>
+	<Animation FileName="goombaAnim"/>
+	<Mesh FileName="goombaMesh">
+		<SubMesh Name="body" MaterialFile="goombaMat" MaterialName="body1"/>
+	</Mesh>
+</ObjectInfo>

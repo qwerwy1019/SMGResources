@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
 <CharacterInfo>
 	<Character Key="0" Name="mario" CharacterType="Player" ObjectFile="marioObj" ActionChart="marioAction" CollisionType="Character" CollisionShape="Box" Radius="100" BoxSize="40 70 40"/>
+	<Character Key="1" Name="goomba" CharacterType="Monster" ObjectFile="goombaObj" ActionChart="goombaAction" CollisionType="Character" CollisionShape="Sphere" Radius="100" BoxSize="40 70 40"/>
 </CharacterInfo>

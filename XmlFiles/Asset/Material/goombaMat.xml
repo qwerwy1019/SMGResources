@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<MaterialInfo>
+	<Material Name="body1" DiffuseTexture="goomba\body1" DiffuseAlbedo="0.500000 0.500000 0.500000 1.000000" FresnelR0="0.500000 0.500000 0.500000" Roughness="-19"/>
+</MaterialInfo>
