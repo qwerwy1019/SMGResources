@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<MeshInfo Name="Orbit Sky" IsSkinned="0" TotalVertexCount="518" TotalIndexCount="2376">
+<MeshInfo Name="Orbit Sky" IsSkinned="0" Min="-785132.625000 -331846.750000 -785132.500000" Max="785133.062500 793868.625000 785132.812500" TotalVertexCount="518" TotalIndexCount="2376">
 	<SubMesh Name="city" VertexCount="16" IndexCount="24" MaterialFile="orbitSkyMat" MaterialName="city">
 		<Vertices>
 			<Vertex Position="-120645.703125 -118712.101562 637962.312500" Normal="0.000000 1.000000 -0.000000" TexCoord="1.000000 -1.000000"/>

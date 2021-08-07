@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<MeshInfo Name="body" IsSkinned="-1" TotalVertexCount="1956" TotalIndexCount="1956">
+<MeshInfo Name="body" IsSkinned="-1" Min="-70 -70 -100" Max="70 70 100" TotalVertexCount="1956" TotalIndexCount="1956">
 	<SubMesh Name="body" VertexCount="1956" IndexCount="1956" MaterialFile="goomba" MaterialName="body1">
 		<Vertices>
 			<Vertex Position="-14.240618 7.809058 48.914959" Normal="-0.091547 0.042733 -0.994883" TexCoord="0.663757 -0.971375" Weight="0.992561 0.007439 0.000000" BoneIndex="9 10 255 255"/>
