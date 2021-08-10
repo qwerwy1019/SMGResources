@@ -1,98 +1,110 @@
 <?xml version="1.0"?>
-<ActionStates>
-	<IDLE Animation="IDLE" BlendTick="100">
-		<Branch State="SPIN_ATTACK" Condition="Key_Down_XY"/>
-		<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
-		<Branch State="DUCK" Condition="Key_Press_ZL"/>
-		<Branch State="RUN" Condition="Stick_L_Move"/>
-		<Branch State="IDLE" Condition="End"/>
-		<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="100" MoveType="CharacterDirection" Condition=""/>
-	</IDLE>
-	<SPIN_ATTACK Animation="SPIN_ATTACK" BlendTick="100">
-		<Branch State="IDLE" Condition="End"/>
-	</SPIN_ATTACK>
-	<DUCK Animation="DUCK_IDLE" BlendTick="70">
-		<Branch State="IDLE" Condition="!Key_Press_ZL"/>
-		<Branch State="DUCK_WALK" Condition="Stick_L_Move"/>
-		<Branch State="DUCK" Condition="End"/>
-		<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="100" MoveType="CharacterDirection" Condition=""/>
-	</DUCK>
-	<DUCK_STOP Animation="DUCK_IDLE" BlendTick="70">
-		<Branch State="IDLE" Condition="!Key_Press_ZL"/>
-		<Branch State="DUCK_WALK" Condition="IsStop Stick_L_Move"/>
-		<Branch State="DUCK" Condition="IsStop"/>
-		<Branch State="DUCK_STOP" Condition="End"/>
-		<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
-		<FrameEvent Tick="0" Type="Rotate" Speed="0.01" Offset="0" RotateType="Fixed" Condition=""/>
-	</DUCK_STOP>
-	<DUCK_WALK Animation="DUCK_WALK" BlendTick="70">
-		<Branch State="IDLE" Condition="!Key_Press_ZL"/>
-		<Branch State="DUCK" Condition="!Stick_L_Move"/>
-		<Branch State="BACK_TUMBLING" Condition="Key_Down_AB"/>
-		<Branch State="DUCK_WALK" Condition="End"/>
-		<FrameEvent Tick="0" Type="Speed" TargetSpeed="5" Acceleration="2" MoveType="CharacterDirection" Condition=""/>
-	</DUCK_WALK>
-	<RUN Animation="RUN" BlendTick="100">
-		<Branch State="IDLE" Condition="!Stick_L_Move"/>
-		<Branch State="DUCK_STOP" Condition="Key_Press_ZL"/>
-		<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
-		<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
-		<Branch State="RUN" Condition="End"/>
-		<FrameEvent Tick="0" Type="Speed" TargetSpeed="10" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
-		<FrameEvent Tick="0" Type="Rotate" Speed="0.005" Offset="0" RotateType="JoystickInput" Condition=""/>
-	</RUN>
-	<RUN_FIRST_JUMP Animation="RUN" BlendTick="100">
-		<Branch State="IDLE" Condition="!Stick_L_Move"/>
-		<Branch State="DUCK_STOP" Condition="Key_Press_ZL"/>
-		<Branch State="JUMP_SECOND" Condition="Tick_0_500 Key_Down_AB"/>
-		<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
-		<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
-		<Branch State="RUN" Condition="End"/>
-		<FrameEvent Tick="0" Type="Speed" TargetSpeed="10" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
-		<FrameEvent Tick="0" Type="Rotate" Speed="0.005" Offset="0" RotateType="JoystickInput" Condition=""/>
-	</RUN_FIRST_JUMP>
-	<RUN_SECOND_JUMP Animation="RUN" BlendTick="100">
-		<Branch State="IDLE" Condition="!Stick_L_Move"/>
-		<Branch State="DUCK_STOP" Condition="Key_Press_ZL"/>
-		<Branch State="JUMP_THIRD" Condition="Tick_0_500 Key_Down_AB"/>
-		<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
-		<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
-		<Branch State="RUN" Condition="End"/>
-		<FrameEvent Tick="0" Type="Speed" TargetSpeed="10" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
-		<FrameEvent Tick="0" Type="Rotate" Speed="0.005" Offset="0" RotateType="JoystickInput" Condition=""/>
-	</RUN_SECOND_JUMP>
-	<JUMP_FIRST Animation="JUMP_FIRST" BlendTick="30">
-		<Branch State="LANDING" Condition="OnGround !Stick_L_Move"/>
-		<Branch State="RUN_FIRST_JUMP" Condition="OnGround Stick_L_Move"/>
-		<!-- <Branch State="HANGING_EDGE" Condition="GroundEdge"/> -->
-		<FrameEvent Tick="0" Type="Rotate" Speed="1" Offset="0" RotateType="Fixed" Condition=""/>
-		<FrameEvent Tick="0" Type="Jump" Speed="-20" TargetFallSpeed="40" Condition=""/>
-	</JUMP_FIRST>
-	<JUMP_SECOND Animation="JUMP_SECOND" BlendTick="300">
-		<Branch State="JUMP_SECOND_FALL" Condition="Falling"/>
-		<!-- <Branch State="HANGING_EDGE" Condition="End"/> -->
-		<FrameEvent Tick="0" Type="Rotate" Speed="1" Offset="0" RotateType="Fixed" Condition=""/>
-		<FrameEvent Tick="0" Type="Jump" Speed="-25" TargetFallSpeed="40" Condition=""/>
-	</JUMP_SECOND>
-	<JUMP_SECOND_FALL Animation="JUMP_SECOND_FALL" BlendTick="200">
-		<Branch State="LANDING" Condition="OnGround !Stick_L_Move"/>
-		<!-- <Branch State="HANGING_EDGE" Condition="End"/> -->
-		<Branch State="RUN_SECOND_JUMP" Condition="OnGround Stick_L_Move"/>
-	</JUMP_SECOND_FALL>
-	<JUMP_THIRD Animation="JUMP_SECOND" BlendTick="30">
-		<Branch State="JUMP_THIRD_FALL" Condition="Falling"/>
-		<!-- <Branch State="HANGING_EDGE" Condition="End"/> -->
-		<FrameEvent Tick="0" Type="Rotate" Speed="1" Offset="0" RotateType="Fixed" Condition=""/>
-		<FrameEvent Tick="0" Type="Jump" Speed="-30" TargetFallSpeed="40" Condition=""/>
-	</JUMP_THIRD>
-	<JUMP_THIRD_FALL Animation="JUMP_THIRD_FALL" BlendTick="200">
-		<Branch State="LANDING" Condition="OnGround !Stick_L_Move"/>
-		<!-- <Branch State="HANGING_EDGE" Condition="End"/> -->
-		<Branch State="RUN" Condition="OnGround Stick_L_Move"/>
-	</JUMP_THIRD_FALL>
-	<LANDING Animation="LANDING1" BlendTick="200">
-		<Branch State="IDLE" Condition="End"/>
-		<Branch State="RUN" Condition="Stick_L_Move"/>
-		<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="100" MoveType="CharacterDirection" Condition=""/>
-	</LANDING>
-</ActionStates>
+<ActionChart>
+	<ActionStates>
+		<IDLE Animation="IDLE" BlendTick="100">
+			<Branch State="SPIN_ATTACK" Condition="Key_Down_XY"/>
+			<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
+			<Branch State="DUCK" Condition="Key_Press_ZL"/>
+			<Branch State="RUN" Condition="Stick_L_Move"/>
+			<Branch State="IDLE" Condition="End"/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="100" MoveType="CharacterDirection" Condition=""/>
+		</IDLE>
+		<SPIN_ATTACK Animation="SPIN_ATTACK" BlendTick="100">
+			<Branch State="IDLE" Condition="End"/>
+		</SPIN_ATTACK>
+		<DUCK Animation="DUCK_IDLE" BlendTick="70">
+			<Branch State="IDLE" Condition="!Key_Press_ZL"/>
+			<Branch State="DUCK_WALK" Condition="Stick_L_Move"/>
+			<Branch State="DUCK" Condition="End"/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="100" MoveType="CharacterDirection" Condition=""/>
+		</DUCK>
+		<DUCK_STOP Animation="DUCK_IDLE" BlendTick="70">
+			<Branch State="IDLE" Condition="!Key_Press_ZL"/>
+			<Branch State="DUCK_WALK" Condition="IsStop Stick_L_Move"/>
+			<Branch State="DUCK" Condition="IsStop"/>
+			<Branch State="DUCK_STOP" Condition="End"/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="0.01" Offset="0" RotateType="Fixed" Condition=""/>
+		</DUCK_STOP>
+		<DUCK_WALK Animation="DUCK_WALK" BlendTick="70">
+			<Branch State="IDLE" Condition="!Key_Press_ZL"/>
+			<Branch State="DUCK" Condition="!Stick_L_Move"/>
+			<Branch State="BACK_TUMBLING" Condition="Key_Down_AB"/>
+			<Branch State="DUCK_WALK" Condition="End"/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="5" Acceleration="2" MoveType="CharacterDirection" Condition=""/>
+		</DUCK_WALK>
+		<RUN Animation="RUN" BlendTick="100">
+			<Branch State="IDLE" Condition="!Stick_L_Move"/>
+			<Branch State="DUCK_STOP" Condition="Key_Press_ZL"/>
+			<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
+			<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
+			<Branch State="RUN" Condition="End"/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="10" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="0.005" Offset="0" RotateType="JoystickInput" Condition=""/>
+		</RUN>
+		<RUN_FIRST_JUMP Animation="RUN" BlendTick="100">
+			<Branch State="IDLE" Condition="!Stick_L_Move"/>
+			<Branch State="DUCK_STOP" Condition="Key_Press_ZL"/>
+			<Branch State="JUMP_SECOND" Condition="Tick_0_500 Key_Down_AB"/>
+			<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
+			<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
+			<Branch State="RUN" Condition="End"/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="10" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="0.005" Offset="0" RotateType="JoystickInput" Condition=""/>
+		</RUN_FIRST_JUMP>
+		<RUN_SECOND_JUMP Animation="RUN" BlendTick="100">
+			<Branch State="IDLE" Condition="!Stick_L_Move"/>
+			<Branch State="DUCK_STOP" Condition="Key_Press_ZL"/>
+			<Branch State="JUMP_THIRD" Condition="Tick_0_500 Key_Down_AB"/>
+			<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
+			<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
+			<Branch State="RUN" Condition="End"/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="10" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="0.005" Offset="0" RotateType="JoystickInput" Condition=""/>
+		</RUN_SECOND_JUMP>
+		<JUMP_FIRST Animation="JUMP_FIRST" BlendTick="30">
+			<Branch State="LANDING" Condition="OnGround !Stick_L_Move"/>
+			<Branch State="RUN_FIRST_JUMP" Condition="OnGround Stick_L_Move"/>
+			<!-- <Branch State="HANGING_EDGE" Condition="GroundEdge"/> -->
+			<FrameEvent Tick="0" Type="Rotate" Speed="1" Offset="0" RotateType="Fixed" Condition=""/>
+			<FrameEvent Tick="0" Type="Jump" Speed="-20" TargetFallSpeed="40" Condition=""/>
+		</JUMP_FIRST>
+		<JUMP_SECOND Animation="JUMP_SECOND" BlendTick="300">
+			<Branch State="JUMP_SECOND_FALL" Condition="Falling"/>
+			<!-- <Branch State="HANGING_EDGE" Condition="End"/> -->
+			<FrameEvent Tick="0" Type="Rotate" Speed="1" Offset="0" RotateType="Fixed" Condition=""/>
+			<FrameEvent Tick="0" Type="Jump" Speed="-25" TargetFallSpeed="40" Condition=""/>
+		</JUMP_SECOND>
+		<JUMP_SECOND_FALL Animation="JUMP_SECOND_FALL" BlendTick="200">
+			<Branch State="LANDING" Condition="OnGround !Stick_L_Move"/>
+			<!-- <Branch State="HANGING_EDGE" Condition="End"/> -->
+			<Branch State="RUN_SECOND_JUMP" Condition="OnGround Stick_L_Move"/>
+		</JUMP_SECOND_FALL>
+		<JUMP_THIRD Animation="JUMP_SECOND" BlendTick="30">
+			<Branch State="JUMP_THIRD_FALL" Condition="Falling"/>
+			<!-- <Branch State="HANGING_EDGE" Condition="End"/> -->
+			<FrameEvent Tick="0" Type="Rotate" Speed="1" Offset="0" RotateType="Fixed" Condition=""/>
+			<FrameEvent Tick="0" Type="Jump" Speed="-30" TargetFallSpeed="40" Condition=""/>
+		</JUMP_THIRD>
+		<JUMP_THIRD_FALL Animation="JUMP_THIRD_FALL" BlendTick="200">
+			<Branch State="LANDING" Condition="OnGround !Stick_L_Move"/>
+			<!-- <Branch State="HANGING_EDGE" Condition="End"/> -->
+			<Branch State="RUN" Condition="OnGround Stick_L_Move"/>
+		</JUMP_THIRD_FALL>
+		<LANDING Animation="LANDING1" BlendTick="200">
+			<Branch State="IDLE" Condition="End"/>
+			<Branch State="RUN" Condition="Stick_L_Move"/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="100" MoveType="CharacterDirection" Condition=""/>
+		</LANDING>
+		<!-- 미구현 액션들 -->
+		<DRIFT Animation="IDLE" BlendTick="0"/>
+		<BACK_TUMBLING Animation="IDLE" BlendTick="0"/>
+	</ActionStates>
+	<CollisionHandlers>
+		<Handler Case="Upper" SelfCondition="CheckAction_SPIN_ATTACK" TargetCondition="CharacterType_Monster">
+			<CollisionEvent Type="RotateToTarget" Offset="0" Speed="10"/>
+			<!-- <CollisionEvent Type="CallFunction" Name="PointUp"/> -->
+			<CollisionEvent Type="SetAction" State="JUMP_FIRST"/>
+		</Handler>
+	</CollisionHandlers>
+</ActionChart>
