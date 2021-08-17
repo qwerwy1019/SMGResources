@@ -6,7 +6,8 @@
 		<SubMesh Name="groof" MaterialFile="homePlanetMat" MaterialName="groof"/>
 		<SubMesh Name="gdoor" MaterialFile="homePlanetMat" MaterialName="gdoor"/>
 		<SubMesh Name="stump" MaterialFile="homePlanetMat" MaterialName="stump"/>
-		<SubMesh Name="rock" MaterialFile="homePlanetMat" MaterialName="rock"/>
+		<SubMesh Name="rock_wall" MaterialFile="homePlanetMat" MaterialName="rock"/>
 		<SubMesh Name="tree" MaterialFile="homePlanetMat" MaterialName="tree"/>
+		<SubMesh Name="dirt_wall" MaterialFile="homePlanetMat" MaterialName="dirt"/>
 	</Mesh>
 </ObjectInfo>

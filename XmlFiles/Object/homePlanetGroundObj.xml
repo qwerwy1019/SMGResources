@@ -5,5 +5,7 @@
 		<SubMesh Name="grass" MaterialFile="homePlanetMat" MaterialName="grass"/>
 		<SubMesh Name="dirt" MaterialFile="homePlanetMat" MaterialName="dirt"/>
 		<SubMesh Name="wood" MaterialFile="homePlanetMat" MaterialName="wood"/>
+		<SubMesh Name="rock" MaterialFile="homePlanetMat" MaterialName="rock"/>
+		<SubMesh Name="pebbles" MaterialFile="homePlanetMat" MaterialName="pebbles"/>
 	</Mesh>
 </ObjectInfo>

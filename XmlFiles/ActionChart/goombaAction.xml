@@ -27,6 +27,19 @@
 			<Branch State="RUN" Condition="End"/>
 			<FrameEvent Tick="0" Type="Speed" TargetSpeed="10" Acceleration="3" MoveType="CharacterDirection" Condition=""/>
 		</RUN>
+		<DIE_READY Animation="DIE" BlendTick="100">
+			<Branch State="DIE" Condition="End"/>
+		</DIE_READY>
+		<DIE Animation="DIE" BlendTick="3000">
+			<FrameEvent Tick="0" Type="Die" Condition=""/>
+			<FrameEvent Tick="0" Type="SpawnCharacter" CharacterKey="1" Position="0 0 200" Size="1" Condition=""/>
+		</DIE>
 	</ActionStates>
-	<CollisionHandlers/>
+	<CollisionHandlers>
+		<Handler Case="Lower" SelfCondition="" TargetCondition="CharacterType_Player">
+			<!-- <CollisionEvent Type="RotateToTarget" Speed="10"/> -->
+			<!-- <CollisionEvent Type="CallFunction" Name="PointUp"/> -->
+			<CollisionEvent Type="SetAction" State="DIE_READY"/>
+		</Handler>
+	</CollisionHandlers>
 </ActionChart>

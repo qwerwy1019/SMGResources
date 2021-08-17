@@ -40,7 +40,7 @@
 			<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
 			<Branch State="RUN" Condition="End"/>
 			<FrameEvent Tick="0" Type="Speed" TargetSpeed="10" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
-			<FrameEvent Tick="0" Type="Rotate" Speed="0.005" Offset="0" RotateType="JoystickInput" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="0.001" Offset="0" RotateType="JoystickInput" Condition=""/>
 		</RUN>
 		<RUN_FIRST_JUMP Animation="RUN" BlendTick="100">
 			<Branch State="IDLE" Condition="!Stick_L_Move"/>
@@ -50,7 +50,7 @@
 			<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
 			<Branch State="RUN" Condition="End"/>
 			<FrameEvent Tick="0" Type="Speed" TargetSpeed="10" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
-			<FrameEvent Tick="0" Type="Rotate" Speed="0.005" Offset="0" RotateType="JoystickInput" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="0.001" Offset="0" RotateType="JoystickInput" Condition=""/>
 		</RUN_FIRST_JUMP>
 		<RUN_SECOND_JUMP Animation="RUN" BlendTick="100">
 			<Branch State="IDLE" Condition="!Stick_L_Move"/>
@@ -60,7 +60,7 @@
 			<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
 			<Branch State="RUN" Condition="End"/>
 			<FrameEvent Tick="0" Type="Speed" TargetSpeed="10" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
-			<FrameEvent Tick="0" Type="Rotate" Speed="0.005" Offset="0" RotateType="JoystickInput" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="0.001" Offset="0" RotateType="JoystickInput" Condition=""/>
 		</RUN_SECOND_JUMP>
 		<JUMP_FIRST Animation="JUMP_FIRST" BlendTick="30">
 			<Branch State="LANDING" Condition="OnGround !Stick_L_Move"/>
@@ -101,8 +101,8 @@
 		<BACK_TUMBLING Animation="IDLE" BlendTick="0"/>
 	</ActionStates>
 	<CollisionHandlers>
-		<Handler Case="Upper" SelfCondition="CheckAction_SPIN_ATTACK" TargetCondition="CharacterType_Monster">
-			<CollisionEvent Type="RotateToTarget" Offset="0" Speed="10"/>
+		<Handler Case="Upper" SelfCondition="" TargetCondition="CharacterType_Monster">
+			<CollisionEvent Type="RotateToTarget" Speed="10"/>
 			<!-- <CollisionEvent Type="CallFunction" Name="PointUp"/> -->
 			<CollisionEvent Type="SetAction" State="JUMP_FIRST"/>
 		</Handler>

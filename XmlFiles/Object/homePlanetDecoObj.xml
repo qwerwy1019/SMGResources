@@ -7,6 +7,5 @@
 		<SubMesh Name="yflower" MaterialFile="homePlanetMat" MaterialName="yflower"/>
 		<SubMesh Name="brass" MaterialFile="homePlanetMat" MaterialName="brass"/>
 		<SubMesh Name="leaf" MaterialFile="homePlanetMat" MaterialName="leaf"/>
-		<SubMesh Name="pebbles" MaterialFile="homePlanetMat" MaterialName="pebbles"/>
 	</Mesh>
 </ObjectInfo>
