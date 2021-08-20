@@ -1,14 +1,18 @@
 <?xml version="1.0"?>
 <StageInfo Name="stage00" SectorSize="2000 2000 2000" SectorUnitNumber="20 20 20">
 	<Lights>
+		<Light Type="Ambient" Strength="0.4 0.4 0.6 1.0"/>
 		<!-- 주광 -->
-		<Light Type="Directional" Strength="0.5 0.5 0.4" Direction="0 0 -1"/>
+		<Light Type="Directional" Strength="0.4 0.4 0.3" Direction="0 0 -1"/>
 		<!-- 보조광 -->
 		<Light Type="Directional" Strength="0.3 0.3 0.2" Direction="1 0 0"/>
 		<!-- 역광 -->
 		<Light Type="Directional" Strength="0.2 0.2 0.4" Direction="0 0 1"/>
 	</Lights>
 	<Landscape Type="Basic"/>
+	<EffectFiles>
+		<EffectFile FileName="commonEffect"/>
+	</EffectFiles>
 	<TerrainObjects>
 		<Terrain Key="homePlanet" ObjectFile="homePlanetGroundObj"	Position="0 0 0" Direction="0 0 -1" UpVector="0 1 0" Size="1.0" IsGround="true" IsWall="false"/>
 		<Terrain Key="homePlanet" ObjectFile="homePlanetWallObj"	Position="0 0 0" Direction="0 0 -1" UpVector="0 1 0" Size="1.0" IsGround="false" IsWall="true"/>

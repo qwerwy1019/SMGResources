@@ -39,8 +39,15 @@
 			<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
 			<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
 			<Branch State="RUN" Condition="End"/>
-			<FrameEvent Tick="0" Type="Speed" TargetSpeed="10" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="15" Acceleration="15" MoveType="CharacterDirection" Condition=""/>
 			<FrameEvent Tick="0" Type="Rotate" Speed="0.001" Offset="0" RotateType="JoystickInput" Condition=""/>
+			<!-- 가속/감속 구름 -->
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="20 -65 -20" Size="15" Condition="CheckSpeed_0_14"/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 20" Size="15" Condition="CheckSpeed_0_14"/>
+			<FrameEvent Tick="150" Type="Effect" Name="dustCloud" Position="20 -65 20" Size="15" Condition="CheckSpeed_0_14"/>
+			<FrameEvent Tick="150" Type="Effect" Name="dustCloud" Position="-20 -65 -20" Size="15" Condition="CheckSpeed_0_14"/>
+			<FrameEvent Tick="300" Type="Effect" Name="dustCloud" Position="20 -65 20" Size="15" Condition="CheckSpeed_0_14"/>
+			<FrameEvent Tick="300" Type="Effect" Name="dustCloud" Position="-20 -65 20" Size="15" Condition="CheckSpeed_0_14"/>
 		</RUN>
 		<RUN_FIRST_JUMP Animation="RUN" BlendTick="100">
 			<Branch State="IDLE" Condition="!Stick_L_Move"/>
@@ -49,8 +56,15 @@
 			<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
 			<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
 			<Branch State="RUN" Condition="End"/>
-			<FrameEvent Tick="0" Type="Speed" TargetSpeed="10" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="15" Acceleration="15" MoveType="CharacterDirection" Condition=""/>
 			<FrameEvent Tick="0" Type="Rotate" Speed="0.001" Offset="0" RotateType="JoystickInput" Condition=""/>
+			<!-- 착지구름 -->
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="20 -65 35" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="40 -65 0" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="20 -65 -35" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 -35" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 35" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-40 -65 0" Size="15" Condition=""/>
 		</RUN_FIRST_JUMP>
 		<RUN_SECOND_JUMP Animation="RUN" BlendTick="100">
 			<Branch State="IDLE" Condition="!Stick_L_Move"/>
@@ -59,9 +73,32 @@
 			<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
 			<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
 			<Branch State="RUN" Condition="End"/>
-			<FrameEvent Tick="0" Type="Speed" TargetSpeed="10" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="15" Acceleration="15" MoveType="CharacterDirection" Condition=""/>
 			<FrameEvent Tick="0" Type="Rotate" Speed="0.001" Offset="0" RotateType="JoystickInput" Condition=""/>
+			<!-- 착지구름 -->
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="20 -65 35" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="40 -65 0" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="20 -65 -35" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 -35" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 35" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-40 -65 0" Size="15" Condition=""/>
 		</RUN_SECOND_JUMP>
+		<RUN_THIRD_JUMP Animation="RUN" BlendTick="100">
+			<Branch State="IDLE" Condition="!Stick_L_Move"/>
+			<Branch State="DUCK_STOP" Condition="Key_Press_ZL"/>
+			<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
+			<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
+			<Branch State="RUN" Condition="End"/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="15" Acceleration="15" MoveType="CharacterDirection" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="0.001" Offset="0" RotateType="JoystickInput" Condition=""/>
+			<!-- 착지구름 -->
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="20 -65 35" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="40 -65 0" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="20 -65 -35" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 -35" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 35" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-40 -65 0" Size="15" Condition=""/>
+		</RUN_THIRD_JUMP>
 		<JUMP_FIRST Animation="JUMP_FIRST" BlendTick="30">
 			<Branch State="LANDING" Condition="OnGround !Stick_L_Move"/>
 			<Branch State="RUN_FIRST_JUMP" Condition="OnGround Stick_L_Move"/>
@@ -89,12 +126,19 @@
 		<JUMP_THIRD_FALL Animation="JUMP_THIRD_FALL" BlendTick="200">
 			<Branch State="LANDING" Condition="OnGround !Stick_L_Move"/>
 			<!-- <Branch State="HANGING_EDGE" Condition="End"/> -->
-			<Branch State="RUN" Condition="OnGround Stick_L_Move"/>
+			<Branch State="RUN_THIRD_JUMP" Condition="OnGround Stick_L_Move"/>
 		</JUMP_THIRD_FALL>
 		<LANDING Animation="LANDING1" BlendTick="200">
 			<Branch State="IDLE" Condition="End"/>
 			<Branch State="RUN" Condition="Stick_L_Move"/>
 			<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="100" MoveType="CharacterDirection" Condition=""/>
+			<!-- 착지구름 -->
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="20 -65 35" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="40 -65 0" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="20 -65 -35" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 -35" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 35" Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-40 -65 0" Size="15" Condition=""/>
 		</LANDING>
 		<!-- 미구현 액션들 -->
 		<DRIFT Animation="IDLE" BlendTick="0"/>
