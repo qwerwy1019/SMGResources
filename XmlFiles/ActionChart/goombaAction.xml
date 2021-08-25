@@ -1,38 +1,51 @@
 <?xml version="1.0"?>
 <ActionChart>
+	<Variables>
+		<Variable Name="PathKey" Value="11"/>
+	</Variables>
 	<ActionStates>
 		<IDLE Animation="IDLE" BlendTick="100">
 			<Branch State="WALK" Condition="End Random_30"/>
 			<Branch State="IDLE" Condition="End"/>
-			<Branch State="ALERT" Condition="CheckPlayerDistance_0_300 CheckPlayerAltitude_-30_30"/>
+			<Branch State="ALERT" Condition="CheckPlayerDistance_0_100 CheckPlayerAltitude_-30_30"/>
 			<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="100" MoveType="CharacterDirection" Condition=""/>
 			<FrameEvent Tick="0" Type="Rotate" Speed="0.0015" Offset="0.5" RotateType="Fixed" Condition="Random_30"/>
 			<FrameEvent Tick="0" Type="Rotate" Speed="0.0015" Offset="-0.5" RotateType="Fixed" Condition="Random_30"/>
+			<FrameEvent Tick="0" Type="FallSpeed" TargetFallSpeed="20" Acceleration="1.5" Condition=""/>
 		</IDLE>
 		<WALK Animation="WALK" BlendTick="50">
 			<Branch State="WALK" Condition="End Random_80"/>
 			<Branch State="IDLE" Condition="End"/>
-			<Branch State="ALERT" Condition="CheckPlayerDistance_0_300 CheckPlayerAltitude_-30_30"/>
-			<FrameEvent Tick="0" Type="Speed" TargetSpeed="5" Acceleration="2" MoveType="CharacterDirection" Condition=""/>
+			<Branch State="ALERT" Condition="CheckPlayerDistance_0_100 CheckPlayerAltitude_-30_30"/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="1" Acceleration="2" MoveType="CharacterDirection" Condition=""/>
 		</WALK>
 		<ALERT Animation="ALERT" BlendTick="100">
-			<Branch State="IDLE" Condition="End !CheckPlayerDistance_0_300"/>
+			<Branch State="IDLE" Condition="End !CheckPlayerDistance_0_100"/>
 			<Branch State="IDLE" Condition="End !CheckPlayerAltitude_-30_30"/>
 			<Branch State="RUN" Condition="End"/>
 			<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="100" MoveType="CharacterDirection" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="0.005" Offset="0" RotateType="ToPlayer" Condition=""/>
 		</ALERT>
 		<RUN Animation="RUN" BlendTick="100">
-			<Branch State="IDLE" Condition="!CheckPlayerDistance_0_300"/>
+			<Branch State="IDLE" Condition="!CheckPlayerDistance_0_100"/>
 			<Branch State="IDLE" Condition="!CheckPlayerAltitude_-30_30"/>
 			<Branch State="RUN" Condition="End"/>
-			<FrameEvent Tick="0" Type="Speed" TargetSpeed="10" Acceleration="3" MoveType="CharacterDirection" Condition=""/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="1.8" Acceleration="2" MoveType="CharacterDirection" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="0.005" Offset="0" RotateType="ToPlayer" Condition=""/>
 		</RUN>
+		<ATTACK_READY Animation="IDLE" BlendTick="100">
+			<Branch State="IDLE" Condition="!CheckPlayerDistance_0_100"/>
+			<Branch State="IDLE" Condition="!CheckPlayerAltitude_-30_30"/>
+			<Branch State="RUN" Condition="End"/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="1" Offset="0" RotateType="Fixed" Condition=""/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
+		</ATTACK_READY>
 		<DIE_READY Animation="DIE" BlendTick="100">
 			<Branch State="DIE" Condition="End"/>
 		</DIE_READY>
 		<DIE Animation="DIE" BlendTick="3000">
 			<FrameEvent Tick="0" Type="Die" Condition=""/>
-			<FrameEvent Tick="0" Type="SpawnCharacter" CharacterKey="1" Position="0 0 200" Size="1" Condition=""/>
+			<!-- <FrameEvent Tick="0" Type="SpawnCharacter" CharacterKey="1" Position="0 0 200" Size="1" Condition=""/> -->
 		</DIE>
 	</ActionStates>
 	<CollisionHandlers>

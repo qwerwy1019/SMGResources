@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<MeshInfo Name="marioMesh" IsSkinned="-1" Min="-80 -80 -80" Max="80 80 80" TotalVertexCount="3186" TotalIndexCount="14631">
+<MeshInfo Name="marioMesh" IsSkinned="true" Min="-80 -80 -80" Max="80 80 80" TotalVertexCount="3186" TotalIndexCount="14631">
 	<SubMesh Name="Body" VertexCount="1341" IndexCount="6252" MaterialFile="marioMat" MaterialName="Body1_v">
 		<Vertices>
 			<Vertex Position="15.469873 -8.332766 16.803375" Normal="0.240053 0.127180 0.962393" TexCoord="0.894226 0.862427" Weight="1.000000 0.000000 0.000000" BoneIndex="25 255 255 255"/>

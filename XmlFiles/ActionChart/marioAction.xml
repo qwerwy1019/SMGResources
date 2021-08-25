@@ -1,13 +1,20 @@
 <?xml version="1.0"?>
 <ActionChart>
+	<Variables>
+		<Variable Name="JumpCount" Value="0"/>
+		<Variable Name="PathKey" Value="-1"/>
+	</Variables>
 	<ActionStates>
 		<IDLE Animation="IDLE" BlendTick="100">
-			<Branch State="SPIN_ATTACK" Condition="Key_Down_XY"/>
+			<!-- <Branch State="SPIN_ATTACK" Condition="Key_Down_XY"/> -->
 			<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
 			<Branch State="DUCK" Condition="Key_Press_ZL"/>
 			<Branch State="RUN" Condition="Stick_L_Move"/>
+			<Branch State="JUMP_SECOND_FALL" Condition="!OnGround CheckVerticalSpeed_2_200"/>
 			<Branch State="IDLE" Condition="End"/>
 			<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="100" MoveType="CharacterDirection" Condition=""/>
+			<FrameEvent Tick="0" Type="SetVariable" Name="JumpCount" Value="0" Condition=""/>
+			<FrameEvent Tick="0" Type="FallSpeed" TargetFallSpeed="20" Acceleration="1.5" Condition=""/>
 		</IDLE>
 		<SPIN_ATTACK Animation="SPIN_ATTACK" BlendTick="100">
 			<Branch State="IDLE" Condition="End"/>
@@ -15,6 +22,7 @@
 		<DUCK Animation="DUCK_IDLE" BlendTick="70">
 			<Branch State="IDLE" Condition="!Key_Press_ZL"/>
 			<Branch State="DUCK_WALK" Condition="Stick_L_Move"/>
+			<Branch State="JUMP_SECOND_FALL" Condition="!OnGround CheckVerticalSpeed_2_200"/>
 			<Branch State="DUCK" Condition="End"/>
 			<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="100" MoveType="CharacterDirection" Condition=""/>
 		</DUCK>
@@ -22,6 +30,7 @@
 			<Branch State="IDLE" Condition="!Key_Press_ZL"/>
 			<Branch State="DUCK_WALK" Condition="IsStop Stick_L_Move"/>
 			<Branch State="DUCK" Condition="IsStop"/>
+			<Branch State="JUMP_SECOND_FALL" Condition="!OnGround CheckVerticalSpeed_2_200"/>
 			<Branch State="DUCK_STOP" Condition="End"/>
 			<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
 			<FrameEvent Tick="0" Type="Rotate" Speed="0.01" Offset="0" RotateType="Fixed" Condition=""/>
@@ -30,106 +39,69 @@
 			<Branch State="IDLE" Condition="!Key_Press_ZL"/>
 			<Branch State="DUCK" Condition="!Stick_L_Move"/>
 			<Branch State="BACK_TUMBLING" Condition="Key_Down_AB"/>
+			<Branch State="JUMP_SECOND_FALL" Condition="!OnGround CheckVerticalSpeed_2_200"/>
 			<Branch State="DUCK_WALK" Condition="End"/>
-			<FrameEvent Tick="0" Type="Speed" TargetSpeed="5" Acceleration="2" MoveType="CharacterDirection" Condition=""/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="1" Acceleration="2" MoveType="CharacterDirection" Condition=""/>
 		</DUCK_WALK>
 		<RUN Animation="RUN" BlendTick="100">
 			<Branch State="IDLE" Condition="!Stick_L_Move"/>
 			<Branch State="DUCK_STOP" Condition="Key_Press_ZL"/>
-			<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
+			<Branch State="JUMP_FIRST" Condition="Key_Down_AB Variable_JumpCount_0"/>
+			<Branch State="JUMP_SECOND" Condition="Key_Down_AB Variable_JumpCount_1"/>
+			<Branch State="JUMP_THIRD" Condition="Key_Down_AB Variable_JumpCount_2"/>
 			<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
+			<Branch State="JUMP_SECOND_FALL" Condition="!OnGround CheckVerticalSpeed_2_200"/>
 			<Branch State="RUN" Condition="End"/>
-			<FrameEvent Tick="0" Type="Speed" TargetSpeed="15" Acceleration="15" MoveType="CharacterDirection" Condition=""/>
-			<FrameEvent Tick="0" Type="Rotate" Speed="0.001" Offset="0" RotateType="JoystickInput" Condition=""/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="3" Acceleration="4" MoveType="CharacterDirection" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="0.01" Offset="0" RotateType="JoystickInput" Condition=""/>
+			<FrameEvent Tick="500" Type="SetVariable" Name="JumpCount" Value="0" Condition=""/>
 			<!-- 가속/감속 구름 -->
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="20 -65 -20" Size="15" Condition="CheckSpeed_0_14"/>
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 20" Size="15" Condition="CheckSpeed_0_14"/>
-			<FrameEvent Tick="150" Type="Effect" Name="dustCloud" Position="20 -65 20" Size="15" Condition="CheckSpeed_0_14"/>
+			<FrameEvent Tick="0"   Type="Effect" Name="dustCloud" Position="20 -65 -20"  Size="15" Condition="CheckSpeed_0_14"/>
+			<FrameEvent Tick="0"   Type="Effect" Name="dustCloud" Position="-20 -65 20"  Size="15" Condition="CheckSpeed_0_14"/>
+			<FrameEvent Tick="150" Type="Effect" Name="dustCloud" Position="20 -65 20"   Size="15" Condition="CheckSpeed_0_14"/>
 			<FrameEvent Tick="150" Type="Effect" Name="dustCloud" Position="-20 -65 -20" Size="15" Condition="CheckSpeed_0_14"/>
-			<FrameEvent Tick="300" Type="Effect" Name="dustCloud" Position="20 -65 20" Size="15" Condition="CheckSpeed_0_14"/>
-			<FrameEvent Tick="300" Type="Effect" Name="dustCloud" Position="-20 -65 20" Size="15" Condition="CheckSpeed_0_14"/>
+			<FrameEvent Tick="300" Type="Effect" Name="dustCloud" Position="20 -65 20"   Size="15" Condition="CheckSpeed_0_14"/>
+			<FrameEvent Tick="300" Type="Effect" Name="dustCloud" Position="-20 -65 20"  Size="15" Condition="CheckSpeed_0_14"/>
 		</RUN>
-		<RUN_FIRST_JUMP Animation="RUN" BlendTick="100">
-			<Branch State="IDLE" Condition="!Stick_L_Move"/>
-			<Branch State="DUCK_STOP" Condition="Key_Press_ZL"/>
-			<Branch State="JUMP_SECOND" Condition="Tick_0_500 Key_Down_AB"/>
-			<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
-			<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
-			<Branch State="RUN" Condition="End"/>
-			<FrameEvent Tick="0" Type="Speed" TargetSpeed="15" Acceleration="15" MoveType="CharacterDirection" Condition=""/>
-			<FrameEvent Tick="0" Type="Rotate" Speed="0.001" Offset="0" RotateType="JoystickInput" Condition=""/>
-			<!-- 착지구름 -->
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="20 -65 35" Size="15" Condition=""/>
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="40 -65 0" Size="15" Condition=""/>
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="20 -65 -35" Size="15" Condition=""/>
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 -35" Size="15" Condition=""/>
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 35" Size="15" Condition=""/>
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-40 -65 0" Size="15" Condition=""/>
-		</RUN_FIRST_JUMP>
-		<RUN_SECOND_JUMP Animation="RUN" BlendTick="100">
-			<Branch State="IDLE" Condition="!Stick_L_Move"/>
-			<Branch State="DUCK_STOP" Condition="Key_Press_ZL"/>
-			<Branch State="JUMP_THIRD" Condition="Tick_0_500 Key_Down_AB"/>
-			<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
-			<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
-			<Branch State="RUN" Condition="End"/>
-			<FrameEvent Tick="0" Type="Speed" TargetSpeed="15" Acceleration="15" MoveType="CharacterDirection" Condition=""/>
-			<FrameEvent Tick="0" Type="Rotate" Speed="0.001" Offset="0" RotateType="JoystickInput" Condition=""/>
-			<!-- 착지구름 -->
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="20 -65 35" Size="15" Condition=""/>
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="40 -65 0" Size="15" Condition=""/>
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="20 -65 -35" Size="15" Condition=""/>
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 -35" Size="15" Condition=""/>
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 35" Size="15" Condition=""/>
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-40 -65 0" Size="15" Condition=""/>
-		</RUN_SECOND_JUMP>
-		<RUN_THIRD_JUMP Animation="RUN" BlendTick="100">
-			<Branch State="IDLE" Condition="!Stick_L_Move"/>
-			<Branch State="DUCK_STOP" Condition="Key_Press_ZL"/>
-			<Branch State="JUMP_FIRST" Condition="Key_Down_AB"/>
-			<Branch State="DRIFT" Condition="!Stick_L_Move End"/>
-			<Branch State="RUN" Condition="End"/>
-			<FrameEvent Tick="0" Type="Speed" TargetSpeed="15" Acceleration="15" MoveType="CharacterDirection" Condition=""/>
-			<FrameEvent Tick="0" Type="Rotate" Speed="0.001" Offset="0" RotateType="JoystickInput" Condition=""/>
-			<!-- 착지구름 -->
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="20 -65 35" Size="15" Condition=""/>
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="40 -65 0" Size="15" Condition=""/>
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="20 -65 -35" Size="15" Condition=""/>
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 -35" Size="15" Condition=""/>
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 35" Size="15" Condition=""/>
-			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-40 -65 0" Size="15" Condition=""/>
-		</RUN_THIRD_JUMP>
 		<JUMP_FIRST Animation="JUMP_FIRST" BlendTick="30">
-			<Branch State="LANDING" Condition="OnGround !Stick_L_Move"/>
-			<Branch State="RUN_FIRST_JUMP" Condition="OnGround Stick_L_Move"/>
+			<Branch State="IDLE" Condition="OnGround !Stick_L_Move"/>
+			<Branch State="RUN" Condition="OnGround Stick_L_Move"/>
 			<!-- <Branch State="HANGING_EDGE" Condition="GroundEdge"/> -->
 			<FrameEvent Tick="0" Type="Rotate" Speed="1" Offset="0" RotateType="Fixed" Condition=""/>
-			<FrameEvent Tick="0" Type="Jump" Speed="-20" TargetFallSpeed="40" Condition=""/>
+			<FrameEvent Tick="0" Type="Jump" Speed="-4.5" TargetFallSpeed="20" Acceleration="1.5" Condition=""/>
+			<FrameEvent Tick="0" Type="SetVariable" Name="JumpCount" Value="1" Condition=""/>
 		</JUMP_FIRST>
 		<JUMP_SECOND Animation="JUMP_SECOND" BlendTick="300">
 			<Branch State="JUMP_SECOND_FALL" Condition="Falling"/>
 			<!-- <Branch State="HANGING_EDGE" Condition="End"/> -->
+			<Branch State="LANDING" Condition="OnGround !Stick_L_Move"/>
+			<Branch State="RUN" Condition="OnGround Stick_L_Move"/>
 			<FrameEvent Tick="0" Type="Rotate" Speed="1" Offset="0" RotateType="Fixed" Condition=""/>
-			<FrameEvent Tick="0" Type="Jump" Speed="-25" TargetFallSpeed="40" Condition=""/>
+			<FrameEvent Tick="0" Type="Jump" Speed="-5.5" TargetFallSpeed="20" Acceleration="1.5" Condition=""/>
+			<FrameEvent Tick="0" Type="SetVariable" Name="JumpCount" Value="2" Condition=""/>
 		</JUMP_SECOND>
 		<JUMP_SECOND_FALL Animation="JUMP_SECOND_FALL" BlendTick="200">
 			<Branch State="LANDING" Condition="OnGround !Stick_L_Move"/>
 			<!-- <Branch State="HANGING_EDGE" Condition="End"/> -->
-			<Branch State="RUN_SECOND_JUMP" Condition="OnGround Stick_L_Move"/>
+			<Branch State="RUN" Condition="OnGround Stick_L_Move"/>
 		</JUMP_SECOND_FALL>
 		<JUMP_THIRD Animation="JUMP_SECOND" BlendTick="30">
 			<Branch State="JUMP_THIRD_FALL" Condition="Falling"/>
+			<Branch State="LANDING" Condition="OnGround !Stick_L_Move"/>
+			<Branch State="RUN" Condition="OnGround Stick_L_Move"/>
 			<!-- <Branch State="HANGING_EDGE" Condition="End"/> -->
 			<FrameEvent Tick="0" Type="Rotate" Speed="1" Offset="0" RotateType="Fixed" Condition=""/>
-			<FrameEvent Tick="0" Type="Jump" Speed="-30" TargetFallSpeed="40" Condition=""/>
+			<FrameEvent Tick="0" Type="Jump" Speed="-6.5" TargetFallSpeed="20" Acceleration="1.5" Condition=""/>
+			<FrameEvent Tick="0" Type="SetVariable" Name="JumpCount" Value="0" Condition=""/>
 		</JUMP_THIRD>
 		<JUMP_THIRD_FALL Animation="JUMP_THIRD_FALL" BlendTick="200">
 			<Branch State="LANDING" Condition="OnGround !Stick_L_Move"/>
 			<!-- <Branch State="HANGING_EDGE" Condition="End"/> -->
-			<Branch State="RUN_THIRD_JUMP" Condition="OnGround Stick_L_Move"/>
+			<Branch State="RUN" Condition="OnGround Stick_L_Move"/>
 		</JUMP_THIRD_FALL>
 		<LANDING Animation="LANDING1" BlendTick="200">
 			<Branch State="IDLE" Condition="End"/>
+			<Branch State="JUMP_SECOND_FALL" Condition="!OnGround CheckVerticalSpeed_2_200"/>
 			<Branch State="RUN" Condition="Stick_L_Move"/>
 			<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="100" MoveType="CharacterDirection" Condition=""/>
 			<!-- 착지구름 -->
@@ -140,15 +112,38 @@
 			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-20 -65 35" Size="15" Condition=""/>
 			<FrameEvent Tick="0" Type="Effect" Name="dustCloud" Position="-40 -65 0" Size="15" Condition=""/>
 		</LANDING>
+		<FLY_READY Animation="IDLE" BlendTick="200">
+			<Branch State="FLY_PATH" Condition="HasPath Key_Down_XY"/>
+			<Branch State="FLY_END" Condition="End"/>
+			<FrameEvent Tick="0" Type="Gravity" On="false" Condition=""/>
+			<FrameEvent Tick="0" Type="SetPath" PathKey="11" Condition="Variable_PathKey_11"/>
+		</FLY_READY>
+		<FLY_PATH Animation="IDLE" BlendTick="200">
+			<Branch State="FLY_PATH" Condition="End"/>
+			<Branch State="FLY_END" Condition="PathEnd"/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="1" Acceleration="2" MoveType="Path" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="1" Offset="0" RotateType="Path" Condition=""/>
+		</FLY_PATH>
+		<FLY_END Animation="IDLE" BlendTick="200">
+			<Branch State="JUMP_SECOND_FALL" Condition=""/>
+			<FrameEvent Tick="0" Type="Gravity" On="true" Condition=""/>
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="100" MoveType="CharacterDirection" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="1" Offset="0" RotateType="Fixed" Condition=""/>
+			<FrameEvent Tick="0" Type="SetPath" PathKey="-1" Condition=""/>
+		</FLY_END>
 		<!-- 미구현 액션들 -->
 		<DRIFT Animation="IDLE" BlendTick="0"/>
 		<BACK_TUMBLING Animation="IDLE" BlendTick="0"/>
 	</ActionStates>
 	<CollisionHandlers>
-		<Handler Case="Upper" SelfCondition="" TargetCondition="CharacterType_Monster">
+		<Handler Case="Upper" SelfCondition="!CheckAction_FLY_READY" TargetCondition="CharacterType_Monster">
 			<CollisionEvent Type="RotateToTarget" Speed="10"/>
 			<!-- <CollisionEvent Type="CallFunction" Name="PointUp"/> -->
 			<CollisionEvent Type="SetAction" State="JUMP_FIRST"/>
+		</Handler>
+		<Handler Case="All" SelfCondition="!CheckAction_FLY_READY" TargetCondition="CharacterType_Monster">
+			<CollisionEvent Type="SetVariableFromTarget" Name="PathKey"/>
+			<CollisionEvent Type="SetAction" State="FLY_READY"/>
 		</Handler>
 	</CollisionHandlers>
 </ActionChart>

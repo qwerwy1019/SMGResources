@@ -14,18 +14,66 @@
 		<EffectFile FileName="commonEffect"/>
 	</EffectFiles>
 	<TerrainObjects>
-		<Terrain Key="homePlanet" ObjectFile="homePlanetGroundObj"	Position="0 0 0" Direction="0 0 -1" UpVector="0 1 0" Size="1.0" IsGround="true" IsWall="false"/>
-		<Terrain Key="homePlanet" ObjectFile="homePlanetWallObj"	Position="0 0 0" Direction="0 0 -1" UpVector="0 1 0" Size="1.0" IsGround="false" IsWall="true"/>
-		<Terrain Key="homePlanet" ObjectFile="homePlanetDecoObj"	Position="0 0 0" Direction="0 0 -1" UpVector="0 1 0" Size="1.0" IsGround="false" IsWall="false"/>
+		<Terrain Key="homePlanet" ObjectFile="homePlanetGroundObj"	Position="0 0 0" Direction="0 0 -1" UpVector="0 1 0" Size="0.2" IsGround="true" IsWall="false"/>
+		<Terrain Key="homePlanet" ObjectFile="homePlanetWallObj"	Position="0 0 0" Direction="0 0 -1" UpVector="0 1 0" Size="0.2" IsGround="false" IsWall="true"/>
+		<Terrain Key="homePlanet" ObjectFile="homePlanetDecoObj"	Position="0 0 0" Direction="0 0 -1" UpVector="0 1 0" Size="0.2" IsGround="false" IsWall="false"/>
 		<Terrain Key="orbitSky" ObjectFile="orbitSkyObj" Position="0 0 0" Direction="0 0 1" UpVector="0 1 0" Size="0.03" IsGround="false" IsWall="false"/>
 	</TerrainObjects>
 	<CameraPoints>
+		<TriggeredCamera>
+		</TriggeredCamera>
+		<AutoCamera>
+			<!-- homePlanet -->
+			<CameraPoint Type="PlayerFocus" Position="0 0 600" Radius="600">
+				<CameraData UpVector="0 0 1" Direction=" 1  0 -0.5"  Distance="500"/>
+				<CameraData UpVector="0 0 1" Direction=" 0  1 -0.5"  Distance="500"/>
+				<CameraData UpVector="0 0 1" Direction="-1  0 -0.5" Distance="500"/>
+				<CameraData UpVector="0 0 1" Direction=" 0 -1 -0.5" Distance="500"/>
+			</CameraPoint>
+			<CameraPoint Type="PlayerFocus" Position="0 0 -600" Radius="600">
+				<CameraData UpVector="0 0 -1" Direction=" 1  0 0.5"  Distance="500"/>
+				<CameraData UpVector="0 0 -1" Direction=" 0  1 0.5"  Distance="500"/>
+				<CameraData UpVector="0 0 -1" Direction="-1  0 0.5" Distance="500"/>
+				<CameraData UpVector="0 0 -1" Direction=" 0 -1 0.5" Distance="500"/>
+			</CameraPoint>
+			<CameraPoint Type="PlayerFocus" Position="0 600 0"  Radius="600">
+				<CameraData UpVector="0 1 0" Direction=" 1 -0.5  0"  Distance="500"/>
+				<CameraData UpVector="0 1 0" Direction=" 0 -0.5  1"  Distance="500"/>
+				<CameraData UpVector="0 1 0" Direction="-1 -0.5  0" Distance="500"/>
+				<CameraData UpVector="0 1 0" Direction=" 0 -0.5 -1" Distance="500"/>
+			</CameraPoint>
+			<CameraPoint Type="PlayerFocus" Position="0 -600 0" Radius="600">
+				<CameraData UpVector="0 -1 0" Direction=" 1 0.5  0"  Distance="500"/>
+				<CameraData UpVector="0 -1 0" Direction=" 0 0.5  1"  Distance="500"/>
+				<CameraData UpVector="0 -1 0" Direction="-1 0.5  0" Distance="500"/>
+				<CameraData UpVector="0 -1 0" Direction=" 0 0.5 -1" Distance="500"/>
+			</CameraPoint>
+			<CameraPoint Type="PlayerFocus" Position="600 0 0"  Radius="600">
+				<CameraData UpVector="1 0 0" Direction="-0.5  1  0"  Distance="500"/>
+				<CameraData UpVector="1 0 0" Direction="-0.5  0  1"  Distance="500"/>
+				<CameraData UpVector="1 0 0" Direction="-0.5 -1  0" Distance="500"/>
+				<CameraData UpVector="1 0 0" Direction="-0.5  0 -1" Distance="500"/>
+			</CameraPoint>
+			<CameraPoint Type="PlayerFocus" Position="-600 0 0" Radius="600">
+				<CameraData UpVector="-1 0 0" Direction="0.5  1  0"  Distance="500"/>
+				<CameraData UpVector="-1 0 0" Direction="0.5  0  1"  Distance="500"/>
+				<CameraData UpVector="-1 0 0" Direction="0.5 -1  0" Distance="500"/>
+				<CameraData UpVector="-1 0 0" Direction="0.5  0 -1" Distance="500"/>
+			</CameraPoint>
+		</AutoCamera>
 	</CameraPoints>
 	<GravityPoints>
-		<GravityPoint Key="0" Type="Point" Gravity="50.0" Radius="5000" Position="0 0 0"/>
+		<GravityPoint Key="0" Type="Point" Gravity="10.0" Radius="1000" MinRadius="20" Position="0 0 0"/>
 	</GravityPoints>
+	<Paths>
+		<Path Key="11" IsCurve="true" MoveTick="6000">
+			<PathPoint Position="0 0 500" UpVector="-1 0 0" Time="0"/>
+			<PathPoint Position="1500 1500 0" UpVector="1 0 1" Time="0.5"/>
+			<PathPoint Position="500 0 0" UpVector="0 0 -1" Time="1"/>
+		</Path>
+	</Paths>
 	<SpawnInfo>
-		<Spawn CharacterKey="0" Position="0 0 3000" Direction="0 0 -1" UpVector="0 1 0" Size="1.8" IsTerrain="false"/>
-		<Spawn CharacterKey="1" Position="200 0 3000" Direction="0 0 -1" UpVector="0 1 0" Size="1" IsTerrain="false"/>
+		<Spawn CharacterKey="0" Position="0 0 600" Direction="0 0 -1" UpVector="0 1 0" Size="0.35" ActionIndex="0"/>
+		<Spawn CharacterKey="1" Position="400 0 400" Direction="0 0 -1" UpVector="0 1 0" Size="0.2" ActionIndex="0"/>
 	</SpawnInfo>
 </StageInfo>
