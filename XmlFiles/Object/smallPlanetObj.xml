@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjectInfo IsSkinned="false">
+	<Mesh FileName="smallPlanetMesh">
+		<SubMesh Name="white" MaterialFile="smallPlanetMat" MaterialName="white"/>
+		<SubMesh Name="gold" MaterialFile="smallPlanetMat" MaterialName="gold"/>
+		<SubMesh Name="bump" MaterialFile="smallPlanetMat" MaterialName="bump"/>
+		<SubMesh Name="yspec" MaterialFile="smallPlanetMat" MaterialName="yspec"/>
+		<SubMesh Name="gloss" MaterialFile="smallPlanetMat" MaterialName="gold"/>
+	</Mesh>
+</ObjectInfo>

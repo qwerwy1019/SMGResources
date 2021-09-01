@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<AnimationInfo>
+	<Animation Name="IDLE" Start="0" End="160">
+		<BoneAnimation BoneIndex="0">
+			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1"  RotationQuat="0 0.707 0.707 0"/>
+			<KeyFrame Frame="40" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1" RotationQuat="0.438 0.555 0.555 -0.438"/>
+			<KeyFrame Frame="80" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1"  RotationQuat="0.707 0 0 -0.707"/>
+			<KeyFrame Frame="120" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1" RotationQuat="0.555 -0.438 -0.438 -0.555"/>
+			<KeyFrame Frame="160" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1" RotationQuat="0 -0.707 -0.707 0"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="1">
+			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="160" Translation="0.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+	</Animation>
+	<Animation Name="LAUNCH" Start="0" End="120">
+		<BoneAnimation BoneIndex="0">
+			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1"  RotationQuat="0 0.707 0.707 0"/>
+			<KeyFrame Frame="60" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1" RotationQuat="0 0.707 0.707 0"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="1">
+			<KeyFrame Frame="0" Translation="0 0 0" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="55" Translation="0 0 -80" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="60" Translation="0 0 70" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="120" Translation="0 0 70" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+	</Animation>
+	<Animation Name="STOP" Start="0" End="160">
+		<BoneAnimation BoneIndex="0">
+			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1"  RotationQuat="0 0.707 0.707 0"/>
+			<KeyFrame Frame="160" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1" RotationQuat="0 0.707 0.707 0"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="1">
+			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="160" Translation="0.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+	</Animation>
+</AnimationInfo>

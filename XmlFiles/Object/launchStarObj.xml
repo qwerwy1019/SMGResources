@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ObjectInfo IsSkinned="true">
+	<Skeleton FileName="launchStarSkeleton"/>
+	<Animation FileName="launchStarAnim"/>
+	<Mesh FileName="launchStarMesh">
+		<SubMesh Name="in" MaterialFile="launchStarMat" MaterialName="yellow"/>
+		<SubMesh Name="out" MaterialFile="launchStarMat" MaterialName="yellow"/>
+	</Mesh>
+</ObjectInfo>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ActionChart>
+	<Variables>
+		<Variable Name="PathKey" Value="-1"/>
+	</Variables>
+	<ActionStates>
+		<IDLE Animation="IDLE" BlendTick="100">
+			<Branch State="TRIGGER_PATH" Condition="!Variable_PathKey_-1"/>
+			<FrameEvent Tick="0" Type="SetVariable" Name="PathKey" Value="21" Condition="ActionIndex_21"/>
+			<FrameEvent Tick="0" Type="SetVariable" Name="PathKey" Value="22" Condition="ActionIndex_22"/>
+			<FrameEvent Tick="0" Type="Gravity" On="false" Condition=""/>
+		</IDLE>
+		<TRIGGER_PATH Animation="TRIGGER" BlendTick="0">
+		</TRIGGER_PATH>
+	</ActionStates>
+	<CollisionHandlers>
+		<Handler Case="All" SelfCondition="" TargetCondition="CharacterType_Player">
+			<!-- <CollisionEvent Type="RotateToTarget" Speed="10"/> -->
+			<!-- <CollisionEvent Type="CallFunction" Name="PointUp"/> -->
+			<!-- <CollisionEvent Type="SetAction" State="DIE_READY"/> -->
+		</Handler>
+	</CollisionHandlers>
+</ActionChart>

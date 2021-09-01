@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<MaterialInfo>
+	<Material Name="eye" DiffuseTexture="grandStar/modeSS02" DiffuseAlbedo="0.000000 0.000000 0.000000 1.000000" FresnelR0="0.000000 0.000000 0.000000" Roughness="0" RenderLayer="OpaqueSkinned"/>
+	<Material Name="body" DiffuseTexture="grandStar/modeSS02" DiffuseAlbedo="0.921569 0.725490 0.137255 1.000000" FresnelR0="0.921569 0.725490 0.137255" Roughness="0" RenderLayer="OpaqueSkinned"/>
+</MaterialInfo>

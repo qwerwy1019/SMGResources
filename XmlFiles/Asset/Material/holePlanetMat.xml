@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<MaterialInfo>
+	<Material Name="grass" DiffuseTexture="holePlanet\grass" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24" RenderLayer="Opaque"/>
+	<Material Name="dirt" DiffuseTexture="holePlanet\dirt" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24" RenderLayer="Opaque"/>
+	<Material Name="dirt2" DiffuseTexture="holePlanet\dirt2" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24" RenderLayer="Opaque"/>
+	<Material Name="rock2" DiffuseTexture="holePlanet\rock2" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24" RenderLayer="Opaque"/>
+</MaterialInfo>

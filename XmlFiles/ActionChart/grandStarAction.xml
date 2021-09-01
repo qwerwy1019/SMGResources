@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ActionChart>
+	<Variables>
+		<Variable Name="PathKey" Value="99"/>
+		<Variable Name="StarPathKey" Value="98"/>
+	</Variables>
+	<ActionStates>
+		<IDLE Animation="IDLE" BlendTick="0">
+			<Branch State="TRIGGER_PATH" Condition=""/>
+			<FrameEvent Tick="0" Type="Gravity" On="false" Condition=""/>
+		</IDLE>
+		<TRIGGER_PATH Animation="IDLE" BlendTick="200">
+			<Branch State="TRIGGER_PATH" Condition="End"/>
+		</TRIGGER_PATH>
+		<TRIGGER_START Animation="IDLE" BlendTick="300">
+		</TRIGGER_START>
+	</ActionStates>
+	<CollisionHandlers>
+		<Handler Case="All" SelfCondition="CheckAction_TRIGGER_PATH" TargetCondition="CharacterType_Player">
+			<CollisionEvent Type="SetAction" State="TRIGGER_START"/>
+		</Handler>
+	</CollisionHandlers>
+</ActionChart>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<AnimationInfo>
+	<Animation Name="IDLE" Start="0" End="160">
+		<BoneAnimation BoneIndex="0">
+			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1"  RotationQuat="0 0 0 1"/>
+			<KeyFrame Frame="40" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1" RotationQuat="0 0.707 0 0.707"/>
+			<KeyFrame Frame="80" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1"  RotationQuat="0 1 0 0"/>
+			<KeyFrame Frame="120" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1" RotationQuat="0 0.707 0 -0.707"/>
+			<KeyFrame Frame="160" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1" RotationQuat="0 0 0 -1"/>
+		</BoneAnimation>
+	</Animation>
+	<Animation Name="STOP" Start="0" End="160">
+		<BoneAnimation BoneIndex="0">
+			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1"  RotationQuat="0 0.707 0.707 0"/>
+			<KeyFrame Frame="160" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1" RotationQuat="0 0.707 0.707 0"/>
+		</BoneAnimation>
+	</Animation>
+</AnimationInfo>
