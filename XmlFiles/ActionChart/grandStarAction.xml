@@ -8,6 +8,7 @@
 		<IDLE Animation="IDLE" BlendTick="0">
 			<Branch State="TRIGGER_PATH" Condition=""/>
 			<FrameEvent Tick="0" Type="Gravity" On="false" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="0.0015" Offset="0" RotateType="FixedSpeed" Condition=""/>
 		</IDLE>
 		<TRIGGER_PATH Animation="IDLE" BlendTick="200">
 			<Branch State="TRIGGER_PATH" Condition="End"/>

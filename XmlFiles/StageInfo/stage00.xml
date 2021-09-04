@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <StageInfo Name="stage00" SectorSize="2000 2000 2000" SectorUnitNumber="20 20 20">
+	<StageScript Name="stageScript00"/>
 	<Lights>
 		<Light Type="Ambient" Strength="0.4 0.4 0.6 1.0"/>
 		<!-- 주광 -->
@@ -35,10 +36,21 @@
 				<CameraData UpVector="0 1 0" Direction=" 0  -0.7 -0.5"  Distance="500"/>
 			</CameraPoint>
 			<CameraPoint Key="12" Type="Fixed" BlendTick="0" Position="1000 700 1000" UpVector="0 1 0" Direction="-1 0 -1"/>
-			<CameraPoint Key="13" Type="Path" PointPosition="0 0 0" Radius="0" BlendTick="0" IsCurve="true" HasDirection="false" MoveTick="6000">
-				<PathPoint Position="-400 0 400" UpVector="-1 0 0" Time="0"/>
-				<PathPoint Position="1000 1500 0" UpVector="1 0 1" Time="0.5"/>
-				<PathPoint Position="500 0 0" UpVector="0 0 -1" Time="1"/>
+			<CameraPoint Key="13" Type="Path" BlendTick="100" IsCurve="true" HasDirection="true" MoveTick="6000">
+				<PathPoint Position="-284 28 542" Direction="0.80 -0.55 -0.25" UpVector="0.53 0.83 -0.16" Time="0"/>
+				<PathPoint Position="-284 28 542" Direction="0.80 -0.55 -0.25" UpVector="0.53 0.83 -0.16" Time="0.1"/>
+				<PathPoint Position="-284 28 542" Direction="0.75 -0.63 0.21" UpVector="0.60 0.78 0.17" Time="0.15"/>
+				<PathPoint Position="-137 -170 779" Direction="0.86 -0.50 -0.00" UpVector="0.50 0.86 -0.00" Time="0.4"/>
+				<PathPoint Position="335 -319 566" Direction="0.11 -0.12 0.99" UpVector="-0.42 0.89 0.15" Time="0.7"/>
+				<PathPoint Position="491 -289 1315" Direction="-0.51 0.38 0.77" UpVector="0.21 0.92 -0.32" Time="0.9"/>
+				<PathPoint Position="434 66 1564" Direction="-0.65 0.16 0.74" UpVector="0.10 0.99 -0.12" Time="1"/>
+			</CameraPoint>
+			<CameraPoint Key="14" Type="Path" BlendTick="100" IsCurve="true" HasDirection="true" MoveTick="3000">
+				<PathPoint Position="-87 625 1366" Direction="0.27 -0.65 0.71" UpVector="0.23 0.76 0.61" Time="0"/>
+				<PathPoint Position="-87 625 1366" Direction="0.27 -0.65 0.71" UpVector="0.23 0.76 0.61" Time="0.2"/>
+				<PathPoint Position="-87 625 1366" Direction="0.84 -0.37 0.40" UpVector="0.34 0.93 0.16" Time="0.3"/>
+				<PathPoint Position="421 563 1800" Direction="0.87 -0.36 0.33" UpVector="0.33 0.93 0.13" Time="0.5"/>
+				<PathPoint Position="1247 583 2108" Direction="0.91 -0.42 0.06" UpVector="0.42 0.91 0.03" Time="1"/>
 			</CameraPoint>
 			<!-- 관통 통로 지날때 -->
 			<CameraPoint Key="21" Type="Path" BlendTick="300" IsCurve="true" HasDirection="true" MoveTick="4000">
@@ -51,33 +63,34 @@
 			<CameraPoint Key="22" Type="Path" BlendTick="300" IsCurve="true" HasDirection="true" MoveTick="4000">
 				<PathPoint Position="807 534 37"	Direction="-0.88 -0.44 -0.18"	UpVector="0 1 0" Time="0"/>
 				<PathPoint Position="250 578 1348"	Direction="-0.18 -0.44 -0.88"	UpVector="0 1 0" Time="0.5"/>
-				<PathPoint Position="-899 -324 302"	Direction="0.89 0.32 -0.24"		UpVector="0 1 0" Time="0.9"/>
-				<PathPoint Position="-899 -324 302"	Direction="0.89 0.32 -0.24"		UpVector="0 1 0" Time="0.95"/>
-				<PathPoint Position="-899 -324 302"	Direction="0.89 0.32 -0.24"		UpVector="0 1 0" Time="1.0"/>
+				<PathPoint Position="-897 -340 300"	Direction="0.83 0.29 -0.48"		UpVector="0 1 0" Time="0.9"/>
+				<PathPoint Position="-897 -340 300"	Direction="0.83 0.29 -0.48"		UpVector="0 1 0" Time="0.95"/>
+				<PathPoint Position="-897 -340 300"	Direction="0.83 0.29 -0.48"		UpVector="0 1 0" Time="1.0"/>
 			</CameraPoint>
 		</TriggeredCamera>
 		<AutoCamera>
 			<!-- homePlanet -->
-			<CameraPoint Type="Fixed" PointPosition="0 470 0" Radius="50" BlendTick="1000" Position="-200 600 0" UpVector="0 1 0" Direction="2000 -800 300"/>
+			<CameraPoint Type="Fixed" PointPosition="0 470 0" Radius="50" BlendTick="1000" Position="-182 610 -283" UpVector="0 1 0" Direction="0.51 -0.32 0.80"/>
+			<CameraPoint Type="Fixed" PointPosition="215 -126 -201" Radius="100" BlendTick="1000" Position="590 -187 -521" UpVector="0.09 0.99 -0.08" Direction="-0.75 0.12 0.64"/>
 			<CameraPoint Type="PlayerFocus" PointPosition="600 0 0" Radius="1000" BlendTick="1000" Offset="0 100 0" IsCircular="false">
-				<CameraData UpVector="0 1 0" Direction="-1 -0.5  0.2"  Distance="500"/>
-				<CameraData UpVector="0 1 0" Direction="-1 -0.5 -0.2"  Distance="500"/>
+				<CameraData UpVector="0 1 0" Direction="-1 -0.5  0.2"  Distance="400"/>
+				<CameraData UpVector="0 1 0" Direction="-1 -0.5 -0.2"  Distance="400"/>
 			</CameraPoint>
 			<CameraPoint Type="PlayerFocus" PointPosition="0 0 -600" Radius="1000" BlendTick="1000" Offset="0 100 0" IsCircular="false">
-				<CameraData UpVector="0 1 0" Direction=" 0.2 -0.5 1"  Distance="500"/>
-				<CameraData UpVector="0 1 0" Direction="-0.2 -0.5 1"  Distance="500"/>
+				<CameraData UpVector="0 1 0" Direction=" 0.2 -0.5 1"  Distance="400"/>
+				<CameraData UpVector="0 1 0" Direction="-0.2 -0.5 1"  Distance="400"/>
 			</CameraPoint>
 			<CameraPoint Type="PlayerFocus" PointPosition="-600 0 0" Radius="1000" BlendTick="1000" Offset="0 100 0" IsCircular="false">
-				<CameraData UpVector="0 1 0" Direction="1 -0.5 -0.2"  Distance="500"/>
-				<CameraData UpVector="0 1 0" Direction="1 -0.5  0.2"  Distance="500"/>
+				<CameraData UpVector="0 1 0" Direction="1 -0.5 -0.2"  Distance="400"/>
+				<CameraData UpVector="0 1 0" Direction="1 -0.5  0.2"  Distance="400"/>
 			</CameraPoint>
 			<CameraPoint Type="PlayerFocus" PointPosition="0 0 600" Radius="1000" BlendTick="1000" Offset="0 100 0" IsCircular="false">
-				<CameraData UpVector="0 1 0" Direction="-0.2 -0.5 -1"  Distance="500"/>
-				<CameraData UpVector="0 1 0" Direction=" 0.2 -0.5 -1"  Distance="500"/>
+				<CameraData UpVector="0 1 0" Direction="-0.2 -0.5 -1"  Distance="400"/>
+				<CameraData UpVector="0 1 0" Direction=" 0.2 -0.5 -1"  Distance="400"/>
 			</CameraPoint>
 			<CameraPoint Type="PlayerFocus" PointPosition="0 -600 0" Radius="300" BlendTick="1000" Offset="0 100 0" IsCircular="false">
-				<CameraData UpVector="0 1 0" Direction="-0.2 0.2 -1"  Distance="500"/>
-				<CameraData UpVector="0 1 0" Direction=" 0.2 0.2 -1"  Distance="500"/>
+				<CameraData UpVector="0 1 0" Direction="-0.2 0.2 -1"  Distance="400"/>
+				<CameraData UpVector="0 1 0" Direction=" 0.2 0.2 -1"  Distance="400"/>
 			</CameraPoint>
 			<!-- hole planet -->
 			<CameraPoint Type="CenterFocus" PointPosition="0 0 2000" Radius="1000" BlendTick="1000" UpVector="0 1 0" Distance="800" VerticalAngleRange="30"/>
@@ -91,18 +104,18 @@
 		<GravityPoint Key="2" Type="Point" Gravity="10.0" Radius="1000" MinRadius="100" Position="2000 400 2000"/>
 	</GravityPoints>
 	<Paths>
-		<Path Key="11" IsCurve="true" HasDirection="false" MoveTick="5000">
+		<Path Key="11" IsCurve="true" HasDirection="false" MoveTick="6000">
 			<PathPoint Position="105 -241 421" UpVector="-0.25 0.89 0.38" Time="0"/>
-			<PathPoint Position="105 -241 421" UpVector="-0.25 0.89 0.38" Time="0.05"/>
-			<PathPoint Position="105 -241 421" UpVector="-0.25 0.89 0.38" Time="0.1"/>
+			<PathPoint Position="105.23 -241.48 421.84" UpVector="-0.25 0.89 0.38" Time="0.05"/>
+			<PathPoint Position="105.46 -241.96 422.68" UpVector="-0.25 0.89 0.38" Time="0.1"/>
 			<PathPoint Position="600 -800 1200" UpVector="-0.36 0.78 0.52" Time="0.5"/>
-			<PathPoint Position="200 193 1849" UpVector="-0.19 1 -0.86" Time="1"/>
+			<PathPoint Position="200 193 1849" UpVector="0 1 0" Time="1"/>
 		</Path>
 		<Path Key="12" IsCurve="true" HasDirection="false" MoveTick="3000">
-			<PathPoint Position="102 202 1824" UpVector="-0.26 0.49 0.83" Time="0"/>
-			<PathPoint Position="102 202 1824" UpVector="-0.26 0.49 0.83" Time="0.07"/>
-			<PathPoint Position="102 202 1824" UpVector="-0.26 0.49 0.83" Time="0.14"/>
-			<PathPoint Position="210 412 1641" UpVector="-0.26 0.49 0.83" Time="0.2"/>
+			<PathPoint Position="102 202 1824" UpVector="-0.88 -0.06 -0.47" Time="0"/>
+			<PathPoint Position="102.38 202.71 1823.42" UpVector="-0.88 -0.06 -0.47" Time="0.07"/>
+			<PathPoint Position="102.76 203.42 1822.84" UpVector="-0.88 -0.06 -0.47" Time="0.14"/>
+			<PathPoint Position="210 412 1641" UpVector="-0.88 -0.06 -0.47" Time="0.2"/>
 			<PathPoint Position="784 408 1938" UpVector="0.36 0.70 -0.61" Time="0.5"/>
 			<PathPoint Position="1358 404 2235" UpVector="0.36 0.70 -0.61" Time="0.8"/>
 			<PathPoint Position="1639 402 2132" UpVector="0.36 0.70 -0.61" Time="1"/>
@@ -125,10 +138,12 @@
 	<SpawnInfo>
 		<Spawn CharacterKey="0" Position="0 -500 0" Direction="0 0 -1" UpVector="0 1 0" Size="0.35" ActionIndex="0"/>
 		<Spawn CharacterKey="1" Position="-200 0 400" Direction="0 0 -1" UpVector="0 1 0" Size="0.2" ActionIndex="0"/>
-		<Spawn CharacterKey="2" Position="105 -241 421" Direction="0.15 0.87 0.46" UpVector="0.21 -0.49 0.85" Size="0.35" ActionIndex="11"/>
-		<Spawn CharacterKey="2" Position="102 202 1824" Direction="0.92 -0.16 0.35" UpVector="0.36 0.70 -0.61" Size="0.25" ActionIndex="12"/>
 		<Spawn CharacterKey="3" Position="-324 -104 89" Direction="-0.37 0.44 -0.82" UpVector="-0.92 -0.30 0.25" Size="1" ActionIndex="21"/>
 		<Spawn CharacterKey="3" Position="264 145 -30" Direction="-0.60 0.75 0.21" UpVector="0.86 0.47 -0.11" Size="1" ActionIndex="22"/>
 		<Spawn CharacterKey="4" Position="2000 580 2000" Direction="0 0 -1" UpVector="0 1 0" Size="0.15" ActionIndex="0"/>
 	</SpawnInfo>
+	<SpawnInfoWithKey>
+		<Spawn Key="0" CharacterKey="2" Position="105 -241 421" Direction="0.15 0.87 0.46" UpVector="0.21 -0.49 0.85" Size="0.35" ActionIndex="11"/>
+		<Spawn Key="1" CharacterKey="2" Position="102 202 1824" Direction="0.92 -0.16 0.35" UpVector="0.36 0.70 -0.61" Size="0.25" ActionIndex="12"/>	
+	</SpawnInfoWithKey>
 </StageInfo>

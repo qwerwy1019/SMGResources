@@ -16,12 +16,18 @@
 	<Animation Name="LAUNCH" Start="0" End="120">
 		<BoneAnimation BoneIndex="0">
 			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1"  RotationQuat="0 0.707 0.707 0"/>
-			<KeyFrame Frame="60" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1" RotationQuat="0 0.707 0.707 0"/>
+			<KeyFrame Frame="15" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1" RotationQuat="0.438 0.555 0.555 -0.438"/>
+			<KeyFrame Frame="30" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1"  RotationQuat="0.707 0 0 -0.707"/>
+			<KeyFrame Frame="45" Translation="0.000000 0.000000 0.000000" Scaling="1 1 1" RotationQuat="0.555 -0.438 -0.438 -0.555"/>
+			<KeyFrame Frame="60" Translation="0.000000 -10 0" Scaling="1 1 1" RotationQuat="0 -0.707 -0.707 0"/>
+			<KeyFrame Frame="85" Translation="0.000000 -10 0" Scaling="1 1 1" RotationQuat="0 -0.707 -0.707 0"/>
+			<KeyFrame Frame="92" Translation="0.000000 30 0" Scaling="1 1 1" RotationQuat="0 -0.707 -0.707 0"/>
 		</BoneAnimation>
 		<BoneAnimation BoneIndex="1">
 			<KeyFrame Frame="0" Translation="0 0 0" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
-			<KeyFrame Frame="55" Translation="0 0 -80" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
-			<KeyFrame Frame="60" Translation="0 0 70" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="65" Translation="0 0 -80" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="85" Translation="0 0 -80" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="92" Translation="0 0 70" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
 			<KeyFrame Frame="120" Translation="0 0 70" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
 		</BoneAnimation>
 	</Animation>

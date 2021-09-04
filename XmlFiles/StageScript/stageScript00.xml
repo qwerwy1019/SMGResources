@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<StageScript>
+	<Variables>
+		<Variable Name="PlayerHP" Value="3"/>
+		<Variable Name="StarChipLeft" Value="0"/>
+		<Variable Name="GoombaLeft" Value="1"/>
+		<Variable Name="Star" Value="0"/>
+		<Variable Name="StageFail" Value="0"/>
+		<Variable Name="StageClear" Value="0"/>
+		<Variable Name="EndScene" Value="0"/>
+	</Variables>
+	<Phases Start="Initialize">
+		<Initialize>
+			<Branch Phase="StageFail" Condition="!Variable_StageFail=0"/>
+			<Branch Phase="StageClear" Condition="!Variable_StageClear=0"/>
+			<Function Name="SpawnActor" ProcessCount="1" Key="0" Condition="Variable_GoombaLeft=0"/>
+			<Function Name="SpawnActor" ProcessCount="1" Key="1" Condition="Variable_StarChipLeft=0"/>
+		</Initialize>
+		<StageFail>
+			<Function Name="RemoveLife" ProcessCount="1" Condition=""/>
+			<Function Name="LoadStage" ProcessCount="1" StageName="stage00" Condition="!UserData_Life_0 !Variable_EndScene=0"/>
+			<!-- <Function Name="LoadLastSaveFile" processCount="1" Condition="UserData_Life_0 !EndScene_0"/> -->
+		</StageFail>
+		<StageClear>
+			<Function Name="LoadStage" ProcessCount="1" StageName="stage00" Condition="!Variable_EndScene=0"/>
+		</StageClear>
+	</Phases>
+</StageScript>

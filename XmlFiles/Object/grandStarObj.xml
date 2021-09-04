@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<ObjectInfo IsSkinned="true">
-	<Skeleton FileName="grandStarSkeleton"/>
-	<Animation FileName="grandStarAnim"/>
+<ObjectInfo IsSkinned="false">
+	<!-- <Skeleton FileName="grandStarSkeleton"/> -->
+	<!-- <Animation FileName="grandStarAnim"/> -->
 	<Mesh FileName="grandStarMesh">
 		<SubMesh Name="eye" MaterialFile="grandStarMat" MaterialName="eye"/>
 		<SubMesh Name="body" MaterialFile="grandStarMat" MaterialName="body"/>
