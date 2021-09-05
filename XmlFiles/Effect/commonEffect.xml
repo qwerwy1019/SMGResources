@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
-<Effects>
-	<Effect Name="dustCloud" DiffuseTexture="homePlanet/wflower" TotalFrame="1" TickPerFrame="300" Size="2 2" AlphaDecrease="0.3" SizeDecrease="1.0" IsRepeat="false"/>
-	<Effect Name="light" DiffuseTexture="orbitSky/sun" TotalFrame="1" TickPerFrame="300" Size="100 100" AlphaDecrease="0" SizeDecrease="0" IsRepeat="true"/>
-	<Effect Name="stardust" DiffuseTexture="orbitSky/stars" TotalFrame="3" TickPerFrame="100" Size="20 20" AlphaDecrease="1.0" SizeDecrease="0" IsRepeat="false"/>
-</Effects>
+<EffectInfo>
+	<ConstantEffects>
+		<Effect Name="light" DiffuseTexture="orbitSky/sun" TotalFrame="1" TickPerFrame="300" Size="100 100" AlphaDecrease="0" SizeDecrease="0" IsRepeat="true"/>
+	</ConstantEffects>
+	<TemporaryEffects>
+		<Effect Name="dustCloud" DiffuseTexture="homePlanet/wflower" TotalFrame="1" TickPerFrame="300" Size="2 2" AlphaDecrease="0.3" SizeDecrease="1.0"/>
+		<Effect Name="stardust" DiffuseTexture="orbitSky/stars" TotalFrame="3" TickPerFrame="100" Size="20 20" AlphaDecrease="1.0" SizeDecrease="0" IsRepeat="false"/>
+	</TemporaryEffects>
+</EffectInfo>

@@ -3,6 +3,8 @@
 	<Variables>
 		<Variable Name="PathKey" Value="-1"/>
 	</Variables>
+	<ChildEffects>
+	</ChildEffects>
 	<ActionStates>
 		<IDLE Animation="IDLE" BlendTick="100">
 			<Branch State="WALK" Condition="End Random_30"/>

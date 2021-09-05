@@ -4,6 +4,9 @@
 		<Variable Name="JumpCount" Value="0"/>
 		<Variable Name="PathKey" Value="-1"/>
 	</Variables>
+	<ChildEffects>
+		<Effect Key="0" EffectName="light" Position="0 0 0" Size="2"/>
+	</ChildEffects>
 	<ActionStates>
 		<IDLE Animation="IDLE" BlendTick="100">
 			<!-- <Branch State="SPIN_ATTACK" Condition="Key_Down_XY"/> -->
@@ -149,6 +152,8 @@
 		<FLY_START Animation="FLY_START" BlendTick="100">
 			<Branch State="FLY" Condition="End"/>
 			<Branch State="FLY_END" Condition="PathEnd"/>
+			<FrameEvent Tick="0" Type="EnableEffect" EffectKey="0" Condition=""/>
+			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="0" BlendTick="1000" Alpha="1" Condition=""/>
 		</FLY_START>
 		<FLY Animation="FLY" BlendTick="200">
 			<Branch State="FLY" Condition="End"/>
@@ -163,6 +168,7 @@
 			<FrameEvent Tick="0" Type="Rotate" Speed="1" Offset="0" RotateType="Fixed" Condition=""/>
 			<FrameEvent Tick="0" Type="SetPath" PathKey="-1" Condition=""/>
 			<FrameEvent Tick="0" Type="SetCamera" CameraKey="-1" Condition=""/>
+			<FrameEvent Tick="0" Type="DisableEffect" EffectKey="0" Condition=""/>
 		</FLY_END>
 		<DAMAGED_KNOCKBACK Animation="DAMAGED_KNOCKBACK" BlendTick="200">
 			<Branch State="DIE_LIE" Condition="!StageVariable_PlayerHP>0"/>

@@ -4,6 +4,9 @@
 		<Variable Name="PathKey" Value="99"/>
 		<Variable Name="StarPathKey" Value="98"/>
 	</Variables>
+	<ChildEffects>
+		<Effect Key="0" EffectName="light" Position="0 0 0" Size="2"/>
+	</ChildEffects>
 	<ActionStates>
 		<IDLE Animation="IDLE" BlendTick="0">
 			<Branch State="TRIGGER_PATH" Condition=""/>

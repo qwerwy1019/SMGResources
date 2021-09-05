@@ -3115,12 +3115,12 @@
 	</Animation>
 	<Animation Name="DIE_LIE" Start="0" End="239">
 		<BoneAnimation BoneIndex="0">
-			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="1.000000 0.000000 0.000000 -0.000000"/>
-			<KeyFrame Frame="239" Translation="0.000000 -0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="1.000000 -0.000000 0.000000 -0.000000"/>
+			<KeyFrame Frame="0" Translation="0.000000 0.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 1.000000 0.000000 -0.000000"/>
+			<KeyFrame Frame="239" Translation="0.000000 -0.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 1.000000 0.000000 -0.000000"/>
 		</BoneAnimation>
 		<BoneAnimation BoneIndex="1">
-			<KeyFrame Frame="0" Translation="0.000000 11.810000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.707107 -0.000000 0.000000 0.707107"/>
-			<KeyFrame Frame="239" Translation="0.000000 11.810000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.707107 0.000000 0.000000 0.707107"/>
+			<KeyFrame Frame="0" Translation="0.000000 -45 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.707107 -0.000000 0.000000 0.707107"/>
+			<KeyFrame Frame="239" Translation="0.000000 -45 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.707107 0.000000 0.000000 0.707107"/>
 		</BoneAnimation>
 		<BoneAnimation BoneIndex="2">
 			<KeyFrame Frame="0" Translation="0.000000 -1.500000 -4.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.707039 0.000000 0.000000 0.707175"/>

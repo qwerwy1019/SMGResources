@@ -3,6 +3,9 @@
 	<Variables>
 		<Variable Name="PathKey" Value="-1"/>
 	</Variables>
+	<ChildEffects>
+		<Effect Key="0" EffectName="light" Position="0 0 0" Size="2"/>
+	</ChildEffects>
 	<ActionStates>
 		<IDLE Animation="IDLE" BlendTick="0">
 			<Branch State="TRIGGER_PATH" Condition="!Variable_PathKey_-1"/>
@@ -10,6 +13,9 @@
 			<FrameEvent Tick="0" Type="SetVariable" Name="PathKey" Value="12" Condition="ActionIndex_12"/>
 			<FrameEvent Tick="0" Type="Gravity" On="false" Condition=""/>
 			<FrameEvent Tick="0" Type="AnimationSpeed" Speed="0.3" Condition=""/>
+			<FrameEvent Tick="0" Type="EnableEffect" EffectKey="0" Condition=""/>
+			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="0" BlendTick="1000" Alpha="1" Condition=""/>
+			<!-- <FrameEvent Tick="0" Type="Effect" Name="light" Position="0 0 0"  Size="2" Condition=""/> -->
 		</IDLE>
 		<TRIGGER_PATH Animation="IDLE" BlendTick="200">
 			<Branch State="TRIGGER_PATH" Condition="End"/>
