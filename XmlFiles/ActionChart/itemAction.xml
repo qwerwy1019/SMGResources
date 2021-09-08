@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ActionChart>
+	<Variables>
+		<Variable Name="ItemKey" Value="-1"/>
+	</Variables>
+	<ChildEffects>
+		<Effect Key="0" EffectName="weakLight" Position="0 0 0" Size="2"/>
+	</ChildEffects>
+	<ActionStates>
+		<IDLE Animation="" BlendTick="0">
+			<FrameEvent Tick="0" Type="Gravity" On="false" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="0.0015" Offset="0" RotateType="FixedSpeed" Condition=""/>
+			<FrameEvent Tick="0" Type="EnableEffect" EffectKey="0" Condition=""/>
+			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="0" BlendTick="1000" Alpha="1" Condition=""/>
+			<FrameEvent Tick="0" Type="SetVariable" Name="ItemKey" Value="2" Condition="ActionIndex_2"/>
+		</IDLE>
+		<DIE Animation="" BlendTick="0">
+			<FrameEvent Tick="0" Type="AddStageVariable" VariableName="StarChipLeft" Value="-1" Condition="Variable_ItemKey_2"/>
+			<FrameEvent Tick="0" Type="Effect" Name="twinkle" Position="0 0 0" Size="10" Condition=""/>
+			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="0" BlendTick="500" Alpha="0" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="0.02" Offset="0" RotateType="FixedSpeed" Condition=""/>
+			<FrameEvent Tick="500" Type="Die" Condition=""/>
+		</DIE>
+	</ActionStates>
+	<CollisionHandlers>
+		<Handler Case="All" SelfCondition="!CheckAction_DIE" TargetCondition="CharacterType_Player">
+			<CollisionEvent Type="SetAction" State="DIE"/>
+		</Handler>
+	</CollisionHandlers>
+</ActionChart>

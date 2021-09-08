@@ -2,38 +2,47 @@
 <ActionChart>
 	<Variables>
 		<Variable Name="PathKey" Value="-1"/>
+		<Variable Name="SpawnTime" Value="1"/>
 	</Variables>
 	<ChildEffects>
 		<Effect Key="0" EffectName="light" Position="0 0 0" Size="2"/>
+		<Effect Key="1" EffectName="weakLightYellow" Position="0 0 0" Size="8"/>
 	</ChildEffects>
 	<ActionStates>
-		<IDLE Animation="IDLE" BlendTick="0">
-			<Branch State="TRIGGER_PATH" Condition="!Variable_PathKey_-1"/>
+		<IDLE Animation="SPAWN" BlendTick="0">
+			<Branch State="TRIGGER_PATH" Condition="!Variable_PathKey_-1 End"/>
 			<FrameEvent Tick="0" Type="SetVariable" Name="PathKey" Value="11" Condition="ActionIndex_11"/>
 			<FrameEvent Tick="0" Type="SetVariable" Name="PathKey" Value="12" Condition="ActionIndex_12"/>
 			<FrameEvent Tick="0" Type="Gravity" On="false" Condition=""/>
-			<FrameEvent Tick="0" Type="AnimationSpeed" Speed="0.3" Condition=""/>
 			<FrameEvent Tick="0" Type="EnableEffect" EffectKey="0" Condition=""/>
-			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="0" BlendTick="1000" Alpha="1" Condition=""/>
-			<!-- <FrameEvent Tick="0" Type="Effect" Name="light" Position="0 0 0"  Size="2" Condition=""/> -->
+			<FrameEvent Tick="0" Type="EnableEffect" EffectKey="1" Condition=""/>
+			<FrameEvent Tick="0" Type="SetCamera" CameraKey="11" Condition="Variable_PathKey_11"/>
+			<FrameEvent Tick="0" Type="SetCamera" CameraKey="12" Condition="Variable_PathKey_12"/>
 		</IDLE>
 		<TRIGGER_PATH Animation="IDLE" BlendTick="200">
 			<Branch State="TRIGGER_PATH" Condition="End"/>
 			<FrameEvent Tick="0" Type="AnimationSpeed" Speed="0.3" Condition=""/>
+			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="1" BlendTick="1000" Alpha="0.3" Condition=""/>
+			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="0" BlendTick="500" Alpha="0" Condition=""/>
+			<FrameEvent Tick="1000" Type="SetCamera" CameraKey="-1" Condition="Variable_SpawnTime_1"/>
+			<FrameEvent Tick="1000" Type="SetVariable" Name="SpawnTime" Value="0" Condition="Variable_SpawnTime_1"/>
 		</TRIGGER_PATH>
 		<TRIGGER_START Animation="IDLE" BlendTick="300">
-			<Branch State="TRIGGER_START" Condition="CheckPlayerDistance_0_100 End"/>
+			<Branch State="TRIGGER_START" Condition="CheckPlayerDistance_0_80 End"/>
 			<Branch State="TRIGGER_COOLTIME" Condition="End"/>
 			<Branch State="LAUNCH" Condition="Key_Down_XY"/>
 			<FrameEvent Tick="0" Type="AnimationSpeed" Speed="2" Condition=""/>
+			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="1" BlendTick="1000" Alpha="1" Condition=""/>
 		</TRIGGER_START>
 		<LAUNCH Animation="LAUNCH" BlendTick="200">
 			<Branch State="TRIGGER_PATH" Condition="End"/>
+			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="0" BlendTick="500" Alpha="0.8" Condition=""/>
 		</LAUNCH>
 		<TRIGGER_COOLTIME Animation="STOP" BlendTick="200">
 			<Branch State="TRIGGER_PATH" Condition="Tick_1000_200000"/>
 			<Branch State="TRIGGER_COOLTIME" Condition="End"/>
 			<FrameEvent Tick="0" Type="AnimationSpeed" Speed="0.3" Condition=""/>
+			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="1" BlendTick="1000" Alpha="0.3" Condition=""/>
 		</TRIGGER_COOLTIME>
 	</ActionStates>
 	<CollisionHandlers>

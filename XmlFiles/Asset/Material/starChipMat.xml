@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<MaterialInfo>
+	<Material Name="yellow" DiffuseTexture="starChip/yenv" DiffuseAlbedo="1.000000 1.000000 1.000000 1.000000" FresnelR0="0.600000 0.600000 0.600000" Roughness="0.2" RenderLayer="Opaque"/>
+	<Material Name="blue" DiffuseTexture="starChip/benv" DiffuseAlbedo="1.000000 1.000000 1.000000 1.000000" FresnelR0="0.600000 0.600000 0.600000" Roughness="0.2" RenderLayer="Opaque"/>
+</MaterialInfo>

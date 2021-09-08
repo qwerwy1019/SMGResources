@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<UIGroups ScreenSize="1280 720">
+	<UIGroup Name="HPPanel" Position="1100 25" UpdateFunction="">
+		<UIElement Type="Image" Name="HPPanelImage" Position="0 0" Size="120 120" ImageName="ui/hpBackground_3"/>
+		<UIElement Type="Text" Name="HPText" Position="10 11" Size="100 100" Text="3" Brush="Black" Format="Normal"/>
+	</UIGroup>
+	<UIGroup Name="CoinPanel" Position="1005 500" UpdateFunction="">
+		<UIElement Type="Image" Name="CoinPanelImage" Position="0 20" Size="55 55" ImageName="ui/coin"/>
+		<UIElement Type="Image" Name="XImage" Position="54 30" Size="40 40" ImageName="ui/x"/>
+		<!-- <UIElement Type="Text" Name="CoinTextOutline"	Position="100 0" Size="100 100" Text="3" Brush="Black" Format="PointsOutline"/> -->
+		<UIElement Type="Text" Name="CoinText" 			Position="100 0" Size="100 100" Text="3" Brush="White" Format="Points"/>
+	</UIGroup>
+	<UIGroup Name="StarBitPanel" Position="1000 580" UpdateFunction="">
+		<UIElement Type="Image" Name="StarBitPanelImage" Position="0 20" Size="70 70" ImageName="ui/starBit"/>
+		<UIElement Type="Image" Name="XImage" Position="59 39" Size="40 40" ImageName="ui/x"/>
+		<UIElement Type="Text" Name="StarBitText" 			Position="100 10" Size="100 100" Text="123" Brush="White" Format="Points"/>
+		<!-- <UIElement Type="Text" Name="StarBitTextOutline" 	Position="100 10" Size="100 100" Text="123" Brush="Black" Format="PointsOutline"/> -->
+	</UIGroup>
+</UIGroups>

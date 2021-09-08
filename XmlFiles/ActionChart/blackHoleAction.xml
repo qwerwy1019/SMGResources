@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<ActionChart>
+	<Variables>
+	</Variables>
+	<ChildEffects>
+		<Effect Key="0" EffectName="energyRed" Position="0 0 0" Size="3"/>
+		<Effect Key="1" EffectName="blackLight" Position="0 0 0" Size="3"/>
+		<Effect Key="2" EffectName="weakLightBlack" Position="0 0 0" Size="3"/>
+	</ChildEffects>
+	<ActionStates>
+		<IDLE Animation="IDLE" BlendTick="100">
+			<Branch State="KILL_PLAYER" Condition=""/>
+			<FrameEvent Tick="0" Type="Gravity" On="false" Condition=""/>
+			<FrameEvent Tick="0" Type="EnableEffect" EffectKey="0" Condition=""/>
+			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="0" BlendTick="1000" Alpha="1" Condition=""/>
+			<FrameEvent Tick="0" Type="EnableEffect" EffectKey="1" Condition=""/>
+			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="1" BlendTick="1000" Alpha="1" Condition=""/>
+			<FrameEvent Tick="0" Type="EnableEffect" EffectKey="2" Condition=""/>
+			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="2" BlendTick="1000" Alpha="1" Condition=""/>
+		</IDLE>
+		<KILL_PLAYER Animation="TRIGGER" BlendTick="0">
+		</KILL_PLAYER>
+	</ActionStates>
+	<CollisionHandlers>
+	</CollisionHandlers>
+</ActionChart>

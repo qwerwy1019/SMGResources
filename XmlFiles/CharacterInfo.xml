@@ -5,4 +5,6 @@
 	<Character Key="2" Name="launchStar" CharacterType="Object" ObjectFile="launchStarObj" ActionChart="launchStarAction" CollisionType="Item" CollisionShape="Sphere" Radius="250" BoxSize="80 80 80"/>
 	<Character Key="3" Name="trigger" CharacterType="Object" ObjectFile="emptyObj" ActionChart="triggerAction" CollisionType="Item" CollisionShape="Box" Radius="100" BoxSize="100 30 100"/>
 	<Character Key="4" Name="grandStar" CharacterType="Object" ObjectFile="grandStarObj" ActionChart="grandStarAction" CollisionType="Item" CollisionShape="Sphere" Radius="180" BoxSize="80 80 80"/>
+	<Character Key="5" Name="blackHole" CharacterType="Object" ObjectFile="emptyObj" ActionChart="blackHoleAction" CollisionType="Item" CollisionShape="Sphere" Radius="130" BoxSize="100 100 100"/>
+	<Character Key="6" Name="starChip" CharacterType="Object" ObjectFile="starChipObj" ActionChart="itemAction" CollisionType="Item" CollisionShape="Sphere" Radius="70" BoxSize="100 100 100"/>
 </CharacterInfo>

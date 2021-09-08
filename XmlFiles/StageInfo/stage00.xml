@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
-<StageInfo Name="stage00" SectorSize="2000 2000 2000" SectorUnitNumber="20 20 20">
+<StageInfo Name="stage00" SectorSize="600 600 600" SectorUnitNumber="10 10 10">
 	<StageScript Name="stageScript00"/>
+	<UIInfo>
+		<UI FileName="mainUI"/>
+	</UIInfo>
 	<Lights>
 		<Light Type="Ambient" Strength="0.4 0.4 0.6 1.0"/>
 		<!-- 주광 -->
@@ -32,10 +35,8 @@
 	</TerrainObjects>
 	<CameraPoints>
 		<TriggeredCamera>
-			<CameraPoint Key="11" Type="PlayerFocus" BlendTick="200" Offset="0 0 0" IsCircular="true">
-				<CameraData UpVector="0 1 0" Direction=" 0  -0.7 -0.5"  Distance="500"/>
-			</CameraPoint>
-			<CameraPoint Key="12" Type="Fixed" BlendTick="0" Position="1000 700 1000" UpVector="0 1 0" Direction="-1 0 -1"/>
+			<CameraPoint Key="11" Type="Fixed" BlendTick="0" Position="282 -628 729" UpVector="0.32 0.70 0.63" Direction="-0.32 0.71 -0.63"/>
+			<CameraPoint Key="12" Type="Fixed" BlendTick="0" Position="316 283 1602" UpVector="-0.16 0.97 0.19" Direction="-0.64 -0.25 0.73"/>
 			<CameraPoint Key="13" Type="Path" BlendTick="100" IsCurve="true" HasDirection="true" MoveTick="6000">
 				<PathPoint Position="-284 28 542" Direction="0.80 -0.55 -0.25" UpVector="0.53 0.83 -0.16" Time="0"/>
 				<PathPoint Position="-284 28 542" Direction="0.80 -0.55 -0.25" UpVector="0.53 0.83 -0.16" Time="0.1"/>
@@ -66,6 +67,13 @@
 				<PathPoint Position="-897 -340 300"	Direction="0.83 0.29 -0.48"		UpVector="0 1 0" Time="0.9"/>
 				<PathPoint Position="-897 -340 300"	Direction="0.83 0.29 -0.48"		UpVector="0 1 0" Time="0.95"/>
 				<PathPoint Position="-897 -340 300"	Direction="0.83 0.29 -0.48"		UpVector="0 1 0" Time="1.0"/>
+			</CameraPoint>
+			<CameraPoint Key="99" Type="Path" BlendTick="0" IsCurve="true" HasDirection="true" MoveTick="4000">
+				<PathPoint Position="1900 610 1925"	Direction="0.60 0.14 0.79"	UpVector="-0.09 0.99 -0.11" Time="0"/>
+				<PathPoint Position="2004 601 1801"	Direction="-0.02 -0.10 0.99"		UpVector="-0.00 0.99 0.10" Time="0.3"/>
+				<PathPoint Position="1876 657 1863"	Direction="0.62 -0.39 0.68"		UpVector="0.26 0.92 0.29" Time="0.7"/>
+				<PathPoint Position="1932 696 1868"	Direction="0.36 -0.62 0.70"		UpVector="0.28 0.79 0.55" Time="0.85"/>
+				<PathPoint Position="1967 763 1871"	Direction="0.15 -0.81 0.57"		UpVector="0.20 0.59 0.78" Time="1.0"/>
 			</CameraPoint>
 		</TriggeredCamera>
 		<AutoCamera>
@@ -134,13 +142,30 @@
 			<PathPoint Position="-502 -175 140" Direction="0.60 -0.78 0.19"		UpVector="-0.93 -0.27 0.26" Time="0.9"/>
 			<PathPoint Position="-354 -239 138"	Direction="0.60 -0.78 0.19"		UpVector="-0.93 -0.27 0.26" Time="1"/>
 		</Path>
+		<Path Key="99" IsCurve="false" HasDirection="true" MoveTick="1000">
+			<PathPoint Position="2000 580 2000" Direction="0 0 -1" UpVector="0 1 0" Time="0"/>
+			<PathPoint Position="2000 580 2000" Direction="0 0 -1" UpVector="0 1 0" Time="1"/>
+		</Path>
 	</Paths>
 	<SpawnInfo>
-		<Spawn CharacterKey="0" Position="0 -500 0" Direction="0 0 -1" UpVector="0 1 0" Size="0.35" ActionIndex="0"/>
-		<Spawn CharacterKey="1" Position="-200 0 400" Direction="0 0 -1" UpVector="0 1 0" Size="0.2" ActionIndex="0"/>
+		<Spawn CharacterKey="0" Position="2000 -500 2000" Direction="0 0 -1" UpVector="0 1 0" Size="0.35" ActionIndex="0"/>
+		<!-- 굼바 -->
+		<Spawn CharacterKey="1" Position="33 210 419" Direction="-0.21 -0.87 0.45" UpVector="0.07 0.45 0.89" Size="0.2" ActionIndex="0"/>
+		<Spawn CharacterKey="1" Position="-178 0 -428" Direction="-0.48 0.86 0.20" UpVector="-0.38 0.00 -0.92" Size="0.2" ActionIndex="0"/>
+		<Spawn CharacterKey="1" Position="-207 -18 -392" Direction="-0.87 -0.14 0.47" UpVector="-0.47 -0.04 -0.88" Size="0.2" ActionIndex="0"/>
+		<!-- 중간 통로 -->
 		<Spawn CharacterKey="3" Position="-324 -104 89" Direction="-0.37 0.44 -0.82" UpVector="-0.92 -0.30 0.25" Size="1" ActionIndex="21"/>
 		<Spawn CharacterKey="3" Position="264 145 -30" Direction="-0.60 0.75 0.21" UpVector="0.86 0.47 -0.11" Size="1" ActionIndex="22"/>
-		<Spawn CharacterKey="4" Position="2000 580 2000" Direction="0 0 -1" UpVector="0 1 0" Size="0.15" ActionIndex="0"/>
+		<!-- 스타 -->
+		<Spawn CharacterKey="4" Position="1970 620 1970" Direction="-0.26 0.64 -0.72" UpVector="-0.3 0.8 0" Size="0.15" ActionIndex="0"/>
+		<!-- 블랙홀 -->
+		<Spawn CharacterKey="5" Position="0 0 2000" Direction="0 0 -1" UpVector="0 1 0" Size="1" ActionIndex="0"/>
+		<!-- 스타 조각 -->
+		<Spawn CharacterKey="6" Position="244 116 2031" Direction="-0.99 0.10 -0.09" UpVector="0.10 1.00 0.01" Size="0.3" ActionIndex="2"/>
+		<Spawn CharacterKey="6" Position="89 -214 2106" Direction="-0.06 1.00 -0.08" UpVector="0.59 0.10 0.80" Size="0.3" ActionIndex="2"/>
+		<Spawn CharacterKey="6" Position="-69 -17 2247" Direction="0.13 0.94 -0.32" UpVector="-0.35 0.34 0.87" Size="0.3" ActionIndex="2"/>
+		<Spawn CharacterKey="6" Position="-206 148 2032" Direction="0.72 0.48 -0.50" UpVector="-0.39 0.88 0.27" Size="0.3" ActionIndex="2"/>
+		<Spawn CharacterKey="6" Position="-12 -75 1756" Direction="0.26 0.78 0.57" UpVector="-0.32 0.63 -0.71" Size="0.3" ActionIndex="2"/>
 	</SpawnInfo>
 	<SpawnInfoWithKey>
 		<Spawn Key="0" CharacterKey="2" Position="105 -241 421" Direction="0.15 0.87 0.46" UpVector="0.21 -0.49 0.85" Size="0.35" ActionIndex="11"/>
