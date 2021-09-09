@@ -7,6 +7,7 @@
 		<Effect Name="weakLight" DiffuseTexture="effect/weakLight" TotalFrame="1" TickPerFrame="300" Size="100 100"/>
 		<Effect Name="weakLightYellow" DiffuseTexture="effect/weakLightYellow" TotalFrame="1" TickPerFrame="300" Size="100 100"/>
 		<Effect Name="weakLightBlack" DiffuseTexture="effect/weakLightBlack" TotalFrame="1" TickPerFrame="300" Size="100 100"/>
+		<Effect Name="focus" DiffuseTexture="effect/focus" TotalFrame="30" TickPerFrame="40" Size="100 100"/>
 	</ConstantEffects>
 	<TemporaryEffects>
 		<Effect Name="dustCloud" DiffuseTexture="homePlanet/wflower" TotalFrame="1" TickPerFrame="300" Size="2 2" AlphaDecrease="0.3" SizeDecrease="1.0"/>
