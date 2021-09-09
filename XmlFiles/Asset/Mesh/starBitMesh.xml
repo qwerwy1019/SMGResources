@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <MeshInfo Name="Star Bit" IsSkinned="false" Min="-37.564453 -38.054688 -39.482422" Max="32.964844 44.146484 33.193359" TotalVertexCount="304" TotalIndexCount="600">
-	<SubMesh Name="starBit" VertexCount="304" IndexCount="600" MaterialFile="starBit" MaterialName="mat">
+	<SubMesh Name="body" VertexCount="304" IndexCount="600" MaterialFile="starBit" MaterialName="mat">
 		<Vertices>
 			<Vertex Position="32.169922 -14.833984 -4.908203" Normal="0.906123 0.242327 -0.338342" TexCoord="0.349976 -0.125000"/>
 			<Vertex Position="32.964844 -24.041016 -8.943359" Normal="0.889125 0.245927 -0.385975" TexCoord="0.500000 -0.000000"/>

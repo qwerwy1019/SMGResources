@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ObjectInfo IsSkinned="false">
+	<Mesh FileName="starBitMesh">
+		<SubMesh Name="body" MaterialFile="starBitMat" MaterialName="white"/>
+	</Mesh>
+</ObjectInfo>

@@ -7,4 +7,5 @@
 	<Character Key="4" Name="grandStar" CharacterType="Object" ObjectFile="grandStarObj" ActionChart="grandStarAction" CollisionType="Item" CollisionShape="Sphere" Radius="180" BoxSize="80 80 80"/>
 	<Character Key="5" Name="blackHole" CharacterType="Object" ObjectFile="emptyObj" ActionChart="blackHoleAction" CollisionType="Item" CollisionShape="Sphere" Radius="130" BoxSize="100 100 100"/>
 	<Character Key="6" Name="starChip" CharacterType="Object" ObjectFile="starChipObj" ActionChart="itemAction" CollisionType="Item" CollisionShape="Sphere" Radius="70" BoxSize="100 100 100"/>
+	<Character Key="7" Name="starBit" CharacterType="Object" ObjectFile="starBitObj" ActionChart="starBitAction" CollisionType="Item" CollisionShape="Sphere" Radius="50" BoxSize="100 100 100"/>
 </CharacterInfo>
