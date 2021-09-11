@@ -4,17 +4,19 @@
 		<Variable Name="Color" Value="0"/>
 	</Variables>
 	<ChildEffects>
-		<Effect Key="0" EffectName="weakLight" Position="0 0 0" Size="4"/>
+		<Effect Key="0" EffectName="weakLight" Position="0 0 0" Size="2.5"/>
 	</ChildEffects>
 	<ActionStates>
 		<IDLE Animation="IDLE" BlendTick="0">
-			<Branch State="STOP" Condition="ActionIndex_1"/>
 			<Branch State="SPIN" Condition="ActionIndex_0"/>
+			<Branch State="STOP" Condition="ActionIndex_1"/>
+			<Branch State="SHOOT" Condition="ActionIndex_2"/>
 			
 			<FrameEvent Tick="0" Type="Gravity" On="false" Condition="ActionIndex_1"/>
+			<FrameEvent Tick="0" Type="Gravity" On="false" Condition="ActionIndex_2"/>
 			<FrameEvent Tick="0" Type="Rotate" Speed="0.02" Offset="0" RotateType="FixedSpeed" Condition=""/>
 			<FrameEvent Tick="0" Type="EnableEffect" EffectKey="0" Condition=""/>
-			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="0" BlendTick="500" Alpha="1" Condition=""/>
+			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="0" BlendTick="1000" Alpha="1" Condition=""/>
 			
 			<FrameEvent Tick="0" Type="SetVariable" Name="Color" Value="1" Condition="Random_50"/>
 			<FrameEvent Tick="0" Type="SetVariable" Name="Color" Value="2" Condition="Random_33"/>
@@ -27,21 +29,45 @@
 			<FrameEvent Tick="0" Type="ChangeMaterial" FileName="starBitMat" Name="yellow" RenderItemIndex="0" Condition="Variable_Color_4"/>
 		</IDLE>
 		<STOP Animation="" BlendTick="0">
+			<Branch State="DIE" Condition="PointerPicked"/>
 		</STOP>
+		<SHOOT Animation="" BlendTick="0">
+			<Branch State="CRASH_DIE" Condition="OnGround"/>
+			<Branch State="CRASH_DIE" Condition="OnWall"/>
+			<Branch State="CRASH_DIE" Condition="TargetPositionArrive"/>
+			<Branch State="FALL_DIE" Condition="!CheckPlayerDistance_0_1000"/>
+			<FrameEvent Tick="0" Type="TargetPosition" TargetPositionType="PointerPicked" Key="0" Condition=""/>	
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="20" Acceleration="20" MoveType="ToPoint" DirectionOffset="0" Condition=""/>
+		</SHOOT>
 		<SPIN Animation="" BlendTick="0">
 			<Branch State="SPIN" Condition="OnGround"/>
+			<Branch State="DIE" Condition="PointerPicked"/>
 			<FrameEvent Tick="0" Type="FallSpeed" TargetFallSpeed="20" Acceleration="1.5" Condition=""/>
 			
 			<FrameEvent Tick="0" Type="Jump" Speed="-6.5" TargetFallSpeed="20" Acceleration="1.5" Condition="OnGround"/>
 			<FrameEvent Tick="0" Type="Jump" Speed="-4.5" TargetFallSpeed="20" Acceleration="1.5" Condition="OnGround Random_50"/>
 		</SPIN>
+		<FALL_DIE Animation="" BlendTick="300">
+			<FrameEvent Tick="0" Type="Gravity" On="true" Condition=""/>
+			<FrameEvent Tick="0" Type="FallSpeed" TargetFallSpeed="10" Acceleration="1.5" Condition=""/>
+			<FrameEvent Tick="1000" Type="SetEffectAlpha" EffectKey="0" BlendTick="500" Alpha="0" Condition=""/>
+			<FrameEvent Tick="1500" Type="Die" Condition=""/>
+		</FALL_DIE>
+		<CRASH_DIE Animation="" BlendTick="300">
+			<FrameEvent Tick="0" Type="Die" Condition=""/>
+		</CRASH_DIE>
 		<DIE Animation="" BlendTick="300">
 			<FrameEvent Tick="0" Type="FallSpeed" TargetFallSpeed="0" Acceleration="20" Condition=""/>
-			<FrameEvent Tick="0" Type="Die" Condition=""/>
+			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="0" BlendTick="500" Alpha="0" Condition=""/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="0.02" Offset="0" RotateType="FixedSpeed" Condition=""/>
+			<FrameEvent Tick="300" Type="Die" Condition=""/>
 		</DIE>
 	</ActionStates>
 	<CollisionHandlers>
-		<Handler Case="All" SelfCondition="!CheckAction_DIE_READY" TargetCondition="CharacterType_Player">
+		<Handler Case="All" SelfCondition="!CheckAction_CRASH_DIE" TargetCondition="CharacterType_Monster">
+			<CollisionEvent Type="SetAction" State="CRASH_DIE"/>
+		</Handler>
+		<Handler Case="All" SelfCondition="!CheckAction_DIE" TargetCondition="CharacterType_Player">
 			<CollisionEvent Type="SetAction" State="DIE"/>
 		</Handler>
 	</CollisionHandlers>

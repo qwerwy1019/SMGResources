@@ -8,16 +8,16 @@
 		<UIElement Type="Image" Name="CoinPanelImage" Position="0 20" Size="55 55" ImageName="ui/coin"/>
 		<UIElement Type="Image" Name="XImage" Position="54 30" Size="40 40" ImageName="ui/x"/>
 		<!-- <UIElement Type="Text" Name="CoinTextOutline"	Position="100 0" Size="100 100" Text="3" Brush="Black" Format="PointsOutline"/> -->
-		<UIElement Type="Text" Name="CoinText" 			Position="100 0" Size="100 100" Text="3" Brush="White" Format="Points"/>
+		<UIElement Type="Text" Name="CoinText" Position="100 0" Size="100 100" Text="0" Brush="White" Format="Points"/>
 	</UIGroup>
 	<UIGroup Name="StarBitPanel" Position="100 580" Hide="-800 0" UpdateFunction="" InitHide="true">
 		<UIElement Type="Image" Name="StarBitPanelImage" Position="0 20" Size="70 70" ImageName="ui/starBit"/>
 		<UIElement Type="Image" Name="XImage" Position="59 39" Size="40 40" ImageName="ui/x"/>
-		<UIElement Type="Text" Name="StarBitText" 			Position="100 10" Size="100 100" Text="123" Brush="White" Format="Points"/>
+		<UIElement Type="Text" Name="StarBitText" 			Position="100 10" Size="100 100" Text="0" Brush="White" Format="Points"/>
 		<!-- <UIElement Type="Text" Name="StarBitTextOutline" 	Position="100 10" Size="100 100" Text="123" Brush="Black" Format="PointsOutline"/> -->
 	</UIGroup>
-	<UIGroup Name="IrisPanel" Position="0 0" Hide="0 0" UpdateFunction="updateIris" InitHide="false">
-		<UIElement Type="Iris" Name="Iris" Position="0 0" Size="1280 720" RadiusIn="0" RadiusOut="2000" InitTick="0" InitIn="true" ProgressTick="2000"/>
+	<UIGroup Name="IrisPanel" Position="640 360" Hide="0 0" UpdateFunction="updateIris" InitHide="false">
+		<UIElement Type="Iris" Name="Iris" Position="0 0" Size="3000 2000" RadiusIn="0" RadiusOut="2000" InitTick="0" InitIn="true" ProgressTick="2000"/>
 	</UIGroup>
 	<UIGroup Name="UpCutscenePanel" Position="0 0" Hide="0 -100" UpdateFunction="" InitHide="true">
 		<UIElement Type="Image" Name="BlackBar" Position="0 0" Size="3000 100" ImageName="ui/black"/>

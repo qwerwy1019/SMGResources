@@ -115,21 +115,22 @@
 		<GravityPoint Key="0" Type="Point" Gravity="10.0" Radius="1000" MinRadius="100" Position="0 0 0"/>
 		<GravityPoint Key="1" Type="Point" Gravity="10.0" Radius="1000" MinRadius="100" Position="0 0 2000"/>
 		<GravityPoint Key="2" Type="Point" Gravity="10.0" Radius="1000" MinRadius="100" Position="2000 400 2000"/>
+		<GravityPoint Key="3" Type="Fixed" Gravity="10.0" Radius="10000" MinRadius="100" Position="0 -4000 0" Direction="0 -1 0"/>
 	</GravityPoints>
 	<Paths>
 		<Path Key="11" IsCurve="true" HasDirection="false" MoveTick="6000">
 			<PathPoint Position="105 -241 421" UpVector="-0.25 0.89 0.38" Time="0"/>
-			<PathPoint Position="105.23 -241.48 421.84" UpVector="-0.25 0.89 0.38" Time="0.05"/>
-			<PathPoint Position="105.46 -241.96 422.68" UpVector="-0.25 0.89 0.38" Time="0.1"/>
+			<PathPoint Position="105.23 -241.48 421.84" UpVector="-0.25 0.89 0.38" Time="0.075"/>
+			<PathPoint Position="105.46 -241.96 422.68" UpVector="-0.25 0.89 0.38" Time="0.15"/>
 			<PathPoint Position="600 -800 1200" UpVector="-0.36 0.78 0.52" Time="0.5"/>
 			<PathPoint Position="200 193 1849" UpVector="0 1 0" Time="1"/>
 		</Path>
 		<Path Key="12" IsCurve="true" HasDirection="false" MoveTick="3000">
 			<PathPoint Position="102 202 1824" UpVector="-0.88 -0.06 -0.47" Time="0"/>
-			<PathPoint Position="102.38 202.71 1823.42" UpVector="-0.88 -0.06 -0.47" Time="0.07"/>
-			<PathPoint Position="102.76 203.42 1822.84" UpVector="-0.88 -0.06 -0.47" Time="0.14"/>
-			<PathPoint Position="210 412 1641" UpVector="-0.88 -0.06 -0.47" Time="0.2"/>
-			<PathPoint Position="784 408 1938" UpVector="0.36 0.70 -0.61" Time="0.5"/>
+			<PathPoint Position="102.38 202.71 1823.42" UpVector="-0.88 -0.06 -0.47" Time="0.15"/>
+			<PathPoint Position="102.76 203.42 1822.84" UpVector="-0.88 -0.06 -0.47" Time="0.30"/>
+			<PathPoint Position="210 412 1641" UpVector="-0.88 -0.06 -0.47" Time="0.4"/>
+			<PathPoint Position="784 408 1938" UpVector="0.36 0.70 -0.61" Time="0.6"/>
 			<PathPoint Position="1358 404 2235" UpVector="0.36 0.70 -0.61" Time="0.8"/>
 			<PathPoint Position="1639 402 2132" UpVector="0.36 0.70 -0.61" Time="1"/>
 		</Path>

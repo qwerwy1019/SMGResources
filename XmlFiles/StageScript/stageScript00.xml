@@ -2,9 +2,11 @@
 <StageScript>
 	<Variables>
 		<Variable Name="PlayerHP" Value="3"/>
+		<Variable Name="PlayerCoin" Value="0"/>
+		<Variable Name="PlayerStarBit" Value="0"/>
+		
 		<Variable Name="StarChipLeft" Value="5"/>
 		<Variable Name="GoombaLeft" Value="3"/>
-		<Variable Name="Star" Value="0"/>
 		<Variable Name="StageFail" Value="0"/>
 		<Variable Name="StageClear" Value="0"/>
 		<Variable Name="EndScene" Value="0"/>

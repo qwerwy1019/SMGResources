@@ -15,10 +15,10 @@
 			<FrameEvent Tick="0" Type="SetVariable" Name="ItemKey" Value="2" Condition="ActionIndex_2"/>
 		</IDLE>
 		<DIE Animation="" BlendTick="0">
-			<FrameEvent Tick="0" Type="AddStageVariable" VariableName="StarChipLeft" Value="-1" Condition="Variable_ItemKey_2"/>
 			<FrameEvent Tick="0" Type="Effect" Name="twinkle" Position="0 0 0" Size="10" Condition=""/>
 			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="0" BlendTick="500" Alpha="0" Condition=""/>
 			<FrameEvent Tick="0" Type="Rotate" Speed="0.02" Offset="0" RotateType="FixedSpeed" Condition=""/>
+			<FrameEvent Tick="300" Type="AddStageVariable" VariableName="StarChipLeft" Value="-1" Condition="Variable_ItemKey_2"/>
 			<FrameEvent Tick="500" Type="Die" Condition=""/>
 		</DIE>
 	</ActionStates>
