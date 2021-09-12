@@ -112,7 +112,7 @@
 		</AutoCamera>
 	</CameraPoints>
 	<GravityPoints>
-		<GravityPoint Key="0" Type="Point" Gravity="10.0" Radius="1000" MinRadius="100" Position="0 0 0"/>
+		<GravityPoint Key="0" Type="Point" Gravity="10.0" Radius="1000" MinRadius="0" Position="0 0 0"/>
 		<GravityPoint Key="1" Type="Point" Gravity="10.0" Radius="1000" MinRadius="100" Position="0 0 2000"/>
 		<GravityPoint Key="2" Type="Point" Gravity="10.0" Radius="1000" MinRadius="100" Position="2000 400 2000"/>
 		<GravityPoint Key="3" Type="Fixed" Gravity="10.0" Radius="10000" MinRadius="100" Position="0 -4000 0" Direction="0 -1 0"/>
