@@ -13,11 +13,11 @@
 			<FrameEvent Tick="0" Type="AnimationSpeed" Speed="1" Condition=""/>
 			<FrameEvent Tick="0" Type="Speed" TargetSpeed="0" Acceleration="100" MoveType="CharacterDirection" DirectionOffset="0" Condition=""/>
 			<FrameEvent Tick="0" Type="Rotate" Speed="0.0015" Offset="0.5" RotateType="Fixed" Condition="Random_30"/>
-			<FrameEvent Tick="0" Type="Rotate" Speed="0.0015" Offset="-0.5" RotateType="Fixed" Condition="Random_30"/>
+			<FrameEvent Tick="0" Type="Rotate" Speed="0.0015" Offset="-0.5" RotateType="Fixed" Condition="Random_20"/>
 			<FrameEvent Tick="0" Type="FallSpeed" TargetFallSpeed="20" Acceleration="1.5" Condition=""/>
 		</IDLE>
 		<WALK Animation="WALK" BlendTick="50">
-			<Branch State="WALK" Condition="End Random_85"/>
+			<Branch State="WALK" Condition="End Random_90"/>
 			<Branch State="IDLE" Condition="End"/>
 			<Branch State="ALERT" Condition="CheckPlayerDistance_0_100 CheckPlayerAltitude_-30_30"/>
 			<FrameEvent Tick="0" Type="Speed" TargetSpeed="1" Acceleration="1" MoveType="CharacterDirection" DirectionOffset="0" Condition=""/>

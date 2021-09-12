@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <UIGroups ScreenSize="1280 720">
+	<UIGroup Name="VignettingPannel" Position="0 0" Hide="0 0" UpdateFunction="" InitHide="false">
+		<UIElement Type="Image" Name="VignettingImage" Position="0 0" Size="1280 720" ImageName="ui/vignetting"/>
+	</UIGroup>
 	<UIGroup Name="HPPanel" Position="1100 25" Hide="200 0" UpdateFunction="" InitHide="true">
 		<UIElement Type="Image" Name="HPPanelImage" Position="0 0" Size="120 120" ImageName="ui/hpBackground_3"/>
 		<UIElement Type="Text" Name="HPText" Position="10 11" Size="100 100" Text="3" Brush="Black" Format="Normal"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <CharacterInfo>
-	<Character Key="0" Name="mario" CharacterType="Player" ObjectFile="marioObj" ActionChart="marioAction" CollisionType="Character" CollisionShape="Box" Radius="70" BoxSize="40 70 34"/>
+	<Character Key="0" Name="mario" CharacterType="Player" ObjectFile="marioObj" ActionChart="marioAction" CollisionType="Character" CollisionShape="Box" Radius="70" BoxSize="40 70 36"/>
 	<Character Key="1" Name="goomba" CharacterType="Monster" ObjectFile="goombaObj" ActionChart="goombaAction" CollisionType="Character" CollisionShape="Sphere" Radius="80" BoxSize="80 80 80"/>
 	<Character Key="2" Name="launchStar" CharacterType="Object" ObjectFile="launchStarObj" ActionChart="launchStarAction" CollisionType="Item" CollisionShape="Sphere" Radius="250" BoxSize="80 80 80"/>
 	<Character Key="3" Name="trigger" CharacterType="Object" ObjectFile="emptyObj" ActionChart="triggerAction" CollisionType="Item" CollisionShape="Box" Radius="100" BoxSize="100 30 100"/>

@@ -83,8 +83,8 @@
 		</TriggeredCamera>
 		<AutoCamera>
 			<!-- homePlanet -->
-			<CameraPoint Type="Fixed" PointPosition="0 470 0" Radius="100" BlendTick="1000" Position="-182 610 -283" UpVector="0 1 0" Direction="0.51 -0.32 0.80"/>
-			<CameraPoint Type="Fixed" PointPosition="215 -126 -201" Radius="100" BlendTick="1000" Position="590 -187 -521" UpVector="0.09 0.99 -0.08" Direction="-0.75 0.12 0.64"/>
+			<CameraPoint Type="Fixed" PointPosition="0 470 0" Radius="150" BlendTick="1000" Position="-182 610 -283" UpVector="0 1 0" Direction="0.51 -0.32 0.80"/>
+			<CameraPoint Type="Fixed" PointPosition="215 -126 -201" Radius="200" BlendTick="1000" Position="590 -187 -521" UpVector="0.09 0.99 -0.08" Direction="-0.75 0.12 0.64"/>
 			<CameraPoint Type="PlayerFocus" PointPosition="600 0 0" Radius="1000" BlendTick="1000" Offset="0 100 0" IsCircular="false">
 				<CameraData UpVector="0 1 0" Direction="-1 -0.5  0.2"  Distance="400"/>
 				<CameraData UpVector="0 1 0" Direction="-1 -0.5 -0.2"  Distance="400"/>
@@ -166,9 +166,9 @@
 		<!-- 스타구슬 발사용 -->
 		<Spawn CharacterKey="10" Position="0 0 0" Direction="0 0 -1" UpVector="0 1 0" Size="0.45" ActionIndex="0"/>
 		<!-- 굼바 -->
-		<Spawn CharacterKey="1" Position="33 210 419" Direction="-0.21 -0.87 0.45" UpVector="0.07 0.45 0.89" Size="0.28" ActionIndex="0"/>
-		<Spawn CharacterKey="1" Position="-178 0 -428" Direction="-0.48 0.86 0.20" UpVector="-0.38 0.00 -0.92" Size="0.28" ActionIndex="0"/>
-		<Spawn CharacterKey="1" Position="-207 -18 -392" Direction="-0.87 -0.14 0.47" UpVector="-0.47 -0.04 -0.88" Size="0.28" ActionIndex="0"/>
+		<Spawn CharacterKey="1" Position="-146 176 -398" Direction="0.24 0.92 0.31" UpVector="-0.32 0.38 -0.87" Size="0.28" ActionIndex="0"/>
+		<Spawn CharacterKey="1" Position="58 232 386" Direction="0.98 -0.18 -0.04" UpVector="0.13 0.51 0.85" Size="0.28" ActionIndex="0"/>
+		<Spawn CharacterKey="1" Position="-50 -19 447" Direction="0.83 0.55 0.12" UpVector="-0.11 -0.04 0.99" Size="0.28" ActionIndex="0"/>
 		<!-- 중간 통로 -->
 		<Spawn CharacterKey="3" Position="-324 -104 89" Direction="-0.37 0.44 -0.82" UpVector="-0.92 -0.30 0.25" Size="1" ActionIndex="21"/>
 		<Spawn CharacterKey="3" Position="264 145 -30" Direction="-0.60 0.75 0.21" UpVector="0.86 0.47 -0.11" Size="1" ActionIndex="22"/>

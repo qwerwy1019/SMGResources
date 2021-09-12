@@ -30,6 +30,7 @@
 			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="1" BlendTick="1000" Alpha="0.3" Condition=""/>
 			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="0" BlendTick="500" Alpha="0" Condition=""/>
 			<FrameEvent Tick="1000" Type="SetCamera" CameraKey="-1" Condition="Variable_SpawnTime_1"/>
+			<FrameEvent Tick="1000" Type="MoveCameraImmediately" Condition="Variable_SpawnTime_1 !CheckPlayerDistance_0_500"/>
 			<FrameEvent Tick="1000" Type="CallUIFunction" UIGroupName="UpCutscenePanel" Function="hideUI" Condition="Variable_SpawnTime_1"/>
 			<FrameEvent Tick="1000" Type="CallUIFunction" UIGroupName="DownCutscenePanel" Function="hideUI" Condition="Variable_SpawnTime_1"/>
 			<FrameEvent Tick="1000" Type="CallUIFunction" UIGroupName="HPPanel" Function="showUI" Condition="Variable_SpawnTime_1"/>
