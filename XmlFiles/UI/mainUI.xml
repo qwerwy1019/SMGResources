@@ -1,34 +1,34 @@
 <?xml version="1.0"?>
 <UIGroups ScreenSize="1280 720">
-	<UIGroup Name="HPPanel" Position="1100 25" Hide="200 0" UpdateFunction="" InitHide="true">
-		<UIElement Type="Image" Name="HPPanelImage" Position="0 0" Size="120 120" ImageName="ui/hpBackground_3"/>
-		<UIElement Type="Text" Name="HPText" Position="10 11" Size="100 100" Text="3" Brush="Black" Format="Normal"/>
+	<UIGroup Name="HPPanel" Position="1280 0" Hide="200 0" UpdateFunction="" InitHide="true">
+		<UIElement Type="Image" Name="HPPanelImage" Position="-220 45" Size="160 160" ImageName="ui/hpBackground_3" Resize="false"/>
+		<UIElement Type="Text" Name="HPText" Position="-200 66" Size="120 120" Text="3" Brush="Black" Format="Normal"/>
 	</UIGroup>
-	<UIGroup Name="CoinPanel" Position="80 530" Hide="-800 0" UpdateFunction="" InitHide="true">
-		<UIElement Type="Image" Name="CoinPanelImage" Position="5 20" Size="55 55" ImageName="ui/coin"/>
-		<UIElement Type="Image" Name="XImage" Position="59 30" Size="40 40" ImageName="ui/x"/>
-		<UIElement Type="Text" Name="CoinText" Position="100 0" Size="100 100" Text="0" Brush="White" Format="Points"/>
+	<UIGroup Name="CoinPanel" Position="0 720" Hide="-800 0" UpdateFunction="" InitHide="true">
+		<UIElement Type="Image" Name="CoinPanelImage" Position="150 -200" Size="72 72" ImageName="ui/coin" Resize="false"/>
+		<UIElement Type="Image" Name="XImage" Position="220 -190" Size="60 60" ImageName="ui/x" Resize="false"/>
+		<UIElement Type="Text" Name="CoinText" Position="280 -190" Size="100 100" Text="0" Brush="White" Format="Points"/>
 	</UIGroup>
-	<UIGroup Name="StarBitPanel" Position="80 580" Hide="-800 0" UpdateFunction="" InitHide="true">
-		<UIElement Type="Image" Name="StarBitPanelImage" Position="0 25" Size="70 70" ImageName="ui/starBit"/>
-		<UIElement Type="Image" Name="XImage" Position="59 39" Size="40 40" ImageName="ui/x"/>
-		<UIElement Type="Text" Name="StarBitText" Position="100 10" Size="100 100" Text="0" Brush="White" Format="Points"/>
+	<UIGroup Name="StarBitPanel" Position="80 720" Hide="-800 0" UpdateFunction="" InitHide="true">
+		<UIElement Type="Image" Name="StarBitPanelImage" Position="0 -115" Size="70 70" ImageName="ui/starBit" Resize="false"/>
+		<UIElement Type="Image" Name="XImage" Position="59 -101" Size="40 40" ImageName="ui/x" Resize="false"/>
+		<UIElement Type="Text" Name="StarBitText" Position="100 -130" Size="100 100" Text="0" Brush="White" Format="Points"/>
 	</UIGroup>
 	<UIGroup Name="MousePointer" Position="0 0" Hide="0 0" UpdateFunction="updateMousePointer" InitHide="false">
-		<UIElement Type="Image" Name="BlackBar" Position="-35 -35" Size="70 70" ImageName="ui/mousePointer"/>
+		<UIElement Type="Image" Name="BlackBar" Position="-35 -35" Size="70 70" ImageName="ui/mousePointer" Resize="false"/>
 	</UIGroup>
 	<UIGroup Name="IrisPanel" Position="640 360" Hide="0 0" UpdateFunction="updateIris" InitHide="false">
 		<UIElement Type="Iris" Name="Iris" Position="0 0" Size="3000 2000" RadiusIn="0" RadiusOut="2000" InitTick="0" InitIn="true" ProgressTick="2000"/>
 	</UIGroup>
 	<UIGroup Name="UpCutscenePanel" Position="0 0" Hide="0 -100" UpdateFunction="" InitHide="true">
-		<UIElement Type="Image" Name="BlackBar" Position="0 0" Size="3000 100" ImageName="ui/black"/>
+		<UIElement Type="Image" Name="BlackBar" Position="0 0" Size="3000 100" ImageName="ui/black" Resize="true"/>
 	</UIGroup>
 	<UIGroup Name="DownCutscenePanel" Position="0 620" Hide="0 100" UpdateFunction="" InitHide="true">
-		<UIElement Type="Image" Name="BlackBar" Position="0 0" Size="3000 100" ImageName="ui/black"/>
+		<UIElement Type="Image" Name="BlackBar" Position="0 0" Size="3000 100" ImageName="ui/black" Resize="true"/>
 	</UIGroup>
-	<UIGroup Name="LifePanel" Position="540 305" Hide="540 -800" UpdateFunction="" InitHide="true">
-		<UIElement Type="Image" Name="LifePanelImage" Position="0 20" Size="70 70" ImageName="ui/marioFace"/>
-		<UIElement Type="Image" Name="XImage" Position="59 39" Size="40 40" ImageName="ui/x"/>
-		<UIElement Type="Text" Name="LifeText" Position="100 10" Size="100 100" Text="0" Brush="White" Format="Points"/>
+	<UIGroup Name="LifePanel" Position="640 360" Hide="540 -800" UpdateFunction="" InitHide="true">
+		<UIElement Type="Image" Name="LifePanelImage" Position="-110 -40" Size="80 80" ImageName="ui/marioFace" Resize="false"/>
+		<UIElement Type="Image" Name="XImage" Position="-26 -20" Size="40 40" ImageName="ui/x" Resize="false"/>
+		<UIElement Type="Text" Name="LifeText" Position="25 -50" Size="100 100" Text="0" Brush="White" Format="Points"/>
 	</UIGroup>
 </UIGroups>
