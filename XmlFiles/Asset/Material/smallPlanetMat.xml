@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <MaterialInfo>
-	<Material Name="white" DiffuseTexture="smallPlanet\white" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24" RenderLayer="Opaque"/>
-	<Material Name="gold" DiffuseTexture="smallPlanet\gold" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24" RenderLayer="Opaque"/>
-	<Material Name="bump" DiffuseTexture="smallPlanet\bump" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24" RenderLayer="Opaque"/>
-	<Material Name="yspec" DiffuseTexture="smallPlanet\yspec" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24" RenderLayer="Opaque"/>
-	<Material Name="gloss" DiffuseTexture="smallPlanet\gloss" DiffuseAlbedo="0.800000 0.800000 0.800000 1.000000" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24" RenderLayer="Opaque"/>
+	<Material Name="white" DiffuseTexture="smallPlanet\white" DiffuseAlbedo="1 1 1 1" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24" RenderLayer="Opaque"/>
+	<Material Name="gold" DiffuseTexture="smallPlanet\gold" DiffuseAlbedo="1 1 1 1" FresnelR0="0.800000 0.800000 0.400000" Roughness="-24" RenderLayer="Opaque"/>
+	<Material Name="bump" DiffuseTexture="smallPlanet\bump" DiffuseAlbedo="1 1 1 1" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24" RenderLayer="Opaque"/>
+	<Material Name="yspec" DiffuseTexture="smallPlanet\yspec" DiffuseAlbedo="1 1 1 1" FresnelR0="0.800000 0.800000 0.400000" Roughness="-24" RenderLayer="Opaque"/>
+	<Material Name="gloss" DiffuseTexture="smallPlanet\gloss" DiffuseAlbedo="1 1 1 1" FresnelR0="0.800000 0.800000 0.800000" Roughness="-24" RenderLayer="Opaque"/>
 </MaterialInfo>

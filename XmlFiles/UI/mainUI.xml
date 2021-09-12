@@ -10,7 +10,7 @@
 		<UIElement Type="Text" Name="CoinText" Position="100 0" Size="100 100" Text="0" Brush="White" Format="Points"/>
 	</UIGroup>
 	<UIGroup Name="StarBitPanel" Position="80 580" Hide="-800 0" UpdateFunction="" InitHide="true">
-		<UIElement Type="Image" Name="StarBitPanelImage" Position="0 20" Size="70 70" ImageName="ui/starBit"/>
+		<UIElement Type="Image" Name="StarBitPanelImage" Position="0 25" Size="70 70" ImageName="ui/starBit"/>
 		<UIElement Type="Image" Name="XImage" Position="59 39" Size="40 40" ImageName="ui/x"/>
 		<UIElement Type="Text" Name="StarBitText" Position="100 10" Size="100 100" Text="0" Brush="White" Format="Points"/>
 	</UIGroup>
