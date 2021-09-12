@@ -328,7 +328,7 @@
 			<FrameEvent Tick="3000" Type="CallUIFunction" UIGroupName="LifePanel" Function="showUI" Condition=""/>
 			<FrameEvent Tick="5200" Type="CallUIFunction" UIGroupName="LifePanel" Function="activateUI" Condition=""/>
 			<FrameEvent Tick="5400" Type="CallUIFunction" UIGroupName="LifePanel" Function="setLifeUI" Condition=""/>
-			<FrameEvent Tick="6000" Type="AddStageVariable" VariableName="EndScene" Value="1" Condition=""/>
+			<FrameEvent Tick="6200" Type="AddStageVariable" VariableName="EndScene" Value="1" Condition=""/>
 		</DIE_LIE>
 		<DIE_AIR Animation="DIE_AIR" BlendTick="200">
 			<FrameEvent Tick="0" Type="Collision" On="false" Condition=""/>
@@ -345,7 +345,7 @@
 			<FrameEvent Tick="0" Type="CallUIFunction" UIGroupName="LifePanel" Function="showUI" Condition=""/>
 			<FrameEvent Tick="2200" Type="CallUIFunction" UIGroupName="LifePanel" Function="activateUI" Condition=""/>
 			<FrameEvent Tick="2400" Type="CallUIFunction" UIGroupName="LifePanel" Function="setLifeUI" Condition=""/>
-			<FrameEvent Tick="3000" Type="AddStageVariable" VariableName="EndScene" Value="1" Condition=""/>
+			<FrameEvent Tick="3200" Type="AddStageVariable" VariableName="EndScene" Value="1" Condition=""/>
 		</DIE_AIR>
 		<STAGE_CLEAR Animation="STAGE_CLEAR" BlendTick="0">
 			<FrameEvent Tick="0" Type="SetCamera" CameraKey="99" Condition="Variable_PathKey_99"/>
@@ -360,7 +360,10 @@
 			<FrameEvent Tick="0" Type="CallUIFunction" UIGroupName="StarBitPanel" Function="inactivateUI" Condition=""/>
 			
 			<FrameEvent Tick="4000" Type="CallUIFunction" UIGroupName="IrisPanel" Function="irisOut" Condition=""/>
-			<FrameEvent Tick="6000" Type="AddStageVariable" VariableName="EndScene" Value="1" Condition=""/>
+			<FrameEvent Tick="4000" Type="CallUIFunction" UIGroupName="LifePanel" Function="showUI" Condition=""/>
+			<FrameEvent Tick="6200" Type="CallUIFunction" UIGroupName="LifePanel" Function="activateUI" Condition=""/>
+			<FrameEvent Tick="6500" Type="CallUIFunction" UIGroupName="LifePanel" Function="setLifeUI" Condition=""/>
+			<FrameEvent Tick="7200" Type="AddStageVariable" VariableName="EndScene" Value="1" Condition=""/>
 		</STAGE_CLEAR>
 		<!-- 미구현 액션들 -->
 		<DRIFT Animation="IDLE" BlendTick="0"/>

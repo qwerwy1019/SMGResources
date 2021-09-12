@@ -24,6 +24,7 @@
 			<!-- <Function Name="LoadLastSaveFile" processCount="1" Condition="UserData_Life_0 !EndScene_0"/> -->
 		</StageFail>
 		<StageClear>
+			<Function Name="AddLife" ProcessCount="1" AddValue="1" Condition=""/>
 			<Function Name="LoadStage" ProcessCount="1" StageName="stage00" Condition="!Variable_EndScene=0"/>
 		</StageClear>
 	</Phases>
