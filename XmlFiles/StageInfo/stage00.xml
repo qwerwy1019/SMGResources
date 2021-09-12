@@ -14,7 +14,7 @@
 		<Light Type="Directional" Strength="0.2 0.2 0.4" Direction="0 0 1"/>
 	</Lights>
 	<Background>
-		<Color Value="0.08 0.10 0.23"/>
+		<Color Value="0.05 0.07 0.18"/>
 		<Objects>
 			<Object Key="orbitSky"   ObjectFile="orbitSkyObj" Position="0 -20000 0" Direction="0 0 1" UpVector="0 1 0" Size="0.05"/>
 		</Objects>
