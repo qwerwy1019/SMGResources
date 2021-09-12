@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<MaterialInfo>
+	<Material Name="yellow" DiffuseTexture="white" DiffuseAlbedo="1.000000 1.000000 0.000000 1.000000" FresnelR0="0.600000 0.600000 0.600000" Roughness="0.2" RenderLayer="Opaque"/>
+</MaterialInfo>

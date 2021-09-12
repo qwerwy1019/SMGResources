@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ActionChart>
+	<Variables>
+		<Variable Name="PathKey" Value="-1"/>
+	</Variables>
+	<ChildEffects>
+	</ChildEffects>
+	<ActionStates>
+		<IDLE Animation="IDLE" BlendTick="0">
+			<Branch State="STAR_SHOOT" Condition="Key_Press_ZR !StageVariable_PlayerStarBit=0 IsPointerActive"/>
+			<Branch State="STAR_SHOOT_FAIL" Condition="Key_Press_ZR IsPointerActive"/>
+			<FrameEvent Tick="0" Type="Gravity" On="false" Condition=""/>
+			<FrameEvent Tick="0" Type="Collision" On="false" Condition=""/>
+		</IDLE>
+		<STAR_SHOOT Animation="STAR_SHOOT" BlendTick="0">
+			<Branch State="IDLE" Condition="!Tick_0_500"/>
+			<FrameEvent Tick="0" Type="AddStageVariable" VariableName="PlayerStarBit" Value="-1" Condition=""/>
+			<FrameEvent Tick="0" Type="CallUIFunction" UIGroupName="StarBitPanel" Function="setStarBitUI" Condition=""/>
+			<FrameEvent Tick="0" Type="StarShoot" Condition=""/>
+		</STAR_SHOOT>
+		<STAR_SHOOT_FAIL Animation="STAR_SHOOT_FAIL" BlendTick="0"> 
+			<Branch State="IDLE" Condition="!Tick_0_200"/>
+			<FrameEvent Tick="0" Type="CallUIFunction" UIGroupName="StarBitPanel" Function="setStarBitUI" Condition=""/>
+		</STAR_SHOOT_FAIL>
+	</ActionStates>
+	<CollisionHandlers>
+	</CollisionHandlers>
+</ActionChart>

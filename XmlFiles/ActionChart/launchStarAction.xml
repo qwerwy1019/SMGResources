@@ -20,6 +20,9 @@
 			<FrameEvent Tick="0" Type="SetCamera" CameraKey="12" Condition="Variable_PathKey_12"/>
 			<FrameEvent Tick="0" Type="CallUIFunction" UIGroupName="UpCutscenePanel" Function="showUI" Condition=""/>
 			<FrameEvent Tick="0" Type="CallUIFunction" UIGroupName="DownCutscenePanel" Function="showUI" Condition=""/>
+			<FrameEvent Tick="0" Type="CallUIFunction" UIGroupName="HPPanel" Function="hideUI" Condition=""/>
+			<FrameEvent Tick="0" Type="CallUIFunction" UIGroupName="CoinPanel" Function="hideUI" Condition=""/>
+			<FrameEvent Tick="0" Type="CallUIFunction" UIGroupName="StarBitPanel" Function="hideUI" Condition=""/>
 		</IDLE>
 		<TRIGGER_PATH Animation="IDLE" BlendTick="200">
 			<Branch State="TRIGGER_PATH" Condition="End"/>
@@ -29,6 +32,9 @@
 			<FrameEvent Tick="1000" Type="SetCamera" CameraKey="-1" Condition="Variable_SpawnTime_1"/>
 			<FrameEvent Tick="1000" Type="CallUIFunction" UIGroupName="UpCutscenePanel" Function="hideUI" Condition="Variable_SpawnTime_1"/>
 			<FrameEvent Tick="1000" Type="CallUIFunction" UIGroupName="DownCutscenePanel" Function="hideUI" Condition="Variable_SpawnTime_1"/>
+			<FrameEvent Tick="1000" Type="CallUIFunction" UIGroupName="HPPanel" Function="showUI" Condition="Variable_SpawnTime_1"/>
+			<FrameEvent Tick="1000" Type="CallUIFunction" UIGroupName="CoinPanel" Function="showUI" Condition="Variable_SpawnTime_1"/>
+			<FrameEvent Tick="1000" Type="CallUIFunction" UIGroupName="StarBitPanel" Function="showUI" Condition="Variable_SpawnTime_1"/>
 			<FrameEvent Tick="1000" Type="SetVariable" Name="SpawnTime" Value="0" Condition="Variable_SpawnTime_1"/>
 		</TRIGGER_PATH>
 		<TRIGGER_START Animation="IDLE" BlendTick="300">

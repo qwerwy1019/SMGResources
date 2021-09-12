@@ -14,5 +14,8 @@
 		<Effect Name="stardust" DiffuseTexture="effect/stardust" TotalFrame="6" TickPerFrame="80" Size="30 30" AlphaDecrease="1.0" SizeDecrease="0.5"/>
 		<Effect Name="twinkle" DiffuseTexture="effect/twinkle" TotalFrame="28" TickPerFrame="50" Size="20 20" AlphaDecrease="0" SizeDecrease="1.0"/>
 		<Effect Name="smallTwinkle" DiffuseTexture="effect/smallTwinkle" TotalFrame="31" TickPerFrame="50" Size="5 5" AlphaDecrease="0" SizeDecrease="1.0"/>
+		<Effect Name="particle" DiffuseTexture="effect/particle" TotalFrame="24" TickPerFrame="30" Size="5 5" AlphaDecrease="0.5" SizeDecrease="0"/>
+		<Effect Name="weakLightTemp" DiffuseTexture="effect/weakLight" TotalFrame="1" TickPerFrame="300" Size="50 50" AlphaDecrease="1" SizeDecrease="0.5"/>
+		<Effect Name="spinParticle" DiffuseTexture="effect/particle" TotalFrame="24" TickPerFrame="20" Size="10 10" AlphaDecrease="0.5" SizeDecrease="0"/>
 	</TemporaryEffects>
 </EffectInfo>

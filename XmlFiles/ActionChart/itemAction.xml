@@ -8,16 +8,29 @@
 	</ChildEffects>
 	<ActionStates>
 		<IDLE Animation="" BlendTick="0">
+			<Branch State="IDLE_ING" Condition=""/>
 			<FrameEvent Tick="0" Type="Gravity" On="false" Condition=""/>
 			<FrameEvent Tick="0" Type="Rotate" Speed="0.0015" Offset="0" RotateType="FixedSpeed" Condition=""/>
 			<FrameEvent Tick="0" Type="EnableEffect" EffectKey="0" Condition=""/>
 			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="0" BlendTick="1000" Alpha="1" Condition=""/>
+			<FrameEvent Tick="0" Type="SetVariable" Name="ItemKey" Value="1" Condition="ActionIndex_1"/>
 			<FrameEvent Tick="0" Type="SetVariable" Name="ItemKey" Value="2" Condition="ActionIndex_2"/>
 		</IDLE>
+		<IDLE_ING Animation="" BlendTick="0">
+			<Branch State="IDLE_ING" Condition="!Tick_0_1500"/>
+			<FrameEvent Tick="0" Type="Effect" Name="smallTwinkle" Position="40 20 0" 	Size="8" Condition=""/>
+			<FrameEvent Tick="200" Type="Effect" Name="smallTwinkle" Position="-40 0 0 " 	Size="3" Condition=""/>
+			<FrameEvent Tick="300" Type="Effect" Name="smallTwinkle" Position="0 0 40" 	Size="5" Condition=""/>
+			<FrameEvent Tick="500" Type="Effect" Name="smallTwinkle" Position="0 15 -40 " 	Size="2" Condition=""/>
+		</IDLE_ING>
 		<DIE Animation="" BlendTick="0">
-			<FrameEvent Tick="0" Type="Effect" Name="twinkle" Position="0 0 0" Size="10" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="twinkle" Position="20 10 0" Size="10" Condition=""/>
 			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="0" BlendTick="500" Alpha="0" Condition=""/>
 			<FrameEvent Tick="0" Type="Rotate" Speed="0.02" Offset="0" RotateType="FixedSpeed" Condition=""/>
+			<FrameEvent Tick="0" Type="AddStageVariable" VariableName="PlayerCoin" Value="1" Condition="Variable_ItemKey_1"/>
+			<FrameEvent Tick="0" Type="CallUIFunction" UIGroupName="CoinPanel" Function="setCoinUI" Condition="Variable_ItemKey_1"/>
+			<FrameEvent Tick="0" Type="AddStageVariable" VariableName="PlayerHP" Value="1" Condition="Variable_ItemKey_1 !StageVariable_PlayerHP=3"/>
+			<FrameEvent Tick="0" Type="CallUIFunction" UIGroupName="HPPanel" Function="setHpUI" Condition="Variable_ItemKey_1"/>
 			<FrameEvent Tick="300" Type="AddStageVariable" VariableName="StarChipLeft" Value="-1" Condition="Variable_ItemKey_2"/>
 			<FrameEvent Tick="500" Type="Die" Condition=""/>
 		</DIE>

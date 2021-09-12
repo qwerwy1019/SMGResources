@@ -19,18 +19,27 @@
 			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="1" BlendTick="1000" Alpha="1" Condition=""/>
 			<FrameEvent Tick="0" Type="SetCamera" CameraKey="1" Condition=""/>
 			<FrameEvent Tick="3000" Type="SetCamera" CameraKey="-1" Condition=""/>
+			<FrameEvent Tick="3000" Type="CallUIFunction" UIGroupName="HPPanel" Function="showUI" Condition=""/>
+			<FrameEvent Tick="3000" Type="CallUIFunction" UIGroupName="CoinPanel" Function="showUI" Condition=""/>
+			<FrameEvent Tick="3000" Type="CallUIFunction" UIGroupName="StarBitPanel" Function="showUI" Condition=""/>
+			
+			<FrameEvent Tick="3000" Type="CallUIFunction" UIGroupName="LifePanel" Function="inactivateUI" Condition=""/>
+			<FrameEvent Tick="3000" Type="CallUIFunction" UIGroupName="LifePanel" Function="setLifeUI" Condition=""/>
 		</IDLE>
 		<TRIGGER_PATH Animation="IDLE" BlendTick="200">
 			<Branch State="TRIGGER_PATH" Condition="Tick_500_50000"/>
-			<FrameEvent Tick="0" Type="Effect" 	 Name="twinkle" 	Position="200 0 -200"	Size="5" Condition=""/>
-			<FrameEvent Tick="50" Type="Effect"  Name="twinkle" 	Position="-200 0 -200"	Size="5" Condition=""/>
-			<FrameEvent Tick="100" Type="Effect" Name="twinkle"		Position="-200 0 200"	Size="5" Condition=""/>
-			<FrameEvent Tick="130" Type="Effect" Name="twinkle"		Position="200 0 200"	Size="5" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" 	 Name="twinkle" 	Position="200 0 0"	Size="5" Condition=""/>
+			<FrameEvent Tick="50" Type="Effect"  Name="twinkle" 	Position="-100 80 -100"	Size="5" Condition=""/>
+			<FrameEvent Tick="100" Type="Effect" Name="twinkle"		Position="-100 0 100"	Size="5" Condition=""/>
+			<FrameEvent Tick="130" Type="Effect" Name="twinkle"		Position="0 -80 200"	Size="5" Condition=""/>
 			
-			<FrameEvent Tick="0" Type="Effect" 	 Name="smallTwinkle" 	Position="200 50 -200"	Size="5" Condition=""/>
-			<FrameEvent Tick="50" Type="Effect"  Name="smallTwinkle" 	Position="-200 50 -200"	Size="5" Condition=""/>
-			<FrameEvent Tick="100" Type="Effect" Name="smallTwinkle"		Position="-200 50 200"	Size="5" Condition=""/>
-			<FrameEvent Tick="130" Type="Effect" Name="smallTwinkle"		Position="200 50 200"	Size="5" Condition=""/>
+			<FrameEvent Tick="20" Type="Effect"	 Name="smallTwinkle" 	Position="100 80 -100"	Size="5" Condition=""/>
+			<FrameEvent Tick="70" Type="Effect"  Name="smallTwinkle" 	Position="-200 0 0"	Size="5" Condition=""/>
+			<FrameEvent Tick="120" Type="Effect" Name="smallTwinkle"	Position="-200 -80 200"	Size="5" Condition=""/>
+			<FrameEvent Tick="130" Type="Effect" Name="smallTwinkle"	Position="200 0 0"	Size="5" Condition=""/>
+			
+			<FrameEvent Tick="40" Type="Effect"	 Name="particle" 	Position="200 40 0"	Size="10" Condition=""/>
+			<FrameEvent Tick="150" Type="Effect" Name="particle"	Position="-200 -40 0"	Size="10" Condition=""/>
 			
 		</TRIGGER_PATH>
 		<TRIGGER_START Animation="IDLE" BlendTick="300">
@@ -41,6 +50,30 @@
 			<FrameEvent Tick="0" Type="Rotate" Speed="1" Offset="0" RotateType="Path" Condition=""/>
 			<FrameEvent Tick="100" Type="Rotate" Speed="0.01" Offset="0" RotateType="FixedSpeed" Condition=""/>
 			<FrameEvent Tick="3200" Type="Rotate" Speed="0.01" Offset="0" RotateType="Path" Condition=""/>
+			
+			<FrameEvent Tick="20" Type="Effect"	 Name="smallTwinkle" 	Position="100 50 -100"	Size="5" Condition=""/>
+			<FrameEvent Tick="70" Type="Effect"  Name="smallTwinkle" 	Position="-200 0 0"	Size="5" Condition=""/>
+			<FrameEvent Tick="120" Type="Effect" Name="smallTwinkle"	Position="-200 -50 200"	Size="5" Condition=""/>
+			<FrameEvent Tick="130" Type="Effect" Name="smallTwinkle"	Position="200 0 0"	Size="5" Condition=""/>
+			
+			<FrameEvent Tick="40" Type="Effect"	 Name="particle" 	Position="200 40 0"	Size="10" Condition=""/>
+			<FrameEvent Tick="150" Type="Effect" Name="particle"	Position="-200 -40 0"	Size="10" Condition=""/>
+			
+			<FrameEvent Tick="320" Type="Effect"	 Name="smallTwinkle" 	Position="100 50 -100"	Size="5" Condition=""/>
+			<FrameEvent Tick="370" Type="Effect"  Name="smallTwinkle" 	Position="-200 0 0"	Size="5" Condition=""/>
+			<FrameEvent Tick="420" Type="Effect" Name="smallTwinkle"	Position="-200 -50 200"	Size="5" Condition=""/>
+			<FrameEvent Tick="430" Type="Effect" Name="smallTwinkle"	Position="200 0 0"	Size="5" Condition=""/>
+			
+			<FrameEvent Tick="340" Type="Effect"	 Name="particle" 	Position="200 40 0"	Size="10" Condition=""/>
+			<FrameEvent Tick="450" Type="Effect" Name="particle"	Position="-200 -40 0"	Size="10" Condition=""/>
+			
+			<FrameEvent Tick="620" Type="Effect"	 Name="smallTwinkle" 	Position="100 50 -100"	Size="5" Condition=""/>
+			<FrameEvent Tick="670" Type="Effect"  Name="smallTwinkle" 	Position="-200 0 0"	Size="5" Condition=""/>
+			<FrameEvent Tick="720" Type="Effect" Name="smallTwinkle"	Position="-200 -50 200"	Size="5" Condition=""/>
+			<FrameEvent Tick="730" Type="Effect" Name="smallTwinkle"	Position="200 0 0"	Size="5" Condition=""/>
+			
+			<FrameEvent Tick="640" Type="Effect"	 Name="particle" 	Position="200 40 0"	Size="10" Condition=""/>
+			<FrameEvent Tick="750" Type="Effect" Name="particle"	Position="-200 -40 0"	Size="10" Condition=""/>
 		</TRIGGER_START>
 		<PATH_END Animation="IDLE" BlendTick="300">
 			<FrameEvent Tick="0" Type="Rotate" Speed="1" Offset="0" RotateType="Path" Condition=""/>

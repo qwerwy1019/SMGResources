@@ -2,9 +2,10 @@
 <ActionChart>
 	<Variables>
 		<Variable Name="Color" Value="0"/>
+		<Variable Name="FirstLoop" Value="1"/>
 	</Variables>
 	<ChildEffects>
-		<Effect Key="0" EffectName="weakLight" Position="0 0 0" Size="2.5"/>
+		<Effect Key="0" EffectName="weakLight" Position="0 0 0" Size="2"/>
 	</ChildEffects>
 	<ActionStates>
 		<IDLE Animation="IDLE" BlendTick="0">
@@ -30,22 +31,36 @@
 		</IDLE>
 		<STOP Animation="" BlendTick="0">
 			<Branch State="DIE" Condition="PointerPicked"/>
+			<Branch State="STOP" Condition="!Tick_0_1700 Random_50"/>
+			<Branch State="STOP" Condition="!Tick_0_2300"/>
+			<FrameEvent Tick="0" Type="Effect" Name="particle" Position="50 0 0" 	Size="15" Condition=""/>
+			<FrameEvent Tick="10" Type="Effect" Name="particle" Position="50 20 0" 	Size="7" Condition=""/>
+			<FrameEvent Tick="70" Type="Effect" Name="particle" Position="50 -20 0"	Size="15" Condition=""/>
+			<FrameEvent Tick="80" Type="Effect" Name="particle" Position="50 0 0 " 	Size="7" Condition=""/>
 		</STOP>
 		<SHOOT Animation="" BlendTick="0">
 			<Branch State="CRASH_DIE" Condition="OnGround"/>
 			<Branch State="CRASH_DIE" Condition="OnWall"/>
 			<Branch State="CRASH_DIE" Condition="TargetPositionArrive"/>
 			<Branch State="FALL_DIE" Condition="!CheckPlayerDistance_0_1000"/>
-			<FrameEvent Tick="0" Type="TargetPosition" TargetPositionType="PointerPicked" Key="0" Condition=""/>	
-			<FrameEvent Tick="0" Type="Speed" TargetSpeed="20" Acceleration="20" MoveType="ToPoint" DirectionOffset="0" Condition=""/>
+			<Branch State="SHOOT" Condition="!Tick_0_70"/>
+			<FrameEvent Tick="0" Type="Effect" Name="stardust" Position="0 0 0" Size="1" Condition=""/>
+			<FrameEvent Tick="0" Type="TargetPosition" TargetPositionType="PointerPicked" Key="0" Condition="Variable_FirstLoop_1"/>	
+			<FrameEvent Tick="0" Type="Speed" TargetSpeed="20" Acceleration="20" MoveType="ToPoint" DirectionOffset="0" Condition="Variable_FirstLoop_1"/>
+			<FrameEvent Tick="0" Type="SetVariable" Name="FirstLoop" Value="0" Condition=""/>
 		</SHOOT>
 		<SPIN Animation="" BlendTick="0">
 			<Branch State="SPIN" Condition="OnGround"/>
 			<Branch State="DIE" Condition="PointerPicked"/>
 			<FrameEvent Tick="0" Type="FallSpeed" TargetFallSpeed="20" Acceleration="1.5" Condition=""/>
 			
-			<FrameEvent Tick="0" Type="Jump" Speed="-6.5" TargetFallSpeed="20" Acceleration="1.5" Condition="OnGround"/>
-			<FrameEvent Tick="0" Type="Jump" Speed="-4.5" TargetFallSpeed="20" Acceleration="1.5" Condition="OnGround Random_50"/>
+			<FrameEvent Tick="0" Type="Jump" Speed="-8.5" TargetFallSpeed="20" Acceleration="1.5" Condition="OnGround"/>
+			<FrameEvent Tick="0" Type="Jump" Speed="-5.5" TargetFallSpeed="20" Acceleration="1.5" Condition="OnGround Random_50"/>
+			
+			<FrameEvent Tick="0" Type="Effect" Name="particle" Position="40 0 0" 	Size="10" Condition=""/>
+			<FrameEvent Tick="10" Type="Effect" Name="particle" Position="40 0 0 " 	Size="5" Condition=""/>
+			<FrameEvent Tick="70" Type="Effect" Name="particle" Position="40 0 0 " 	Size="10" Condition=""/>
+			<FrameEvent Tick="80" Type="Effect" Name="particle" Position="40 0 0 " 	Size="5" Condition=""/>
 		</SPIN>
 		<FALL_DIE Animation="" BlendTick="300">
 			<FrameEvent Tick="0" Type="Gravity" On="true" Condition=""/>
@@ -55,11 +70,21 @@
 		</FALL_DIE>
 		<CRASH_DIE Animation="" BlendTick="300">
 			<FrameEvent Tick="0" Type="Die" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="particle" Position="0 0 0" 	Size="15" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="smallTwinkle" Position="40 0 0" 	Size="8" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="smallTwinkle" Position="-40 0 0 " 	Size="2" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="smallTwinkle" Position="0 0 40" 	Size="5" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="smallTwinkle" Position="0 0 -40 " 	Size="4" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="weakLightTemp" Position="0 0 0" 	Size="2" Condition=""/>
 		</CRASH_DIE>
 		<DIE Animation="" BlendTick="300">
 			<FrameEvent Tick="0" Type="FallSpeed" TargetFallSpeed="0" Acceleration="20" Condition=""/>
 			<FrameEvent Tick="0" Type="SetEffectAlpha" EffectKey="0" BlendTick="500" Alpha="0" Condition=""/>
 			<FrameEvent Tick="0" Type="Rotate" Speed="0.02" Offset="0" RotateType="FixedSpeed" Condition=""/>
+			<FrameEvent Tick="0" Type="AddStageVariable" VariableName="PlayerStarBit" Value="1" Condition=""/>
+			<FrameEvent Tick="0" Type="CallUIFunction" UIGroupName="StarBitPanel" Function="setStarBitUI" Condition=""/>
+			<FrameEvent Tick="0" Type="Effect" Name="twinkle" Position="0 0 20" 	Size="10" Condition=""/>
+			<FrameEvent Tick="150" Type="Effect" Name="twinkle" Position="20 10 0" 	Size="5" Condition=""/>
 			<FrameEvent Tick="300" Type="Die" Condition=""/>
 		</DIE>
 	</ActionStates>

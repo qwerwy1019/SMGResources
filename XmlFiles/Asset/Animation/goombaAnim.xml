@@ -529,14 +529,110 @@
 			<KeyFrame Frame="12" Translation="-0.000000 0.640312 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 -0.000000 1.000000"/>
 		</BoneAnimation>
 	</Animation>
-	<Animation Name="DIE" Start="0" End="15">
+	<Animation Name="DIE" Start="0" End="25">
 		<BoneAnimation BoneIndex="0">
 			<KeyFrame Frame="0" Translation="0.000000 -140.000000 70.000000" Scaling="100.000000 100.000000 100.000000" RotationQuat="1.000000 0.000000 0.000000 0.000000"/>
-			<KeyFrame Frame="15" Translation="0.000000 -80.000000 70.000000" Scaling="150.000000 10.000000 150.000000" RotationQuat="1.000000 0.000000 0.000000 0.000000"/>
+			<KeyFrame Frame="15" Translation="0.000000 -80.000000 70.000000" Scaling="130.000000 10.000000 130.000000" RotationQuat="1.000000 0.000000 0.000000 0.000000"/>
 		</BoneAnimation>
 		<BoneAnimation BoneIndex="1">
 			<KeyFrame Frame="0" Translation="0.000000 -1.000000 -0.400000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.707107 0.707107 0.000000"/>
 			<KeyFrame Frame="15" Translation="0.000000 -1.000000 -0.400000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.707107 0.707107 0.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="2">
+			<KeyFrame Frame="0" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.513187 -0.486456 -0.486456 0.513187"/>
+			<KeyFrame Frame="15" Translation="0.000000 1.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.513187 -0.486456 -0.486456 0.513187"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="3">
+			<KeyFrame Frame="0" Translation="-0.000000 0.120000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.670046 -0.000000 -0.035861 0.741452"/>
+			<KeyFrame Frame="15" Translation="-0.000000 0.120000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.670046 -0.000000 -0.035861 0.741453"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="4">
+			<KeyFrame Frame="0" Translation="-0.000000 0.301496 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.670047 0.000000 0.035861 0.741452"/>
+			<KeyFrame Frame="15" Translation="-0.000000 0.301496 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.670047 0.000000 0.035861 0.741452"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="5">
+			<KeyFrame Frame="0" Translation="-0.000000 0.170000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="15" Translation="-0.000000 0.170000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="6">
+			<KeyFrame Frame="0" Translation="-0.000000 0.120000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.670046 -0.000000 0.035861 0.741452"/>
+			<KeyFrame Frame="15" Translation="-0.000000 0.120000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.670046 -0.000000 0.035861 0.741453"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="7">
+			<KeyFrame Frame="0" Translation="0.000000 0.301496 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.670047 0.000000 -0.035861 0.741452"/>
+			<KeyFrame Frame="15" Translation="-0.000000 0.301496 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.670047 0.000000 -0.035861 0.741452"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="8">
+			<KeyFrame Frame="0" Translation="-0.000000 0.170000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 -0.000000 -0.000000 1.000000"/>
+			<KeyFrame Frame="15" Translation="-0.000000 0.170000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 -0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="9">
+			<KeyFrame Frame="0" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.707101 -0.002922 0.002922 0.707101"/>
+			<KeyFrame Frame="15" Translation="0.000000 1.000000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.707101 -0.002922 0.002922 0.707101"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="10">
+			<KeyFrame Frame="0" Translation="-0.000000 0.200000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.000000 1.000000"/>
+			<KeyFrame Frame="15" Translation="-0.000000 0.200000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 -0.000000 -0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="11">
+			<KeyFrame Frame="0" Translation="-0.000000 0.400000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.523512 0.000000 -0.056725 0.850128"/>
+			<KeyFrame Frame="15" Translation="-0.000000 0.400000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.523512 0.000000 -0.056725 0.850128"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="12">
+			<KeyFrame Frame="0" Translation="0.000000 0.561249 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="15" Translation="0.000000 0.561249 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="13">
+			<KeyFrame Frame="0" Translation="-0.000000 0.400000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.524378 0.000000 0.048064 0.850128"/>
+			<KeyFrame Frame="15" Translation="-0.000000 0.400000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.524378 0.000000 0.048064 0.850128"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="14">
+			<KeyFrame Frame="0" Translation="0.000000 0.561249 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 -0.000000 1.000000"/>
+			<KeyFrame Frame="15" Translation="0.000000 0.561249 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 -0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="15">
+			<KeyFrame Frame="0" Translation="-0.000000 0.400000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.003580 -0.000000 -0.433174 0.901303"/>
+			<KeyFrame Frame="15" Translation="-0.000000 0.400000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.003580 -0.000000 -0.433174 0.901303"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="16">
+			<KeyFrame Frame="0" Translation="-0.000000 0.640312 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.000000 0.000000 1.000000"/>
+			<KeyFrame Frame="15" Translation="-0.000000 0.640312 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 0.000000 1.000000"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="17">
+			<KeyFrame Frame="0" Translation="-0.000000 0.400000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.003580 -0.000000 0.433174 0.901303"/>
+			<KeyFrame Frame="15" Translation="-0.000000 0.400000 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.003580 -0.000000 0.433174 0.901303"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="18">
+			<KeyFrame Frame="0" Translation="0.000000 0.640312 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 -0.000000 1.000000"/>
+			<KeyFrame Frame="15" Translation="-0.000000 0.640312 -0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="-0.000000 0.000000 -0.000000 1.000000"/>
+		</BoneAnimation>
+	</Animation>
+	<Animation Name="DAMAGED_SPIN" Start="0" End="80">
+		<BoneAnimation BoneIndex="0">
+			<KeyFrame Frame="0"  Translation="0 0 -80"		Scaling="100.000000 100.000000 100.000000" RotationQuat="1 0 0 0"/>
+			<KeyFrame Frame="6"  Translation="0 60 -200"		Scaling="100.000000 100.000000 100.000000" RotationQuat="0.7 0 0 -0.7"/>
+			<KeyFrame Frame="12"  Translation="0 120 -80" 	Scaling="100.000000 100.000000 100.000000" RotationQuat="0 0 0 -1"/>
+			<KeyFrame Frame="16"  Translation="50 120 -20"	Scaling="100.000000 100.000000 100.000000" RotationQuat="0 0.7 0 -0.7"/>
+			<KeyFrame Frame="20" Translation="0 120 40"		Scaling="100.000000 100.000000 100.000000" RotationQuat="0 1 0 0"/>
+			<KeyFrame Frame="24" Translation="-50 120 -20"	Scaling="100.000000 100.000000 100.000000" RotationQuat="0 0.7 0 0.7"/>
+			<KeyFrame Frame="28" Translation="0 120 -80"		Scaling="100.000000 100.000000 100.000000" RotationQuat="0 0 0 1"/>
+			<KeyFrame Frame="32" Translation="50 120 -20"	Scaling="100.000000 100.000000 100.000000" RotationQuat="0 -0.7 0 0.7"/>
+			<KeyFrame Frame="36" Translation="0 120 40"		Scaling="100.000000 100.000000 100.000000" RotationQuat="0 -1 0 0"/>
+			<KeyFrame Frame="40" Translation="-50 120 -20"	Scaling="100.000000 100.000000 100.000000" RotationQuat="0 -0.7 0 -0.7"/>
+			<KeyFrame Frame="44" Translation="0 120 -80"		Scaling="100.000000 100.000000 100.000000" RotationQuat="0 0 0 -1"/>
+			
+			<KeyFrame Frame="48" Translation="50 120 -20"	 Scaling="100.000000 100.000000 100.000000" RotationQuat="0 0.7 0 -0.7"/>
+			<KeyFrame Frame="52" Translation="0 120 40"		 Scaling="100.000000 100.000000 100.000000" RotationQuat="0 1 0 0"/>
+			<KeyFrame Frame="56" Translation="-50 120 -20"	 Scaling="100.000000 100.000000 100.000000" RotationQuat="0 0.7 0 0.7"/>
+			<KeyFrame Frame="60" Translation="0 120 -80"		 Scaling="100.000000 100.000000 100.000000" RotationQuat="0 0 0 1"/>
+			<KeyFrame Frame="64" Translation="50 120 -20"	 Scaling="100.000000 100.000000 100.000000" RotationQuat="0 -0.7 0 0.7"/>
+			<KeyFrame Frame="68" Translation="0 120 40"		 Scaling="100.000000 100.000000 100.000000" RotationQuat="0 -1 0 0"/>
+			<KeyFrame Frame="72" Translation="-50 120 -20"	 Scaling="100.000000 100.000000 100.000000" RotationQuat="0 -0.7 0 -0.7"/>
+			<KeyFrame Frame="76" Translation="0 120 -80"		 Scaling="100.000000 100.000000 100.000000" RotationQuat="0 0 0 -1"/>
+		</BoneAnimation>
+		<BoneAnimation BoneIndex="1">
+			<KeyFrame Frame="0" Translation="0.000000 -1.000000 -0.400000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.707107 0.707107 0.000000"/>
+			<KeyFrame Frame="20" Translation="0.000000 -1.000000 -0.400000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.000000 0.707107 0.707107 0.000000"/>
 		</BoneAnimation>
 		<BoneAnimation BoneIndex="2">
 			<KeyFrame Frame="0" Translation="0.000000 1.000000 0.000000" Scaling="1.000000 1.000000 1.000000" RotationQuat="0.513187 -0.486456 -0.486456 0.513187"/>
