@@ -83,7 +83,7 @@
 		</TriggeredCamera>
 		<AutoCamera>
 			<!-- homePlanet -->
-			<CameraPoint Type="Fixed" PointPosition="0 470 0" Radius="150" BlendTick="1000" Position="-182 610 -283" UpVector="0 1 0" Direction="0.51 -0.32 0.80"/>
+			<CameraPoint Type="Fixed" PointPosition="0 470 0" Radius="120" BlendTick="1000" Position="-182 610 -283" UpVector="0 1 0" Direction="0.51 -0.32 0.80"/>
 			<CameraPoint Type="Fixed" PointPosition="215 -126 -201" Radius="200" BlendTick="1000" Position="590 -187 -521" UpVector="0.09 0.99 -0.08" Direction="-0.75 0.12 0.64"/>
 			<CameraPoint Type="PlayerFocus" PointPosition="600 0 0" Radius="1000" BlendTick="1000" Offset="0 100 0" IsCircular="false">
 				<CameraData UpVector="0 1 0" Direction="-1 -0.5  0.2"  Distance="400"/>
@@ -101,7 +101,7 @@
 				<CameraData UpVector="0 1 0" Direction="-0.2 -0.5 -1"  Distance="400"/>
 				<CameraData UpVector="0 1 0" Direction=" 0.2 -0.5 -1"  Distance="400"/>
 			</CameraPoint>
-			<CameraPoint Type="PlayerFocus" PointPosition="0 -600 0" Radius="300" BlendTick="1000" Offset="0 100 0" IsCircular="false">
+			<CameraPoint Type="PlayerFocus" PointPosition="0 -600 0" Radius="400" BlendTick="1000" Offset="0 100 0" IsCircular="false">
 				<CameraData UpVector="0 1 0" Direction="-0.2 0.2 -1"  Distance="400"/>
 				<CameraData UpVector="0 1 0" Direction=" 0.2 0.2 -1"  Distance="400"/>
 			</CameraPoint>
