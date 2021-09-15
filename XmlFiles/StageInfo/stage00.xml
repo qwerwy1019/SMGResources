@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<StageInfo Name="stage00" SectorSize="600 600 600" SectorUnitNumber="10 10 10">
+<StageInfo Name="stage00" SectorSize="800 800 800" SectorUnitNumber="15 15 15">
 	<StageScript Name="stageScript00"/>
 	<UIInfo>
 		<UI FileName="mainUI"/>
